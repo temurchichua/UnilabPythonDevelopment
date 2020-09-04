@@ -1,6 +1,7 @@
 [<img align="left" width="100" src="https://i.pinimg.com/originals/71/4c/2a/714c2a88445cae52454a5b31c668445e.png">](https://i.pinimg.com/originals/71/4c/2a/714c2a88445cae52454a5b31c668445e.png)
 [<img align="right" width="150" src="https://github.com/firstcontributions/first-contributions/raw/master/assets/join-slack-team.png">](https://join.slack.com/t/unilabpythond-h2d3773/shared_invite/zt-h5gvz8mb-dNnD33Wn88TN9jqgHsuOcQ)
 
+
 # სავარჯიშო რეპოზიტორია
 ეს არის Unilab-ის პითონის NLP-ზე მომუშავე გუნდის სავარჯიშო რეპოზიტორია. რეპოზიტორიას გამოვიყენებთ მანამ სანამ არ გადავალთ უშუალოდ პროექტის შექმნისთვის საჭირო სამუშაოებზე.
 
@@ -60,19 +61,32 @@ git checkout -b adding-my-code
 
 ## გავავკეთოთ პროექტში ცვლილება და დავაკომიტოთ სამუშაოს დასრულებისას
 
-მას შემდეგ რაც გაამზადებთ პროექტს თქვენს მოწყობილობაში, დაამატეთ დირექტორიას თქვენი კოდი და პროექტის აღწერა /firstProjects საქაღალდეში საკუთარი საქაღალდის შექმნით. საქაღალდის დასახელება '''/სახელი_გვარი''' ფორმატით გაამზადეთ, ხოლო ფაილები: `readme.md`, `app.py` დასახელებებით. 
+მას შემდეგ რაც გაამზადებთ პროექტს თქვენს მოწყობილობაში, დაამატეთ დირექტორიას თქვენი კოდი და პროექტის აღწერა /firstProjects საქაღალდეში საკუთარი საქაღალდის შექმნით. 
+
+საქაღალდის დასახელება `/სახელი_გვარი` ფორმატით გაამზადეთ, ხოლო ფაილები: `readme.md`, `app.py` დასახელებებით. 
+```
+firstrepo
+│
+│   some_files   
+│
+└─── firstProject
+│   └─── temur_chichua
+│       │   app.py
+│       │   readme.md
+```
 
 <img align="right" width="450" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/git-status.png" alt="git status" />
 
+თუ პროექტის დირექტორიაში გაუშვებთ ბრძანებას `git status`, როგორც მაგალითზეა ნაჩვენები, გამოჩნდება თქვენს მიერ დამატებული ფაილები რომელიც არ არის დამატებული გიტის რეპოზიტორიაში.
 
-If you go to the project directory and execute the command `git status`, you'll see there are changes.
 
-
-Add those changes to the branch you just created using the `git add` command:
+მათ რეპოზიტორიაში დასამატებლად უნდა გამოვიყენოთ `git add` ბრძანება:
 
 ```
-git add Contributors.md
+git add .
 ```
+
+ბრძანებაში `.` რეპოზიტორიაში დაამატებს დირექტორიაში არსებულ ყველა იმ ფაილს რომელიც არ არის გამოყოფილი .gitignore ფაილში.
 
 Now commit those changes using the `git commit` command:
 ```
