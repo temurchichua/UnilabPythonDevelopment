@@ -75,6 +75,8 @@ firstrepo
 │       │   readme.md
 ```
 
+ამის შემდეგ გახსენით დირექტორიის საწყის დონეზე განთავსებული README.md ფაილი და ქვემოთ მოცემულ _კონტრიბუტორები_ გრაფაში განათავსეთ თქვენი სახელი, გიტჰაბის მისამართი, პროექტის დასაღელება და პროექტის readme.mdის მისამართი, როგორც შაბლონზეა ნაჩვენები.
+
 <img align="right" width="450" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/git-status.png" alt="git status" />
 
 თუ პროექტის დირექტორიაში გაუშვებთ ბრძანებას `git status`, როგორც მაგალითზეა ნაჩვენები, გამოჩნდება თქვენს მიერ დამატებული ფაილები რომელიც არ არის დამატებული გიტის რეპოზიტორიაში.
@@ -88,35 +90,42 @@ git add .
 
 ბრძანებაში `.` რეპოზიტორიაში დაამატებს დირექტორიაში არსებულ ყველა იმ ფაილს რომელიც არ არის გამოყოფილი .gitignore ფაილში.
 
-Now commit those changes using the `git commit` command:
+აუცილებელია დავაკომიტოთ პროექტში შეტანილი ცვლილებები `git commit` ბრძანების გამოყენებით.:
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "დავამატე ჩემი პროგრამა და <your-name> კონტრიბუტორთა სიაში"
 ```
-replacing `<your-name>` with your name.
+შეცვალეთ `<your-name>` თქვენი სახელით. ბრჭყალებში მითითებული ტექსტი უნდა ასახავდეს კომიტის მიზანს, ანუ ორ სიტყვიან შეჯამებას
+თუ რა ცვლილებები მოხდა ამ ნაბიჯზე.
 
 ## Push changes to GitHub
 
-Push your changes using the command `git push`:
+საბოლოოდ საჭიროა ავტვირთოთ პროექტში ლოკალურად შეტანილი ცვლილებები ქლაუდზე, `git push` ბრძანების მეშვეობით:
 ```
 git push origin <add-your-branch-name>
 ```
-replacing `<add-your-branch-name>` with the name of the branch you created earlier.
+შეცვალე `<add-your-branch-name>` სახელით რომელიც თქვენი ტოტის/branch-ის შექმნისთვის გამოიყენეთ..
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button. Click on that button.
+თქვენს GitHub რეპოზიტორიაში შეამჩნევთ  `Compare & pull request` ღილაკი. გააქტიურეთ ღილაკი მასზე დაჭერით.
 
 <img style="float: right;" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/compare-and-pull.png" alt="create a pull request" />
 
-Now submit the pull request.
+დაასაბმითეთ თქვენს მიერ გაკეთებული pull მოთხოვნა.
 
 <img style="float: right;" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/submit-pull-request.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+თქვენი მოთხოვნის ნახვის შემდეგ მე შევძლებ გავაერთიანო/merge თქვენი კონტრიბუცია მთელს პროექტთან. ჩემს ქმედებაზე შეტყობინება მოგივათ მეილზე და შეტყობინებებში, რის შემდეგაც თქვენს მიერ შეტანილი ცვლილება გამოჩნდება პროექტის მასტერ ბრენჩზე.
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
 - [თემურ ჩიჩუა](https://github.com/temurchichua) | [ენის ლემატიზატორი](/firstProjects/temur_chichua/readme.md)
 
 
-გილოცავ! თუ ყველა საფეხური შეასრულე შენ წარმატებით გაიარე სტაჟირების პირველი კვირა.
+### გილოცავ! 
+
+თუ ყველა საფეხური შეასრულე შენ წარმატებით გაიარე სტაჟირების პირველი ეტაპი.
+
+## დამატებითი მასალები
+- MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
+- [MarkDown-ის დოკუმენტაცია](https://www.markdownguide.org/basic-syntax/)
