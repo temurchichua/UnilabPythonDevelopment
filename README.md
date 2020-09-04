@@ -1,5 +1,6 @@
 [<img align="left" width="100" src="https://i.pinimg.com/originals/71/4c/2a/714c2a88445cae52454a5b31c668445e.png">](https://i.pinimg.com/originals/71/4c/2a/714c2a88445cae52454a5b31c668445e.png)
 [<img align="right" width="150" src="https://github.com/firstcontributions/first-contributions/raw/master/assets/join-slack-team.png">](https://join.slack.com/t/unilabpythond-h2d3773/shared_invite/zt-h5gvz8mb-dNnD33Wn88TN9jqgHsuOcQ)
+
 # სავარჯიშო რეპოზიტორია
 ეს არის Unilab-ის პითონის NLP-ზე მომუშავე გუნდის სავარჯიშო რეპოზიტორია. რეპოზიტორიას გამოვიყენებთ მანამ სანამ არ გადავალთ უშუალოდ პროექტის შექმნისთვის საჭირო სამუშაოებზე.
 
