@@ -120,6 +120,7 @@ git push origin <add-your-branch-name>
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
 - [თემურ ჩიჩუა](https://github.com/temurchichua) | [ენის ლემატიზატორი](/firstProjects/temur_chichua/readme.md)
+- [თენგო პატარაია](https://github.com/tengopataraia123) | [simple nlp](/firstProjects/tengo_pataraia/README.md)
 
 
 ### გილოცავ! 
