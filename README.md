@@ -1,4 +1,4 @@
-[<img align="right" width="150" src="assets/join-slack-team.png">](https://join.slack.com/t/firstcontributors/shared_invite/enQtNjkxNzQwNzA2MTMwLTVhMWJjNjg2ODRlNWZhNjIzYjgwNDIyZWYwZjhjYTQ4OTBjMWM0MmFhZDUxNzBiYzczMGNiYzcxNjkzZDZlMDM)
+[<img align="right" width="150" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/assets/join-slack-team.png">](https://join.slack.com/t/unilabpythond-h2d3773/shared_invite/zt-h5gvz8mb-dNnD33Wn88TN9jqgHsuOcQ)
 # სავარჯიშო რეპოზიტორია
 ეს არის Unilab-ის პითონის NLP-ზე მომუშავე გუნდის სავარჯიშო რეპოზიტორია. რეპოზიტორიას გამოვიყენებთ მანამ სანამ არ გადავალთ უშუალოდ პროექტის შექმნისთვის საჭირო სამუშაოებზე.
 
