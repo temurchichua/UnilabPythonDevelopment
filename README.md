@@ -128,10 +128,22 @@ git push origin <add-your-branch-name>
 - [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/firstProjects/merabi_vasadze)
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/firstProjects/ninosha/README.md)
 
+
 ### გილოცავ! 
 
 თუ ყველა საფეხური შეასრულე შენ წარმატებით გაიარე სტაჟირების პირველი ეტაპი.
 
 ## დამატებითი მასალები
+
+### შეხვედრის ჩანაწერები
+პროექტზე მუშაობენ:
+
+- [პირველი შეხვედრა](https://github.com/temurchichua) 
+- [მეორე შეხვედრა](https://github.com/tengopataraia123) 
+- [მესამე შეხვედრა] (https://github.com/TemuriKitoshvili)
+
+
+
+### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
 - [MarkDown-ის დოკუმენტაცია](https://www.markdownguide.org/basic-syntax/)
