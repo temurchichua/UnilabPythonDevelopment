@@ -123,7 +123,7 @@ git push origin <add-your-branch-name>
 - [თენგო პატარაია](https://github.com/tengopataraia123) | [simple nlp](/firstProjects/tengo_pataraia/README.md)
 - [თემური ქიტოშვილი](https://github.com/TemuriKitoshvili) | [NLP_Demo](/firstProjects/temuri_kitoshvili)
 - [ნინა დარსაველიძე](https://github.com/mrticia) | [unilab_project_demo](/firstProjects/nina_darsavelidze)
-
+- [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/firstProjects/merabi_vasadze)
 
 ### გილოცავ! 
 
