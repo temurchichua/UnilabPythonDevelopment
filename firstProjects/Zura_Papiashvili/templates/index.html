@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+    <h1>Welcome to  Words Frequency Distribution Site!</h1>
+    <p>Enter Some Text</p>
+
+
+    <form action="{{url_for('report')}}">
+        <label for="raw_text" id="raw_text">Enter Text: </label>
+        <input type="text" name ="raw_text">
+        <input type="submit" value="Submit Form">
+    </form>
+
+
+
+</div>
+
+{% endblock %}
