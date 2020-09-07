@@ -122,7 +122,7 @@ git push origin <add-your-branch-name>
 - [თემურ ჩიჩუა](https://github.com/temurchichua) | [ენის ლემატიზატორი](/firstProjects/temur_chichua/readme.md)
 - [თენგო პატარაია](https://github.com/tengopataraia123) | [simple nlp](/firstProjects/tengo_pataraia/README.md)
 - [თემური ქიტოშვილი](https://github.com/TemuriKitoshvili) | [NLP_Demo](/firstProjects/temuri_kitoshvili)
-
+- [ზურა პაპიაშვილი](https://github.com/zura-papiashvili/firstrepo) | [Simple_NLP](/firstProjects/Zura_Papiashvili)) 
 
 ### გილოცავ! 
 
