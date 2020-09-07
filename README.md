@@ -140,8 +140,8 @@ git push origin <add-your-branch-name>
 
 - [პირველი შეხვედრა](https://github.com/temurchichua) 
 - [მეორე შეხვედრა](https://github.com/tengopataraia123) 
-- [მესამე შეხვედრა] (https://github.com/TemuriKitoshvili)
-
+- [მესამე შეხვედრა] (https://drive.google.com/file/d/1yyrblV1F-BRYS2JrCpVYqgkSiCZOt7TX/view?usp=sharing)
+- [მეოთხე შეხვედრა] (https://drive.google.com/file/d/1yyrblV1F-BRYS2JrCpVYqgkSiCZOt7TX/view?usp=sharing)
 
 
 ### ონლაინ რესურსები
