@@ -119,10 +119,14 @@ git push origin <add-your-branch-name>
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
+
 - [თემურ ჩიჩუა](https://github.com/temurchichua) | [ენის ლემატიზატორი](/firstProjects/temur_chichua/readme.md)
 - [თენგო პატარაია](https://github.com/tengopataraia123) | [simple nlp](/firstProjects/tengo_pataraia/README.md)
 - [თემური ქიტოშვილი](https://github.com/TemuriKitoshvili) | [NLP_Demo](/firstProjects/temuri_kitoshvili)
 - [ზურა პაპიაშვილი](https://github.com/zura-papiashvili/firstrepo) | [Simple_NLP](/firstProjects/Zura_Papiashvili)) 
+- [ნინა დარსაველიძე](https://github.com/mrticia) | [unilab_project_demo](/firstProjects/nina_darsavelidze)
+- [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/firstProjects/merabi_vasadze)
+- [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/firstProjects/ninosha/README.md)
 
 ### გილოცავ! 
 
