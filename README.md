@@ -119,7 +119,14 @@ git push origin <add-your-branch-name>
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
+
 - [თემურ ჩიჩუა](https://github.com/temurchichua) | [ენის ლემატიზატორი](/firstProjects/temur_chichua/readme.md)
+- [თენგო პატარაია](https://github.com/tengopataraia123) | [simple nlp](/firstProjects/tengo_pataraia/README.md)
+- [თემური ქიტოშვილი](https://github.com/TemuriKitoshvili) | [NLP_Demo](/firstProjects/temuri_kitoshvili)
+- [ზურა პაპიაშვილი](https://github.com/zura-papiashvili/firstrepo) | [Simple_NLP](/firstProjects/Zura_Papiashvili)) 
+- [ნინა დარსაველიძე](https://github.com/mrticia) | [unilab_project_demo](/firstProjects/nina_darsavelidze)
+- [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/firstProjects/merabi_vasadze)
+- [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/firstProjects/ninosha/README.md)
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](https://github.com/Mariamikv/firstrepo-1/tree/firstProject/firstProject/mariam_kvantaliani)
 
 
@@ -128,5 +135,16 @@ git push origin <add-your-branch-name>
 თუ ყველა საფეხური შეასრულე შენ წარმატებით გაიარე სტაჟირების პირველი ეტაპი.
 
 ## დამატებითი მასალები
+
+### შეხვედრის ჩანაწერები
+პროექტზე მუშაობენ:
+
+- [პირველი შეხვედრა](https://github.com/temurchichua) 
+- [მეორე შეხვედრა](https://github.com/tengopataraia123) 
+- [მესამე შეხვედრა] (https://drive.google.com/file/d/1yyrblV1F-BRYS2JrCpVYqgkSiCZOt7TX/view?usp=sharing)
+- [მეოთხე შეხვედრა] (https://drive.google.com/file/d/1qKr4Vu3T2vPLptjxtkH2mZKNRlkQzJrU/view?usp=sharing)
+
+
+### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
 - [MarkDown-ის დოკუმენტაცია](https://www.markdownguide.org/basic-syntax/)
