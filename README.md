@@ -127,6 +127,7 @@ git push origin <add-your-branch-name>
 - [ნინა დარსაველიძე](https://github.com/mrticia) | [unilab_project_demo](/firstProjects/nina_darsavelidze)
 - [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/firstProjects/merabi_vasadze)
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/firstProjects/ninosha/README.md)
+- [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](https://github.com/Mariamikv/firstrepo-1/tree/firstProject/firstProject/mariam_kvantaliani)
 
 
 ### გილოცავ! 
