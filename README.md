@@ -148,3 +148,4 @@ git push origin <add-your-branch-name>
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
 - [MarkDown-ის დოკუმენტაცია](https://www.markdownguide.org/basic-syntax/)
+- [როგორ გამოვიყენოთ GitHub როგორც პროფესიონალმა](https://petabridge.com/blog/use-github-professionally/)
