@@ -20,7 +20,7 @@ def process():
 
 		svg = displacy.render(text,style="dep")
 
-		return render_template('index.html',svg=svg)
+		return render_template('index.html', svg=svg)
 
 
 
