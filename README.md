@@ -9,6 +9,12 @@
 
 თუ გიტი ჯერ კიდევ არ დაგიყენებიათ მოწყობილობაზე, [გადმოწერეთ და დააინსტალირეთ ამ მისამართიდან]( https://help.github.com/articles/set-up-git/).
 
+## პროექტის ფარგლებში სამუშაო რესურსები:
+1. [პროექტში კონტრიბუციია + ინსტრუქცია](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter1:Contribution)
+2. [საერთო API-ს დემო](https://github.com/temurchichua/DemoApi)
+3. [რა არის HTML](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter2:HTML)
+4. [რა არის CSS](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter3:CSS)
+5. [როგორ გამოვიყენოთ შაბლონები Flask-ში](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4:Templates)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -21,11 +27,6 @@
 - [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/Chapter1:Contribution/merabi_vasadze)
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/Chapter1:Contribution/ninosha/README.md)
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](https://github.com/Mariamikv/firstrepo-1/tree/firstProject/firstProject/mariam_kvantaliani)
-
-
-### გილოცავ! 
-
-თუ ყველა საფეხური შეასრულე შენ წარმატებით გაიარე სტაჟირების პირველი ეტაპი.
 
 ## დამატებითი მასალები
 
