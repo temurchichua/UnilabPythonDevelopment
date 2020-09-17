@@ -1,4 +1,4 @@
-#HTML გამოყენების საფუძვლები
+# HTML გამოყენების საფუძვლები
 HTML არის სტანდარტული მარკაპ ენა რომელიც გამოიყენება ვებ გვერდების შესქმნელად
 
 ## შესავალი [HTML Introduction](https://www.w3schools.com/html/html_intro.asp)
@@ -31,6 +31,7 @@ Atom და ა.შ. აქვს ჩაშენებული საწყი
 
 ### HTML ელემენტების ანატომია
 ![html თეგები](https://mdn.mozillademos.org/files/9347/grumpy-cat-small.png)
+
 _[მსგავსება HTML-სა და Markdown ფორმატ შორის და ასევე უამრავი საჭირო თეგი თავისი მაგალითებით შეგიძლიათ ანხოთ ამ მისამართზე](https://www.markdownguide.org/basic-syntax/)_
 
 
@@ -53,7 +54,7 @@ Div და Span გვეხმარება html კოდის პორც
 სტილის შექმნას CSS-ისა და Bootstrap-ის მეშვეობით, ხშირად გვექნება შემთხვევა როდესაც გარკვეული სტილის
 გამოყენება მხოლოდ კონკრეტული ელემენტების სეგმენტზე გვჭირდება. ასეთ დროს გამოვიყენებთ div და span გამყოფებს.
 
-###სინტაქსი:
+### სინტაქსი:
 ```html
 ...
 <div class="">
@@ -65,42 +66,7 @@ Div და Span გვეხმარება html კოდის პორც
 ...
 ```
 
-## ატრიბუტები
-
-ზოგ HTML ელემენტს გააჩნია ატრიბუტები, რომლითაც მათზე პირდაპირ შეიძლება მანიპულირება.
-ატრიბუტების გამოყენებით შეგვიზლია ელემენტს დავუმატოთ ისეთი ნაწილი, როგორიცაა ვებ ბმული ან სურათის მისამართი.
-
-### ბმულები
-```html
-<a href="url">ბმული</a>
-<a href="url" target=_blank>გახსენი ბმული ახალ ფანჯარაში</a>
-
-<a href="#comments">ბმული ელემენტზე id-ით კომენტარი</a>
-<h2 id="comments">კომენტარი</h2>
-```
-
-თეგი | ელემენტი
---- | ---
-**a** | hyperlink
-
-<img src="https://www.flixist.com/wp-content/uploads/ul/226276-midnightgospel1.jpg" alt="description" width="300" height="200" />
-
-### სურათები
-```html
-<img src="https://www.flixist.com/wp-content/uploads/ul/226276-midnightgospel1.jpg" alt="description" width="300" height="200" />
-```
-თეგი | ელემენტი
---- | ---
-**img** | image
-
-ატრიბუტი | აღწერა
---- | ---
-src | მისამართი
-alt | ტექსტი
-width; height | სიგანე; სიმაღლე
-
-
-## ხშირად გამოყენებადი თეგები
+### ტექსტი, პარაგრაფი, ფორმატირება
 
 ### Heading | სათაურები 
 ```html
@@ -146,6 +112,86 @@ width; height | სიგანე; სიმაღლე
 **i** | italic
 **b** | bold
 
+
+## ატრიბუტები
+
+ზოგ HTML ელემენტს გააჩნია ატრიბუტები, რომლითაც მათზე პირდაპირ შეიძლება მანიპულირება.
+ატრიბუტების გამოყენებით შეგვიზლია ელემენტს დავუმატოთ ისეთი ნაწილი, როგორიცაა ვებ ბმული ან სურათის მისამართი.
+
+### ბმულები
+```html
+<a href="url">ბმული</a>
+<a href="url" target=_blank>გახსენი ბმული ახალ ფანჯარაში</a>
+
+<a href="#comments">ბმული ელემენტზე id-ით კომენტარი</a>
+<h2 id="comments">კომენტარი</h2>
+```
+
+თეგი | ელემენტი
+--- | ---
+**a** | hyperlink
+
+<img src="https://www.flixist.com/wp-content/uploads/ul/226276-midnightgospel1.jpg" alt="description" width="300" height="200" />
+
+### სურათები
+```html
+<img src="https://www.flixist.com/wp-content/uploads/ul/226276-midnightgospel1.jpg" alt="description" width="300" height="200" />
+```
+თეგი | ელემენტი
+--- | ---
+**img** | image
+
+ატრიბუტი | აღწერა
+--- | ---
+src | მისამართი
+alt | ტექსტი
+width; height | სიგანე; სიმაღლე
+
+## ფორმები
+
+```html
+<form action="url" method="post">
+    <fieldset>
+        <legend>ვინ ხარ ?</legend>
+        <label>Login :<input type="text" name="login" /></label><br/>
+        <label for="pswd">Password :</label><input type="password" name="password" id="pswd" /><br/>
+        <input type="radio" name="sex" value="male" />Male<br/>
+        <input type="radio" name="sex" value="female" />Female<br/>
+    </fieldset>
+    
+    <label>საყვარელი პოკემონი : <select name="color">
+        <option>Charizard </option>
+        <option>Gengar </option>
+        <option>Greninja </option>
+    </select></label>
+    
+    <input type="checkbox" name="available" value="monday" />ორშაბათი<br/>
+    <input type="checkbox" name="available" value="tuesday" />სამშაბათი<br/>
+    
+    <textarea name="comments" rows="10" cols="30" placeholder="კომენტარის სივრცე"><textarea/>
+    
+    <input type="submit" value="ღილაკის ტექსტი">
+</form>
+```
+
+თეგი | ელემენტი
+--- | ---
+**form** | form
+**label** | label for input
+**fieldset** | group inputs together
+**legend** | legend for fieldset
+**input** type="*text*" | text input
+**input** type="*password*" | password input
+**input** type="*radio*" | radio button
+**input** type="*checkbox*" | checkbox
+**input** type="*submit*" | send form
+**select** | drop-down list
+**option** | drop-down list item
+**optgroup** | group of drop-down list items
+**datalist** | autocompletion list
+**textarea** | large text input
+
+## ხშირად გამოყენებადი თეგები
 
 ### სია
 ```html
