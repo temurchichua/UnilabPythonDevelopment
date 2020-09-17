@@ -37,6 +37,7 @@
 - [მეორე შეხვედრა](https://github.com/tengopataraia123) 
 - [მესამე შეხვედრა](https://drive.google.com/file/d/1yyrblV1F-BRYS2JrCpVYqgkSiCZOt7TX/view?usp=sharing)
 - [მეოთხე შეხვედრა](https://drive.google.com/file/d/1qKr4Vu3T2vPLptjxtkH2mZKNRlkQzJrU/view?usp=sharing)
+- [მეხუთე შეხვედრა: Postman, heroku, API on local vs on Server](https://drive.google.com/file/d/1uvBCRcCCHLECuBhliaeHO84tKKcxnzAf/view?usp=sharing)
 
 
 ### ონლაინ რესურსები
