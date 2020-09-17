@@ -2,5 +2,5 @@
 
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი HTML პროექტები
 
-1. [თემურ ჩიჩუა | პორტფოლიო](/Chapter1_Contribution/projects/Temur_Chichua)
+1. [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/Temur_Chichua)
 2. [სახელი გვარი | პროექტი](/მისამართი)
