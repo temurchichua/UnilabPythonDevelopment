@@ -66,7 +66,7 @@ Div და Span გვეხმარება html კოდის პორც
 ...
 ```
 
-### ტექსტი, პარაგრაფი, ფორმატირება
+## ტექსტი, პარაგრაფი, ფორმატირება
 
 ### Heading | სათაურები 
 ```html
@@ -149,10 +149,13 @@ width; height | სიგანე; სიმაღლე
 
 ## ფორმები
 
+ვებ გვერდის ერთ-ერთი უმნიშვნელოვანეს ფუნქციონალია მომხმარებლისგან ინფორმაციის აღება. ინფორმაციის
+ვებ გვერდის ინტერფეისიდან ამოღება ხდება html ფორმების გამოყენებით. იხილეთ html ფორმების მაგალითები: 
+
 ```html
 <form action="url" method="post">
     <fieldset>
-        <legend>ვინ ხარ ?</legend>
+        <legend>რეგისტრაცია</legend>
         <label>Login :<input type="text" name="login" /></label><br/>
         <label for="pswd">Password :</label><input type="password" name="password" id="pswd" /><br/>
         <input type="radio" name="sex" value="male" />Male<br/>
