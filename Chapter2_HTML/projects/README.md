@@ -4,7 +4,7 @@
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
 - [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
-- [სახელი გვარი | პროექტი](/მისამართი)
+- [თენგიზ პატარაია | pokermaster](/Chapter2_HTML/projects/Tengiz_Pataraia)[Link](https://pokermaster.000webhostapp.com/)
 
 ## ინსტრუქცია:
 
