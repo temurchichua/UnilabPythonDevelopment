@@ -4,6 +4,7 @@
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
 - [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
+- [გული სახვაძე | Neptune](/Chapter2_HTML/projects/Guli_Sakhvadze)
 - [სახელი გვარი | პროექტი](/მისამართი)
 
 ## ინსტრუქცია:
