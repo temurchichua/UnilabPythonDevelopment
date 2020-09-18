@@ -1,6 +1,6 @@
 # HTML პროექტების დირექტორია
 
-დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი HTML პროექტები
+დირექტორიაში განთავსებულია კონტრიბუტორთა HTML პროექტები
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
 - [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
