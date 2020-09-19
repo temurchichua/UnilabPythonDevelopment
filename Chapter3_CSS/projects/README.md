@@ -3,6 +3,7 @@
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი CSS პროექტები
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter3_css/projects/Temur_Chichua/portfolio)
+- [თემური ქიტოშვილი | NLTK_Demo](/Chapter3_css/projects/Temuri_kitoshvili/NLTk_Demo)
 - [სახელი გვარი | პროექტი](/მისამართი)
 
 ## ინსტრუქცია:
