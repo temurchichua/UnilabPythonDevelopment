@@ -5,8 +5,9 @@
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
 - [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
+- [თეონა ფორჩხიძე | სტატიები](/Chapter2_HTML/projects/Teona_Porchkhidze)
 - [ნინა დარსაველიძე | პორტფოლიო](/Chapter2_HTML/projects/Nina_Darsavelidze)
-
+- [სახელი გვარი | პროექტი](/მისამართი)
 
 ## ინსტრუქცია:
 
