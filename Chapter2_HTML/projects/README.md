@@ -8,6 +8,7 @@
 - [გული სახვაძე | Neptune](/Chapter2_HTML/projects/Guli_Sakhvadze)
 - [თეონა ფორჩხიძე | სტატიები](/Chapter2_HTML/projects/Teona_Porchkhidze)
 - [ნინა დარსაველიძე | პორტფოლიო](/Chapter2_HTML/projects/Nina_Darsavelidze)
+- [მარიამ კვანტალიანი | evangelion | book_reg](/Chapter2_HTML/projects/mariam_kvantaliani)
 - [სახელი გვარი | პროექტი](/მისამართი)
 
 
