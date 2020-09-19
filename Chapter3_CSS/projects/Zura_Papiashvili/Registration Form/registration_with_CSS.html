@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="basic.css">
+</head>
+<body>
+<H1>Exoplanets</H1>
+
+<div class="desc">
+    <p>An exoplanet or extrasolar planet is a planet outside the Solar System. The first possible evidence of an exoplanet was noted in 1917, but was not recognized as such. The first confirmation of detection occurred in 1992. This was followed by the confirmation of a different planet, originally detected in 1988. As of 3 September 2020, there are 4,330 confirmed exoplanets in 3,200 systems, with 708 systems having more than one planet.</p>
+
+</div>
+
+<br><br>
+<form >
+    <fieldset >
+        <legend><h2>Registration of Exoplanets</h2></legend>
+        <fieldset>
+            <legend><h2>Naming</h2></legend>
+            <label for="prop" >Planet Name:</label>
+            <input type="text" name = "Proper_Name" id="prop">
+            <br><br>
+            <label for="star">Mother Star:</label>
+            <input type="text" name="password" id="star">
+            <br><br>
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+          <legend><h2>Characteristics</h2></legend>
+            <label for="birthday">Discovery Date:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br>
+                <label for="opt">Discovery Method:</label>
+                <select name="selector" id="opt">
+                    <option >Radial vel</option>
+                    <option >Transit</option>
+                    <option >Timing</option>
+                    <option >Imaging</option>
+                </select>
+            <br><br>
+            <label for="mass"> Mass</label>
+            <input type="text" name="mass" id="mass">
+
+            <br><br>
+            <label for="period"> Period</label>
+            <input type="text" name="period" id="period">
+            <br><br>
+            <label for="distance"> Distance</label>
+            <input type="text" name="distance" id="Distance">
+            <br><br>
+            <legend>
+             <strong>Earth Like Planet?</strong>
+            </legend>
+             <input type="radio" name="xp" value="yes"/>Yes<br>
+             <input type="radio" name="xp" value="No"/>No<br>
+
+        </fieldset>
+        <br><br>
+        <legend>
+            <strong>Additional Information:</strong>
+        </legend>
+    <textarea name="Aditiona_information" id="" cols="50" rows="10" placeholder="Write comment"></textarea>
+    <br>
+    <input type="submit" name="submit" value="Register New Planet">
+    </fieldset>
+
+</form>
+
+</body>
+</html>
