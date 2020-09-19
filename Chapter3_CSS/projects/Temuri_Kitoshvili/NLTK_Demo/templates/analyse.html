@@ -1,0 +1,21 @@
+{% extends 'basic.html' %}
+
+{% block body %}
+
+    <h2>ტექსტის დასახელება: {{textName}}</h2>
+    <h2 id="analyse__text">ტექსტი: <br><p>{{text}}</p></h2>
+
+    <h3>წინადადებები: </h3>
+    {% for my_item in clean_sentences %}
+        <p> >>>  {{my_item}} </p>
+
+    {% endfor %}
+
+    <h3>სიხშირის განაწილება </h3>
+    {% for (item, dist) in freq_dist %}
+        <p> >>>  სიტყვა: {{item}} გამოყენებულია {{dist}}</p>
+
+    {% endfor %}
+
+
+{% endblock %}
