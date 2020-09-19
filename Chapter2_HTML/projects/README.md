@@ -2,9 +2,9 @@
 
 დირექტორიაში განთავსებულია კონტრიბუტორთა HTML პროექტები
 
-- [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
-- [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
-- [სახელი გვარი | პროექტი](/მისამართი)
+- [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua) |
+- [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili) |
+- [სახელი გვარი | პროექტი](/მისამართი) | 
 
 ## ინსტრუქცია:
 

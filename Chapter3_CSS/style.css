@@ -1,0 +1,30 @@
+#middle {
+  border: #004994 5px dashed;
+    color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.everything_else {
+    color: royalblue;
+    font-weight: lighter;
+}
+
+span {
+    color: maroon;
+}
+
+body {
+    background: #002347;
+}
+
+h1{
+    color: white;
+    font-family: 'Grandstander', cursive;
+}
+
+#georgian{
+    color: #D6E0EE;
+    font-family: "ALK Life", sans-serif;
+}
