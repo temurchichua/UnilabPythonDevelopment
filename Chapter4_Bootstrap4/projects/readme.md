@@ -1,0 +1,23 @@
+# HTML პროექტების დირექტორია
+
+დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი Bootstrap პროექტები
+
+- [თემურ ჩიჩუა | ფორმა](https://htmlpreview.github.io/?https://github.com/temurchichua/UnilabPythonDevelopment/blob/master/Chapter4_Bootstrap4/projects/Temur_Chichua/home.html)
+- [სახელი გვარი | პროექტი](/მისამართი)
+
+## ინსტრუქცია:
+
+წინა თავში შესრულებულ ან სრულიად ახალ ვებ გვერდს გაუკეთეთ სტილი Bootstrap-ის გამოყენებით
+
+გამოიყენეთ: `https://htmlpreview.github.io/?`
+
+დავალების ფორმა:
+```
+Chapter4_Bootstrap4
+│   some_files
+└─── projects
+   └─── temur_chichua
+        └─── project_name
+            │   index.html
+   
+```
