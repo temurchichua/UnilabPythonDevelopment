@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Title</title>
+    <link rel="stylesheet" href="test_style.css">
+</head>
+<body>
+
+<form>
+   <fieldset>
+   <legend><h3>რეგისტრაციის ფორმა</h3></legend>
+   <label>სახელი <input type="text" name="username"></label><br/>
+   <br/> <label for="psw">პაროლი <input type="password" name="password" id="psw"></label><br/>
+   <br/><label><input type="submit" name="submit" value="რეგისტრაცია" ></label>
+       </fieldset>
+
+    <legend><strong>გაქვთ თუ არა გამოცდილება პროგრამირების სფეროში?</strong></legend>
+        <input type="radio" name="xp" value="yes"/>კი<br/>
+        <input type="radio" name="xp" value="no"/>არა<br/>
+    <br/>
+    <legend><strong>გქონიათ შეხება მოინაცემთა ბაზებთან?</strong></legend>
+        <input type="radio" name="xp" value="yes"/>კი<br/>
+        <input type="radio" name="xp" value="no"/>არა<br/>
+    <br/>
+    <legend><strong>რა არის თქვენთვის მნიშვნელოვანი პროფესიული ზრდისთვის?</strong></legend>
+   <input type="checkbox" name="available" value="communication" />კომუნიკაცია<br/>
+       <input type="checkbox" name="available" value="new_projects" />ახალი პროქეტები<br/>
+           <input type="checkbox" name="available" value="effective_team_working" />ეფექტური გუნდური მუშაობა<br/>
+
+        <br/>
+    <legend><strong>რატომ გსურთ ჩვენი გუნდის წევრი გახდეთ?</strong></legend>
+   <textarea name="comment" placeholder="კომენტარის სივრცე" rows="20" cols="80"></textarea>
+       <br/><label><input type="submit" name="submit" value="გაგზავნა"></label>
+</form>
+</body>
+</html>
