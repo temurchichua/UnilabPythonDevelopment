@@ -1,4 +1,4 @@
-# Bootstrap4 - Front End მეგობარი
+# [Bootstrap4](https://getbootstrap.com/) - Front End მეგობარი
 ### [შესავალი](https://getbootstrap.com/docs/4.5/getting-started/introduction/) | [მაგალითები](https://getbootstrap.com/docs/4.5/examples/) | [დოკუმენტაცია](https://getbootstrap.com/docs/4.5/layout/overview/)
 Boostrap არის მსოფლიოში ერთ-ერთი ყველაზე პოპულარული ფრონტ-ენდ დეველოპმენტ იარაღების ნაკრები, 
 რომელიც დაგეხმარება სწრაფად და მარტივად მოათავსო წინასწარ გამზადებული კომპონენტები შენს გვერდზე,
