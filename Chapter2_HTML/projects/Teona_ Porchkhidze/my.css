@@ -1,0 +1,109 @@
+#html{
+  font-style:;
+  color: red;
+  
+
+}
+
+#bolda{
+  color: #3D58A6;
+  font-weight: bold;
+  font-family: BPG Nino Mtavruli;
+
+}
+
+#siaxleebi{
+  color: red;
+  font-weight: bold;
+  font-family: BPG Nino Mtavruli;
+
+}
+
+ul {
+   list-style-type: none;
+
+}
+
+p {
+  margin-left: 40px;
+  font-family: BPG Nino Mtavruli;
+
+}
+#num{
+  background:#3D58A6;
+  background-clip: border-box;
+  width:50px;
+  height:40px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-left: 40px;
+  margin-bottom:5px;
+  font-family: BPG Nino Mtavruli;
+
+
+
+}
+
+#month{
+    margin-top:0px;
+    color: #3D58A6;
+    font-family: BPG Nino Mtavruli;
+
+
+
+}
+
+
+#photo {
+  width: 200px;
+  height: 150px;
+  margin-left: 40px;
+
+}
+
+
+#icon {
+  width :50px;
+  height:30px;
+  margin-left: 40px;
+
+}
+
+
+
+h3{
+  margin-left: 40px;
+  font-family: BPG Nino Mtavruli;
+
+}
+
+#statia{
+
+   font-family: BPG Nino Mtavruli;
+
+   margin-left: 40px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

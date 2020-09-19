@@ -27,6 +27,7 @@
 - [მერაბ ვასაძე](https://github.com/merabivasadze) | [Nlp for statistics ](/Chapter1_Contribution/merabi_vasadze)
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/Chapter1_Contribution/ninosha/README.md)
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](/Chapter1_Contribution/mariam_kvantaliani)
+- [თეონა ფორჩხიძე](https://github.com/Teona-tech) |[NLP demo](/Chapter1_Contribution/Teona%20Porchkhidze)
 
 ## დამატებითი მასალები
 
