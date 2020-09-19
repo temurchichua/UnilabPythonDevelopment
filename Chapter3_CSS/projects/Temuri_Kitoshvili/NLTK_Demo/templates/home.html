@@ -1,0 +1,40 @@
+{% extends 'basic.html' %}
+
+{% block body %}
+
+<h2>ტექსტის დამუშავება (NLTK)</h2>
+
+<form action="/" method="post">
+    <div class="content">
+        <div class="content__textInfo">
+
+            <label for="textName">ტექსტის დასახელება:</label>
+            <input type="text" id="textName" name="textName" placeholder="შეიყვანეთ ტექსტის სახელი">
+            <br>
+            <label for="textArea">ტექსტი:</label>
+            <br>
+            <textarea name="text" id="textArea" cols="65    " rows="5" placeholder="შეიყვანეთ ტექსტი"></textarea>
+        </div>
+
+        <div class="content__tools">
+
+            <input type="checkbox" id="check" name="devideSentences">
+            <label for="check">წინადადებები</label>
+            <br>
+            <input type="checkbox" id="Distribution" name="freqDist" onclick="if (document.getElementById('Distribution').checked){ document.getElementById('number').removeAttribute('disabled');}"">
+            <label for="Distribution">სიხშირის განაწილება</label>
+            <br>
+            
+            <input type="number" id="number" name="number" disabled required>
+            <label for="number">სიტყვების რაოდენობა</label>
+        
+        </div>
+        <div class="submit">    
+            <input type="submit">
+        </div>
+        
+    </div>
+</form>
+
+
+{% endblock %}
