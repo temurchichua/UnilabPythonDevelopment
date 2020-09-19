@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(214, 218, 218);
+}
+.container{
+    margin:50px;
+}
+#title{
+    color:#06283E ;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+#par{
+    color:#0A517F ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -15px;
+}
+#reg{
+    color:#06273d ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type=submit] {
+    background-color: #0d022b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #20204b;
+  }
+.name{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color:#0B3D5E ;
+}
+#sub{
+    margin-top: 20px;
+}
+
