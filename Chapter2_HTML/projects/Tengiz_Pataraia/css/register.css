@@ -1,0 +1,40 @@
+body {
+	background-image: url('../img/bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: gray;
+	background-size: cover;	
+}
+.form-control{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.form-control:focus{
+	background-color: rgba(0,0,0,0.5);
+	color: white;
+}
+
+.label{
+	color:white;
+}
+
+.background{
+	border-radius: 25px;
+	background-color: rgba(0,0,0,0.8);
+	padding:10px 20px;
+}
+
+.logo{
+	height:100px;
+	position:center;
+}
+
+.logo-container{
+	margin-bottom: 20px;
+}
+
+.row{
+	margin-top:10px;
+	margin-bottom:10px;
+}

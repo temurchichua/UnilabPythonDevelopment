@@ -5,6 +5,7 @@
 
 - [თემურ ჩიჩუა | პორტფოლიო](/Chapter2_HTML/projects/portfolio/Temur_Chichua)
 - [ზურა პაპიაშვილი | Solar System](/Chapter2_HTML/projects/Zura_Papiashvili)
+- [თენგიზ პატარაია | pokermaster](/Chapter2_HTML/projects/Tengiz_Pataraia)[Link](https://pokermaster.000webhostapp.com/)
 - [გული სახვაძე | Neptune](/Chapter2_HTML/projects/Guli_Sakhvadze)
 - [თეონა ფორჩხიძე | სტატიები](/Chapter2_HTML/projects/Teona_Porchkhidze)
 - [ნინა დარსაველიძე | პორტფოლიო](/Chapter2_HTML/projects/Nina_Darsavelidze)
