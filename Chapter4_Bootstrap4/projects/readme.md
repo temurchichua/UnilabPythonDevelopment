@@ -3,6 +3,7 @@
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი Bootstrap პროექტები
 
 - [თემურ ჩიჩუა | ფორმა](https://htmlpreview.github.io/?https://github.com/temurchichua/UnilabPythonDevelopment/blob/master/Chapter4_Bootstrap4/projects/Temur_Chichua/home.html)
+- [თენგიზ პატარაია | bootstap](https://htmlpreview.github.io/?https://github.com/temurchichua/UnilabPythonDevelopment/blob/master/Chapter4_Bootstrap4/projects/Tengiz_Pataraia/index.html)
 - [სახელი გვარი | პროექტი](/მისამართი)
 
 ## ინსტრუქცია:
