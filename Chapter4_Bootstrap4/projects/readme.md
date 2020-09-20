@@ -3,7 +3,7 @@
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი Bootstrap პროექტები
 
 - [თემურ ჩიჩუა | ფორმა](https://htmlpreview.github.io/?https://github.com/temurchichua/UnilabPythonDevelopment/blob/master/Chapter4_Bootstrap4/projects/Temur_Chichua/home.html)
-- [ზურა პაპიაშვილი | GEO-NLP](https://htmlpreview.github.io/?https://github.com/zura-papiashvili/UnilabPythonDevelopment/blob/bootstrap_page/Chapter4_Bootstrap4/projects/Zura_Papiashvili/GEO-NLP/Index.html)
+- [ზურა პაპიაშვილი | GEO-NLP](https://htmlpreview.github.io/?https://github.com/zura-papiashvili/UnilabPythonDevelopment/blob/master/Chapter4_Bootstrap4/projects/Zura_Papiashvili/GEO-NLP/Index.html)
 - [სახელი გვარი | პროექტი](/მისამართი)
 ## ინსტრუქცია:
 
