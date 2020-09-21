@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Registration Form </title>
+    <link rel="icon" type="book/svg" href="book.svg">
+    <meta name="author" content="Mariam Kvantaliani">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">სარეგისტრაციო ფორმა</h1>
+        <p id="par">დაარეგისტრირე სასურველი წიგნი აქ</p>
+        <form action="url" method="post">
+            
+            <label for="bookname"><p class="name">წიგნის დასახელება</p></label>
+            <input type="text" id="bookname" name="bookname" placeholder="წიგნის დასახელება..">
+
+            <label for="author"><p class="name">წიგნის ავტორი</p></label>
+            <input type="text" id="author" name="author" placeholder="წიგნის ავტორი..">
+
+            <label for="publication"><p class="name">გამომცემლობა</p></label>
+            <input type="text" id="publication" name="publication" placeholder="გამომცემლობა..">
+
+            <label for="date"><p class="name">გამოცემის თარიღი</p></label>
+            <input type="date" id="date" name="date">
+           
+
+            <label for="genre"><p class="name">ლიტერატურული ჟანრები</p></label>
+            <select id="genre" name="genre">
+                <option value="genre">პოეზია‎ </option>
+                <option value="genre">პროზა</option>
+                <option value="genre">რომანტიზმი‎ </option>
+                <option value="genre">მაგიური რეალიზმი‎ </option>
+                <option value="genre">მეცნიერული ფანტასტიკის ჟანრები‎</option>  
+            </select>
+
+            <label for="subject"><p class="name">წიგნის მოკლე აღწერა</p></label>
+            <textarea id="subject" name="subject" placeholder="აღწერა.." style="height:200px"></textarea>
+
+            <label for="image"><p class="name" >ატვირთეთ წიგნის სურათი</p></label>
+            <input type=file value="image" name="image"> 
+      
+            <label for="country"><p class="name">მდგომარეობა</p></label>
+            <input type="radio" name="available" value="monday" />ახალი<br/>
+            <input type="radio" name="available" value="tuesday" />ძველი<br/>
+        
+            <input id="sub" type="submit" value="რეგისტრაცია">
+        </form>
+    </div>
+</body>
+</html>
