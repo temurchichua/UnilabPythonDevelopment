@@ -9,6 +9,7 @@
 - [თეონა ფორჩხიძე | სტატიები](/Chapter2_HTML/projects/Teona_Porchkhidze)
 - [ნინა დარსაველიძე | პორტფოლიო](/Chapter2_HTML/projects/Nina_Darsavelidze)
 - [მარიამ კვანტალიანი | evangelion | book_reg](/Chapter2_HTML/projects/mariam_kvantaliani)
+- [მერაბ ვასაძე | littlebitaboutmerab ](/Chapter2_HTML/projects/Merab_Vasadze)
 - [სახელი გვარი | პროექტი](/მისამართი)
 
 
