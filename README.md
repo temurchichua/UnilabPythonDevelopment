@@ -42,6 +42,7 @@
 - [მეხუთე შეხვედრა: Postman, heroku, API on local vs on Server](https://drive.google.com/file/d/1uvBCRcCCHLECuBhliaeHO84tKKcxnzAf/view?usp=sharing)
 - [მეექვეს შეხვედრა: Flask ვებ გვერდის მუშაობის პრინციპი, HTML-ის საწყისები](https://drive.google.com/file/d/1U3_rFNuLvaUso3HmoGcQ-7NpYqqcnN4v/view?usp=sharing)
 - [მეშვიდე შეხვედრა: HTML ფორმები, CSS-ის საწყისები](https://drive.google.com/file/d/1WU14HPQJMxiOqN_ZOBquMJ1s1GjqV2mc/view?usp=sharing)
+- [მერვე შეხვედრა: Bootstrap 4](https://drive.google.com/file/d/106o7_1KdVzGLY0bGL7dpDOoAyZu5ivd5/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
