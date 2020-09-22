@@ -6,7 +6,9 @@
 - [თემური ქიტოშვილი | NLTK_Demo](/Chapter3_css/projects/Temuri_kitoshvili/NLTk_Demo)
 - [ზურა პაპიაშვილი | სარეგისტრაციო](/Chapter3_CSS/projects/Zura_Papiashvili/Registration Form)
 - [თეონა ფორჩხიძე | სარეგისტრაციო](/Chapter3_CSS/projects/Teona_Porchkhidze/Registration)
+- [გული სახვაძე | სარეგისტრაციო](/Chapter3_CSS/projects/Guli_Sakhvadze/Registration)
 - [სახელი გვარი | პროექტი](/მისამართი)
+
 
 ## ინსტრუქცია:
 
