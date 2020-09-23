@@ -15,7 +15,8 @@
 3. [რა არის HTML](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter2_HTML)
 4. [რა არის CSS](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter3_CSS)
 5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
-6. [როგორ გამოვიყენოთ შაბლონები Flask-ში](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Templates)
+6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
+7. [როგორ გამოვიყენოთ შაბლონები Flask-ში](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Templates)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
