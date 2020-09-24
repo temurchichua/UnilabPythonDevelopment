@@ -30,6 +30,7 @@
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/Chapter1_Contribution/ninosha/README.md)
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](/Chapter1_Contribution/mariam_kvantaliani)
 - [თეონა ფორჩხიძე](https://github.com/Teona-tech) |[NLP demo](/Chapter1_Contribution/Teona%20Porchkhidze)
+- [ალისა სანაკოევი](https://github.com/alisa-sanakoeva) | [Tokenizer](/Chapter1_Contribution/Alisa_Sanakoeva)
 
 ## დამატებითი მასალები
 
