@@ -12,9 +12,9 @@ Flask-ი გაშვებისას ავტომატურად ი�
 - [შესავალი](#შესავალი)
 - [/static - ბინა სტატიკური ფაილებისთვის](#/static)
 - [``render_template()`` - შაბლონის რენდერი](#შაბლონის-რენდერი)
-  - [render_template() გამოყენების მაგალითი / მინიმალური კოდი](#render_template-გამოყენების-მაგალითი)
+  - [``render_template()`` გამოყენების მაგალითი / მინიმალური კოდი](#render_template-გამოყენების-მაგალითი)
 - [Jinja](#jinja) 
-  - [სადემონსტრაციო მაგალითი](#jinja-ს-გამოყენების-მაგალითი-html-თან)
+  - [სადემონსტრაციო მაგალითი](#jinja-ს-გამოყენების-მაგალითი)
   - [ენის სტრუქტურა და ანატომია](#ენის-ანატომია)
 - [Template Inheritance](#template-inheritance)
 ## /static
@@ -128,7 +128,7 @@ Control Structures ეწოდება კოდის იმ ელემე�
 {% endif %}
 ````
 
-## Template Inheritance
+## [Template Inheritance](https://jinja.palletsprojects.com/en/2.11.x/templates/#template-inheritance)
 Jinja-ს ერთ-ერთი უძლიერესი მხარეა შაბლონის template inheritance. შაბლონის ინჰერენტულობა გვაძლევს შესაძლებლობას შევქმნათ საბაზისო ჩონჩხური შაბლონი რომელიც თავის თავში მოიცავს ვებ გვერდის ასაშენელად განკუთვნილ ყველა ბლოკს და შემდგომ ჩავაშენოთ კონკრეტული ელემენტები ვებ გვერდში.
 
 ![Template Inheritance](base.png)
