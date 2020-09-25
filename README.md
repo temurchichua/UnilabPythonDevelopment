@@ -16,7 +16,7 @@
 4. [რა არის CSS](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter3_CSS)
 5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
 6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
-7. [როგორ გამოვიყენოთ შაბლონები Flask-ში](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Templates)
+7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -45,6 +45,7 @@
 - [მეექვეს შეხვედრა: Flask ვებ გვერდის მუშაობის პრინციპი, HTML-ის საწყისები](https://drive.google.com/file/d/1U3_rFNuLvaUso3HmoGcQ-7NpYqqcnN4v/view?usp=sharing)
 - [მეშვიდე შეხვედრა: HTML ფორმები, CSS-ის საწყისები](https://drive.google.com/file/d/1WU14HPQJMxiOqN_ZOBquMJ1s1GjqV2mc/view?usp=sharing)
 - [მერვე შეხვედრა: Bootstrap 4](https://drive.google.com/file/d/106o7_1KdVzGLY0bGL7dpDOoAyZu5ivd5/view?usp=sharing)
+- [მეცხრე შეხვედრა: Flask-თან მუშაობის საფუძვლები, HTTP მეთოდები, routing, dynamic routing](https://drive.google.com/file/d/15-WqlZTPg3B-aXkssimvGG6anMpW1qz9/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
