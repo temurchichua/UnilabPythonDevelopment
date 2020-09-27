@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'HelveMedium';
+    src: url('../fonts/HelveticaNeueMedium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeueMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/HelveticaNeueMedium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/HelveticaNeueMedium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/HelveticaNeueMedium.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/HelveticaNeueMedium.svg#archyedt-thinregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'HelveLight';
+    src: url('../fonts/HelveticaNeueLight.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeueLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/HelveticaNeueLight.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/HelveticaNeueLight.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/HelveticaNeueLight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/HelveticaNeueLight.svg#archyedt-thinregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'HelveBold';
+    src: url('../fonts/HelveticaWorld-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaWorld-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/HelveticaWorld-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/HelveticaWorld-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/HelveticaWorld-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/HelveticaWorld-Bold.svg#archyedt-thinregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'HelveRoman';
+    src: url('../fonts/HelveticaNeue-Roman.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/HelveticaNeue-Roman.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/HelveticaNeue-Roman.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/HelveticaNeue-Roman.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/HelveticaNeue-Roman.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/HelveticaNeue-Roman.svg#archyedt-thinregular') format('svg'); /* Legacy iOS */
+}

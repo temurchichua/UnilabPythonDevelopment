@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="168" height="48" viewBox="0 0 168 48">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="168" height="48" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_2" data-name="Repeat Grid 2" clip-path="url(#clip-path)">
+    <g transform="translate(-940 -528)">
+      <rect id="Rectangle_40" data-name="Rectangle 40" width="168" height="48" rx="5" transform="translate(940 528)" fill="#ff5858"/>
+      <text id="LIVE_STREAM" data-name="LIVE STREAM" transform="translate(987 560)" fill="#fff" font-size="16" font-family="HelveticaNeueWorld-55Roman, Helvetica Neue World"><tspan x="0" y="0">LIVE STREAM</tspan></text>
+      <g id="Polygon_4" data-name="Polygon 4" transform="translate(973.5 543.5) rotate(90)" fill="#ff5858">
+        <path d="M 16.33909225463867 16 L 1.660908222198486 16 L 9 2.137271165847778 L 16.33909225463867 16 Z" stroke="none"/>
+        <path d="M 9 4.274541854858398 L 3.321816444396973 15 L 14.67818355560303 15 L 9 4.274541854858398 M 9 0 L 18 17 L 0 17 L 9 0 Z" stroke="none" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

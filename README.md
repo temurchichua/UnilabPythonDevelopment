@@ -15,7 +15,8 @@
 3. [რა არის HTML](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter2_HTML)
 4. [რა არის CSS](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter3_CSS)
 5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
-6. [როგორ გამოვიყენოთ შაბლონები Flask-ში](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Templates)
+6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
+7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -29,6 +30,7 @@
 - [ნინო მარიდაშვილი](https://github.com/Ninosha) | [ენის ლემატიზატორი](/Chapter1_Contribution/ninosha/README.md)
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](/Chapter1_Contribution/mariam_kvantaliani)
 - [თეონა ფორჩხიძე](https://github.com/Teona-tech) |[NLP demo](/Chapter1_Contribution/Teona%20Porchkhidze)
+- [ალისა სანაკოევი](https://github.com/alisa-sanakoeva) | [Tokenizer](/Chapter1_Contribution/Alisa_Sanakoeva)
 
 ## დამატებითი მასალები
 
@@ -42,6 +44,8 @@
 - [მეხუთე შეხვედრა: Postman, heroku, API on local vs on Server](https://drive.google.com/file/d/1uvBCRcCCHLECuBhliaeHO84tKKcxnzAf/view?usp=sharing)
 - [მეექვეს შეხვედრა: Flask ვებ გვერდის მუშაობის პრინციპი, HTML-ის საწყისები](https://drive.google.com/file/d/1U3_rFNuLvaUso3HmoGcQ-7NpYqqcnN4v/view?usp=sharing)
 - [მეშვიდე შეხვედრა: HTML ფორმები, CSS-ის საწყისები](https://drive.google.com/file/d/1WU14HPQJMxiOqN_ZOBquMJ1s1GjqV2mc/view?usp=sharing)
+- [მერვე შეხვედრა: Bootstrap 4](https://drive.google.com/file/d/106o7_1KdVzGLY0bGL7dpDOoAyZu5ivd5/view?usp=sharing)
+- [მეცხრე შეხვედრა: Flask-თან მუშაობის საფუძვლები, HTTP მეთოდები, routing, dynamic routing](https://drive.google.com/file/d/15-WqlZTPg3B-aXkssimvGG6anMpW1qz9/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
