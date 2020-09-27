@@ -1,0 +1,36 @@
+.other{
+    background-color: #A6EDD3;
+    color: #297373;
+    font-size: 20px;
+}
+
+#pic{
+    border: #4A4063 thick solid;
+}
+
+body {
+    background: #D3FFEF
+}
+
+
+h1{
+    border: #4A4063 thick solid;
+    background-color: #EBD8ED;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    border: #4A4063 thin dashed;
+    background-color: #EBD8ED;
+    color: black;
+    text-align: center;
+}
+
+
+p {
+    border: #297373 thin dashed;
+    background-color: mintcream;
+    color: #297373;
+    font-size: 20px;
+}
