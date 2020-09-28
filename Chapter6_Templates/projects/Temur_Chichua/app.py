@@ -8,7 +8,6 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-
 @app.route('/about')
 def about():
     return render_template('about.html')
@@ -20,8 +19,13 @@ def registration():
 @app.route('/success')
 def success():
     data = request.args
+
     first_name = data.get('first_name')
     last_name = data.get('last_name')
+
     return render_template('success.html', first_name = first_name, last_name = last_name)
 
 app.run(debug=True)
+
+def some_function():
+    pass
