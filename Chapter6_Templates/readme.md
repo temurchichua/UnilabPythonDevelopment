@@ -142,6 +142,21 @@ Control Structures ეწოდება კოდის იმ ელემე�
 _თუ მაკრო აღწერილია სხვა ფაილში, აუცილებელია მისი პროექტში შემოტანა [import](https://jinja.palletsprojects.com/en/2.11.x/templates/#import)-ის გამოყენებით._
 
 
+#### [filters](https://jinja.palletsprojects.com/en/2.11.x/templates/#filters)
+ცვლდებზე მოქმედებების ჩატარება შესაძლებელია ფილტრების გამოყენებით. სინტაქსურად ფილტრი ცვლადისგან გამოყოფილია `|` სიმბოლოს მეშვეობით და მოთავსებულია ჯინჯას ფუნქციურ თეგში.
+
+ფილტრებს შეგვიძლია გადავცეთ არგუმენტები ისევე როგორც ფუნქციეპს პითონში. ჯინჯაში დაწერილი ეს კოდი `{{ listx|join(', ') }}` ექვივალენტურია პითონის შემდეგი კოდის  `str.join(', ', listx)`
+
+##### მაგალითი:
+
+````jinja2
+{% filter upper %}
+    This text becomes uppercase
+{% endfilter %}
+````
+
+[ყველა ჯინჯაში ჩაშენებული ფფილტრის ფუნქციონალი](https://jinja.palletsprojects.com/en/2.11.x/templates/#list-of-builtin-filters)
+
 ## [Template Inheritance](https://jinja.palletsprojects.com/en/2.11.x/templates/#template-inheritance)
 Jinja-ს ერთ-ერთი უძლიერესი მხარეა შაბლონის template inheritance. შაბლონის ინჰერენტულობა გვაძლევს შესაძლებლობას შევქმნათ საბაზისო ჩონჩხური შაბლონი რომელიც თავის თავში მოიცავს ვებ გვერდის ასაშენელად განკუთვნილ ყველა ბლოკს და შემდგომ ჩავაშენოთ კონკრეტული ელემენტები ვებ გვერდში.
 
