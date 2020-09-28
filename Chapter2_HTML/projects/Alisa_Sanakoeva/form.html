@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>განვითარებულ ცივილიზაციათა ორგანიზაციაში სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+<h1>განვითარებულ ცივილიზაციათა ორგანიზაციაში სარეგისტრაციო ფორმა</h1>
+<form>
+    <fieldset>
+        <legend><h3>რეგისტრაცია</h3></legend>
+        <label>სახეობა (ლათინურად) <input type="text" name="username"></label><br/>
+        <label>პაროლი <input type="password" name="password"></label><br/>
+    </fieldset>
+
+    <legend>
+        <strong>რამდენ ციურ სხეულს მოიცავთ?</strong></br>
+    </legend>
+    <input type="radio" name="obj" value="1"/>1</br>
+    <input type="radio" name="obj" value="1-5"/>1-5</br>
+    <input type="radio" name="obj" value="5-10"/>5-10</br>
+    <input type="radio" name="obj" value="10+"/>10+</br>
+    <input type="radio" name="obj" value="galaxy"/>მთლიანად ათვისებული გვაქვს ჩვენი გალაქტიკა</br>
+
+    <legend>
+        <strong>ჩამოთვლილთაგან მონიშნეთ ის, რისი ამოხსნაც შეძელით:</strong>
+    </legend>
+    <input type="checkbox" name="mystery" value="time"/>დროში მოგზაურობა</br>
+    <input type="checkbox" name="mystery" value="reality"/>რეალობის ვინაობა</br>
+    <input type="checkbox" name="mystery" value="energy"/>ულიმიტო ენერგია</br>
+    <input type="checkbox" name="mystery" value="important"/>რატომ ვარდება კარაქიანი პური ყოველთვის კარაქით დაბლა</br>
+    <input type="checkbox" name="mystery" value="consciousness"/>ცნობიერება</br>
+
+    <strong>ახსენით თითოეული მონიშნული:</strong></br>
+    <textarea name="explanation" cols="30" rows="7" placeholder="ახსნა"></textarea><br/>
+
+
+    <legend>
+        <strong>გადალახა თუ არა თქვენმა ცივილიზაციამ ომების სტადია?</strong></br>
+    </legend>
+    <input type="radio" name="war" value="yes"/>კი</br>
+    <input type="radio" name="war" value="no"/>არა</br>
+
+
+    <label>
+        <strong>რომელი სიცოცხლის ფორმას წარმოადგენთ:</strong>
+        <select name="life form">
+            <option>ნახშირბადის</option>
+            <option>სილიციუმის</option>
+            <option>აზოტის</option>
+            <option>ციფრული</option>
+            <option>სხვა</option>
+        </select>
+    </label></br>
+
+
+    <input type="submit" name="submit" value="გაგზავნა"/>
+</form>
+</body>
+</html>
