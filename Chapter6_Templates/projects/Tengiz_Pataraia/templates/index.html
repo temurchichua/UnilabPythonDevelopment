@@ -1,0 +1,38 @@
+{% extends "main.html" %}
+{% block content %}
+<div id="demo" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#demo" data-slide-to="0" class="active" style="background-color:red"></li>
+		<li data-target="#demo" data-slide-to="1" style="background-color:red"></li>
+		<li data-target="#demo" data-slide-to="2" style="background-color:red"></li>
+		<li data-target="#demo" data-slide-to="3" style="background-color:red"></li>
+		<li data-target="#demo" data-slide-to="4" style="background-color:red"></li>
+	</ul>
+
+	<div class="carousel-inner">
+		<div class="carousel-item active" align="center">
+			<img src="{{ url_for('static', filename='image/cpu.jpg') }}" alt="CPU" class="img-fluid">
+		</div>
+		<div class="carousel-item">
+			<img src="{{ url_for('static', filename='image/hdd.jpg') }}" alt="HDD">
+		</div>
+		<div class="carousel-item">
+			<img src="{{ url_for('static', filename='image/ssd.jpg') }}" alt="SSD">
+		</div>
+		<div class="carousel-item">
+			<img src="{{ url_for('static', filename='image/ps.jpg') }}" alt="Power Supply">
+		</div>
+		<div class="carousel-item">
+			<img src="{{ url_for('static', filename='image/ram.jpg') }}" alt="RAM">
+		</div>
+	</div>
+
+	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		<span class="carousel-control-prev-icon" style="background-color:red"></span>
+	</a>
+	<a class="carousel-control-next" href="#demo" data-slide="next">
+		<span class="carousel-control-next-icon" style="background-color:red"></span>
+	</a>
+
+</div>
+{% endblock %}
