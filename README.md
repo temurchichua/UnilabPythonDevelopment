@@ -46,6 +46,7 @@
 - [მეშვიდე შეხვედრა: HTML ფორმები, CSS-ის საწყისები](https://drive.google.com/file/d/1WU14HPQJMxiOqN_ZOBquMJ1s1GjqV2mc/view?usp=sharing)
 - [მერვე შეხვედრა: Bootstrap 4](https://drive.google.com/file/d/106o7_1KdVzGLY0bGL7dpDOoAyZu5ivd5/view?usp=sharing)
 - [მეცხრე შეხვედრა: Flask-თან მუშაობის საფუძვლები, HTTP მეთოდები, routing, dynamic routing](https://drive.google.com/file/d/15-WqlZTPg3B-aXkssimvGG6anMpW1qz9/view?usp=sharing)
+- [მეათე შეხვედრა: Jinja, HTML შაბლონების გამზადება Flask-ისთვის, შაბლონების რენდერი](https://drive.google.com/file/d/1Xo7rOJ0gwaMFwUYvBeqRgLdkUALXAv65/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
