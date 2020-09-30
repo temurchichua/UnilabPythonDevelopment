@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+{% from "macros.html" import nav_link with context %}.
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Unilab Python</title>
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
+</head>
+
+<body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">Cyber Gang</h3>
+          <nav class="nav nav-masthead justify-content-center">
+              {{ nav_link('home', 'თავფურცელი') }}
+              {{ nav_link('about', 'ჩვენს შესახებ') }}
+              {{ nav_link('registration', 'რეგისტრაცია') }}
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        {% block content %}
+
+        {% endblock %}
+      </main>
+
+      <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+          </div>
+      </footer>
+
+  </div>
+
+</body>
+
+</html>

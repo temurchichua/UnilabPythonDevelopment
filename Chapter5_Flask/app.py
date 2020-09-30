@@ -8,7 +8,7 @@ def home():
 
 @app.route('/about')
 def about():
-    return "<h1>ჩვენს შესახებ</h1>"
+    return "<h1>კომპანიის სახელია </h1>"
 ####
 @app.route('/user/<username>', methods=['GET'])
 def user_info(username):

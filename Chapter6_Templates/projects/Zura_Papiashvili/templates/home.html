@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+<h1 align="center">US Ecology</h1>
+    <img src="../static/images/labpacklaptop.png" alt="image">
+    <br><br>
+    <p>
+            US Ecology recently rolled out a customized software program, LPx, to assist our on-site chemists in more efficiently and compliantly completing Lab Packs for disposal of unknown, unused or out of date chemicals in our customers’ laboratories or classrooms. LPx sets a new industry standard as a predictive, algorithmic classification system that ensures compliance and the protection of all parties’ health and safety. This innovative technology further strengthens US Ecology’s best in class service capabilities for all our industrial and academic Lab Pack customers.
+
+    </p>
+    <p>
+        This system, developed internally by US Ecology’s Lab Pack operations and technical teams, replaces a chemist’s need to carry and manually look up individual chemical properties in the Code of Federal Regulations.
+
+    </p>
+<p>
+    “LPx is a digitized tool that provides our chemists with instant access to two databases housing over 3.5million chemical property data points and regulatory requirements as set forth by OSHA, DOT and EPA,” said Scott Schodowski, Senior Vice President of National Programs at US Ecology. “With just a few keystrokes, LPx builds and generates the required paperwork for compliant shipping and disposal of all chemical waste, whether on a manifest or bill-of-lading.”
+
+</p>
+
+<p>
+    LPx also provides clean paperwork, reflecting a more modern and technologically-advanced paper trail and labeling identification system required for proper waste transportation and disposal. Only final customer approval signatures are required to be handwritten, saving both chemists and customers’ time.
+
+</p>
+<p>
+    More importantly, by utilizing the algorithmic classification system built into the software, chemists have faster access to accurate chemical properties data, allowing them to more efficiently identify, segregate and pack the chemicals for removal. This results in a great reduction in required time on site to complete a Lab Pack for a customer, generating cost-savings. When comparing a Lab Pack completed under the traditional handwritten paperwork and manual chemical look-up method across the Labor, Environment and Transportation Codes of Regulations, to a Lab Pack completed utilizing LPX software, US Ecology was able to significantly reduce total time on site, and reduce customer service fees.
+
+</p>
+<p>
+    LPx is just one more way US Ecology offers innovative environmental solutions that help our customers achieve compliance and protect human health and the environment. Our teams strive to deliver unequaled service while ensuring our customers achieve peace of mind. LPx, and our team of certified Lab Pack chemists help protect customers, and their brands from costly, complicated and dangerous waste handling mistakes.
+
+</p>
+
+
+</div>
+<div class="jumbotron">
+
+<h4>Ecology, Environment and Conservation is abstracted/covered in:</h4>
+
+<ul>
+    {% for item in ecolist  %}
+<li>
+    {{ item }}
+</li>
+{% endfor %}
+
+</ul>
+
+
+
+</div>
+{% endblock %}
