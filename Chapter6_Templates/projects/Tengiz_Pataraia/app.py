@@ -8,7 +8,7 @@ with open("parts.json","r")as file:
 
 @app.route("/")
 def index():
-    return flask.render_template("index.html")
+    return flask.render_template("about.html")
 
 @app.route("/parts/<part_name>")
 def part(part_name):
