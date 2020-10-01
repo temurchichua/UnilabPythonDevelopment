@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <div class="alert alert-success" role="alert">
+        გილოცავთ {{ first_name }} {{ last_name }}! თქვენ წარმატებით გაიარეთ რეგისტრაცია.
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn btn-outline-info" role="button">საწყის გვერზე დაბრუნება</a>
+
+</div>
+
+{% endblock %}

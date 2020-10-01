@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <p>
+        {% if username %}
+            hell0 user {{username}}!
+            if you want to change username use the form:
+        
+        {% else %}
+            Enter your username:
+        
+        {% endif %}
+    </p>
+
+    <form method="POST">
+        {{ form.hidden_tag() }}
+        {{ form.username.label }} {{ form.username() }}
+        {{ form.submit() }}
+    </form>
+
+</body>
+</html>
