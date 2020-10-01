@@ -32,6 +32,7 @@ WTForms-ის გარშემო არის შექმნილი ბ�
 
 ## [FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/)
 FlaskWTF არის Flask-ისა და WTForms-ის ინტეგრაცია, რომელიც აერთიანებს ისეთ შესაძლებლობებს როგორიცაა ფაილების ატვირთვა ან reCAPTCHA.
+
 ![FlaskWTF](https://flask-wtf.readthedocs.io/en/stable/_static/flask-wtf.png)
 
 ### [FlaskWTF ინსტალაცია](https://flask-wtf.readthedocs.io/en/stable/install.html)
@@ -96,7 +97,7 @@ class FormName(FlaskForm):
 @app.route('/', methods=['GET', 'POST'])
 def index():
 
-    username = None
+    information = None
 
     form = FormName()
 
