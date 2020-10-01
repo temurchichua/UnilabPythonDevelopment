@@ -14,7 +14,7 @@ mail = Mail(app)
 @app.route('/' )
 def index():
 
-    return render_template('index.html',title="Company Name")
+    return render_template('about.html',title="Company Name")
 
 @app.route('/home',methods=['GET','POST'])
 def home():

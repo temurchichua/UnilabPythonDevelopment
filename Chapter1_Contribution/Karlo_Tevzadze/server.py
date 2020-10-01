@@ -8,7 +8,7 @@ nlp = spacy.load("en_core_web_sm")
 
 @app.route('/')
 def home():
-   return render_template('index.html')
+   return render_template('about.html')
 
 @app.route('/',methods=["GET","POST"])
 def process():
@@ -20,7 +20,7 @@ def process():
 
 		svg = displacy.render(text,style="dep")
 
-		return render_template('index.html', svg=svg)
+		return render_template('about.html', svg=svg)
 
 
 
