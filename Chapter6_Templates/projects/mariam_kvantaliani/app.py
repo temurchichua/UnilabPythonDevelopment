@@ -9,9 +9,14 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/about')
-def about():
-    return render_template('about.html')
+@app.route('/book')
+def book():
+    return render_template('book.html')
+
+
+@app.route('/image')
+def image():
+    return render_template('image.html')
 
 @app.route('/registration')
 def registration():
@@ -24,4 +29,10 @@ def success():
     last_name = data.get('last_name')
     return render_template('success.html', first_name = first_name, last_name = last_name)
 
-app.run(port=5005, debug=True)
+@app.route('/text')
+def text():
+    data = request.args
+    text_name = data.get('text_name')
+    return render_template('text.html', text_name = text_name)
+
+app.run(debug=True)

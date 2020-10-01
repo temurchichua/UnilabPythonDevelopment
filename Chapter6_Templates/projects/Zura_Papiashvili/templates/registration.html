@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+    <br><br>
+    <div class="jumbotron">
+
+    <form action="{{url_for('success')}}">
+        <label for="first_name">First Name : </label>
+        <input type="text" name="first_name" class="form-control">
+        <label for="last_name">Last Nmae: </label>
+        <input type="text" name="last_name" class="form-control">
+        <input type="submit" value="registration" class="btn btn-dark">
+    </form>
+
+
+    </div>
+
+{% endblock %}
