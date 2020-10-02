@@ -3,6 +3,8 @@
 დირექტორიაში განთავსებულია კონტრიბუტორთა პირველი შაბლონებთან სამუშაო პროექტები
 
 - [ზურა პაპიაშვილი | Ecology](/UnilabPythonDevelopment/Chapter6_Templates/projects/Zura_Papiashvili/)
+- [კარლო თევზაძე | WebSite](/UnilabPythonDevelopment/Chapter6_Templates/projects/Karlo_Tevzadze/)
+
 - [სახელი გვარი | პროექტი](/მისამართი)
 ## ინსტრუქცია:
 
