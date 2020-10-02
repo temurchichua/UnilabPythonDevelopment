@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+
+<div class="jumbotron">
+    <div class="alert alert-success" role="alert">
+        <p> გილოცავთ {{ username }} რეგისტრაცია წარმატებით შესრულდა.  </p>
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn btn-outline-info" role="button">საწყის გვერზე დაბრუნება</a>
+
+</div>
+
+
+{% endblock %}

@@ -5,7 +5,7 @@ h1 {
     font-size: x-large;
 }
 P {
-    color: darkgreen;
+    color: black;
     text-align: justify;
     font-palette: dark;
     font-size: large;
@@ -20,6 +20,13 @@ body {
 }
 
 fieldset {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: "JetBrains Mono", cursive ;
+}
+
+meta {
     color: black;
     text-align: center;
     font-size: x-large;

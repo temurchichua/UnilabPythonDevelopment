@@ -1,10 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+
+
+<br>
+<div class="container">
+<form class="jumbotron">
+    <p> <label>  Whatcha wanna do?   <br/>
+    <input type = "checkbox" name = "power" value = "Teleportation"/> Teleportation <br/>
+    <input type = "checkbox" name = "power" value = "Poison"/> Poison <br/>
+    <input type = "checkbox" name = "power" value = "API\"/>  API <br/>
+    <input type = "checkbox" name = "power" value = "Dark powers\"/> Dark Powers <br/>
+    <input type = "checkbox" name = "power" value = "Wer Development\"/> Wer Development <br/>
+    <input type = "checkbox" name = "power" value = "genjutsu\"/>  Genjutsu <br/> <br/>
+    </label> </p>
+    <p>
+    <label> Evil vs Kind: <br/>
+        <select name = "mhm">
+            <option> choose </option>
+            <option> Evil </option>
+            <option> Kind </option>
+            <option> Not so Evil </option>
+            <option> Other </option>
+
+</select> </label> </p> <br/> <br/>
+<fieldset>
+    <label> <h1> CHOOSE YOUR FIGHTER: </h1>
+    <input type = "radio" name = "hero" value = "Alisa"/> Alisa
+    <input type = "radio" name = "hero" value = "Merabi"/> Merabi
+    <input type = "radio" name = "hero" value = "Temo"/> Temo
+    <input type = "radio" name = "hero" value = "Nina"/> Nina
+    <input type = "radio" name = "hero" value = "Karlo"/> Karlo
+    <input type = "radio" name = "hero" value = "Nino"/> Nino
+ </label> </fieldset>
+ </form>
+
+
+
+<img src="https://scontent.ftbs3-1.fna.fbcdn.net/v/t1.0-9/119940924_4460548937320806_4380709394067921903_o.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=tGluq7_ql_AAX9x3sL9&_nc_ht=scontent.ftbs3-1.fna&oh=75a9a0386bfa441ceec2a203837c3d58&oe=5F8FAF97" alt="description" width="300" height="300"/>
+<img src="https://scontent.ftbs3-2.fna.fbcdn.net/v/t1.0-9/119958657_4460549003987466_7635777095048867579_o.jpg?_nc_cat=100&_nc_sid=730e14&_nc_ohc=STEn1mJBgCEAX-GM8IE&_nc_ht=scontent.ftbs3-2.fna&oh=10b7af43dab83d23d8c515dafd1024cc&oe=5F8D56D6" alt="description" width="300" height="300" />
+<img src="https://scontent.ftbs3-1.fna.fbcdn.net/v/t1.0-9/119939969_4460549177320782_1962025978567440026_n.jpg?_nc_cat=111&_nc_sid=730e14&_nc_ohc=oLclzMJ5b1cAX9Mux97&_nc_oc=AQlTbTQYrmkj5vV4WThj-v2kyx4U4kHAYUX80IrOibmfYwUim5zfnEE1q-a3dvBRJRY&_nc_ht=scontent.ftbs3-1.fna&oh=f3dd9bdff6df2a73e6d38b09fb46aeb3&oe=5F8C692D" alt="description" width="300" height="300" />
+<img src="https://scontent.ftbs3-1.fna.fbcdn.net/v/t1.0-9/119942845_4460548980654135_2403188570048491683_o.jpg?_nc_cat=104&_nc_sid=730e14&_nc_ohc=PqM5_qnNfnkAX8FLrTj&_nc_oc=AQk6m9eL2KqOtFBoHRHiQzAYjnCxrTYvc3-3-Ve4S7fMPef-txkLPOiUdOR2C6BBecg&_nc_ht=scontent.ftbs3-1.fna&oh=47c16fbe67beb8ca176d7188cb03ee9a&oe=5F8DB4DA" alt="description" width="300" height="300" />
+<img src="https://scontent.ftbs3-1.fna.fbcdn.net/v/t1.0-9/119942835_4460548987320801_5452033281674336876_o.jpg?_nc_cat=101&_nc_sid=730e14&_nc_ohc=55h78YK9Fj4AX99AvAb&_nc_ht=scontent.ftbs3-1.fna&oh=54d53feb9b231ea741114c8ff891b36f&oe=5F8E18EA" alt="description" width="300" height="300" />
+<img src="https://scontent.ftbs3-1.fna.fbcdn.net/v/t1.0-9/119939336_4460549010654132_519387444453269752_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_ohc=WA4qg2QYLj4AX9WMVjJ&_nc_ht=scontent.ftbs3-1.fna&oh=1df8127a9b735d09f6006b53a93a2539&oe=5F8D9CF5" alt="description" width="300" height="300" /> <br/> <br/>
+
+<button type="button" class="btn btn-secondary btn-lg btn-block">C h o o s e</button> <br/> <br/>
+   </div>
+
+
+{% endblock %}
