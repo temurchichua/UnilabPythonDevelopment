@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="">
+    <div class="alert alert-success" role="alert">
+        <p>გილოცავ {{username}}! ჩემი კოდი მუშაობს!</p>
+    </div>
+    <a href="{{ url_for('home') }}" class="btn btn-outline-success" role="button">მაგარია, ახლა დამაბრუნე Home-ზე</a>
+</div>
+
+
+{% endblock %}
+

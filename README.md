@@ -17,6 +17,7 @@
 5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
 6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
 7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
+8. [Flask Forms](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter7_Forms)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -47,6 +48,9 @@
 - [მერვე შეხვედრა: Bootstrap 4](https://drive.google.com/file/d/106o7_1KdVzGLY0bGL7dpDOoAyZu5ivd5/view?usp=sharing)
 - [მეცხრე შეხვედრა: Flask-თან მუშაობის საფუძვლები, HTTP მეთოდები, routing, dynamic routing](https://drive.google.com/file/d/15-WqlZTPg3B-aXkssimvGG6anMpW1qz9/view?usp=sharing)
 - [მეათე შეხვედრა: Jinja, HTML შაბლონების გამზადება Flask-ისთვის, შაბლონების რენდერი](https://drive.google.com/file/d/1Xo7rOJ0gwaMFwUYvBeqRgLdkUALXAv65/view?usp=sharing)
+- [მეთერთმეტე შეხვედრა: url_for, macros, მოთხოვნის პარამეტრების ამოღება - request, შესავალი flask-ით ფორმები გამართვაში](https://drive.google.com/file/d/1KEr1VKytSSkb-lAJDPzN0h0pSC3q8RJr/view?usp=sharing)
+- [მეთორმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 1 | WTForms, Flask_WTF, საბაზისო მაგალითი](https://drive.google.com/file/d/1dCF30_O_EM4jpPK9PeLyWLo2A2zATg7m/view?usp=sharing)
+
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)

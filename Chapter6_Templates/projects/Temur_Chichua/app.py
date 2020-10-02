@@ -24,4 +24,4 @@ def success():
     last_name = data.get('last_name')
     return render_template('success.html', first_name = first_name, last_name = last_name)
 
-app.run(debug=True)
+app.run(port=5005, debug=True)
