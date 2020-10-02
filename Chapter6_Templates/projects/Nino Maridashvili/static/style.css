@@ -1,0 +1,27 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: "JetBrains Mono", cursive ;
+    font-size: x-large;
+}
+P {
+    color: darkgreen;
+    text-align: justify;
+    font-palette: dark;
+    font-size: large;
+    font-family: "JetBrains Mono", cursive ;
+}
+
+body {
+    text-align: -moz-left;
+    font-size: medium;
+    font-palette: dark;
+    font-family: "JetBrains Mono", cursive ;
+}
+
+fieldset {
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: "JetBrains Mono", cursive ;
+}
