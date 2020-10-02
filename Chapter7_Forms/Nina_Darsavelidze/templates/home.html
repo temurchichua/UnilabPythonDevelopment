@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>შეავსეთ ფორმა</h1>
+<form method="POST">
+    {{form.hidden_tag()}}
+    {{form.age.label}} {{form.age}}
+    <br>
+    {{form.price_range.label}} {{form.price_range}}
+    <br>
+    {{form.occasion.label}} {{form.occasion}}
+    <br>
+    {{form.physical.label}} {{form.physical}}
+    <br>
+    {{form.feedback.label}} {{form.feedback}}
+    {{form.submit()}}
+
+</form>
+{% endblock %}
