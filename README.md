@@ -17,6 +17,7 @@
 5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
 6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
 7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
+8. [Flask Forms](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter7_Forms)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
