@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<br>
+<div class="container">
+    <h2 align="center" style="color: white">Your Future Letter Report:</h2>
+    <div class="jumbotron">
+
+
+<p>Your letter:</p>
+<code>"{{session["letter_text"]}}"</code>
+        <br><br>
+<p>Will be sent to mail: <strong>{{session['mail_address']}}</strong> in {{ session['deliver_in'] }} and will be {{ session['privacy'] }}</p>
+<a href="{{ url_for('home') }}" class="btn btn-outline-info" role="button">Go back to home page</a>
+    </div>
+    <br>
+    <h2 align="center" style="color: white">Some Public letters</h2>
+    <div class="jumbotron">
+        <h3>Sent 10 years to the future from September 22nd, 2010 to September 22nd, 2020</h3>
+        <p>Dear FutureMe,
+Hows life?
+This email was sent through a website called futureme.org that allows you to send an email to the future you if we are still using emails,
+Anyway, YOUR ANCIENT!!, 24 now, I was 14 when I wrote this email, a whole 10 years ago, hows the dream job going, are you now a famous scientist that invented space travel, if you have please come and say hello, or was it an amazing DJ that everyone knows worldwide, they're probably not even called DJ's anymore (Disc Jockey) because it is all done digitally or probably more advanced 10 years into the future!
+Got a wife? Clubbing every night? Have your own house yet? Global Crises taking over? Or were you just a epic failure because everything is expensive, got to go, i have Scouts now,
+Bye
+Miles,
+Aged 14
+10 Years ago</p>
+        <br><br>
+        <h3>Sent 10 years to the future from June 3rd, 2010 to July 21st, 2020</h3>
+        <p>You.
+
+Yes, you. I am writing this for you. I know you are reading this. And I want you to know I am writing this for you. No one else will understand. No one else knows. They think that this is for them. But it’s not. I am writing this for you.
+
+I want you to know, life…it’s hard. Every day can be a challenge. It can be a challenge to get up in the morning. To get yourself out of bed. To put on that smile. But I want you to know, that smile is what keeps me going some days. You need to remember, even through the tough times, you are amazing. You really are.
+
+You should be happy.
+
+I know that the weather might not be perfect. You might have to turn your back to the wind or feel the cold nipping at your nose. But you know what, at least you are there to feel it. At least you can enjoy the sun’s warm rays on your face. Or that cold February wind biting at your cheeks. You know what that means? You are alive. Everything will be okay.
+
+Good luck. And I hope we still keep in touch.</p>
+
+    </div>
+
+
+</div>
+
+{% endblock %}

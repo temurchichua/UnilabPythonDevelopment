@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container">
+
+    <h1 align="center">Letter To Future Me</h1>
+<Br>
+    <div class="jumbotron">
+<div class="alert alert-warning" role="alert">
+  Warning: The Letter will be sent instantly to you  from my mail!!!
+</div>
+    <form method="POST" class="form-group">
+        {{ form.hidden_tag() }}
+<div class="form-group">
+
+     <h5>{{ form.letter_text.label(class="col-form-label") }}</h5>
+     {{ form.letter_text(class="form-control",rows="15") }}
+
+
+</div>
+
+<div class="form-group">
+     <h5>{{ form.deliver_in.label(class="col-form-label")}}</h5>
+     {{ form.deliver_in() }}
+</div>
+
+<div class="form-group">
+    <h5>{{ form.privacy.label(class=" col-form-label") }}</h5>
+    {{ form.privacy() }}
+</div>
+<div class="form-group">
+    <h5>{{ form.mail_address.label(class="col-form-label") }}</h5>
+    {{ form.mail_address(class="form-control") }}
+</div>
+
+    {{ form.submit(class="btn btn-primary mb-2") }}
+
+</form>
+</div>
+</div>
+{% endblock %}
