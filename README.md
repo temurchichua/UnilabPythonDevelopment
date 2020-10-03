@@ -50,7 +50,7 @@
 - [მეათე შეხვედრა: Jinja, HTML შაბლონების გამზადება Flask-ისთვის, შაბლონების რენდერი](https://drive.google.com/file/d/1Xo7rOJ0gwaMFwUYvBeqRgLdkUALXAv65/view?usp=sharing)
 - [მეთერთმეტე შეხვედრა: url_for, macros, მოთხოვნის პარამეტრების ამოღება - request, შესავალი flask-ით ფორმები გამართვაში](https://drive.google.com/file/d/1KEr1VKytSSkb-lAJDPzN0h0pSC3q8RJr/view?usp=sharing)
 - [მეთორმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 1 | WTForms, Flask_WTF, საბაზისო მაგალითი](https://drive.google.com/file/d/1dCF30_O_EM4jpPK9PeLyWLo2A2zATg7m/view?usp=sharing)
-
+- [მეცამეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 2 | Form Fields, სხვადასხვა formfield, რა არის ვალიდატორი, Sessions, სესიაში მონაცემის შენახვა](https://drive.google.com/file/d/1-xdNwjjE1fwbl00PyHCWjWk_ZYhb_r3a/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
