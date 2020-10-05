@@ -16,7 +16,7 @@ def about():
 def registration():
     return render_template('registration.html')
 
-@app.route('/success')
+@app.route('/success')  
 def success():
     data = request.args
 
