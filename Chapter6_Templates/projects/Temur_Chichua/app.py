@@ -25,7 +25,11 @@ def success():
 
     return render_template('success.html', first_name = first_name, last_name = last_name)
 
+<<<<<<< HEAD
 app.run(debug=True)
 
 def some_function():
     pass
+=======
+app.run(port=5005, debug=True)
+>>>>>>> 94b6eec9b52670928e3af888217ac38d864335d7

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>მადლობა! შეკვეთა მიღებულია</h1>
+<p>შეკვეთის შეჯამება: </p>
+<code>
+    <ul>
+        <li>Age: {{session['age']}} </li>
+        <li>Price range: {{session['price_range']}}</li>
+        <li>Occasion: {{session['occasion']}}</li>
+        <li>Physical: {{session['physical']}}</li>
+        <li>Feedback: {{session['feedback']}}</li>
+    </ul>
+</code>
+
+</form>
+{% endblock %}

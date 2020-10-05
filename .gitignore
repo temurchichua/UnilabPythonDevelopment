@@ -1,3 +1,9 @@
 venv
 .idea
 /Chapter2_HTML/projects/Tengiz_Pataraia/php
+include
+lib
+lib64
+share
+pyvenv.cfg
+bin

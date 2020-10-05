@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% if username %}
+   <p>
+       Hello {{username}}!
+       If I got your name wrong, type again:
+   </p>
+
+{% else %}
+    <p>
+        Hello User!
+        Please type your name:
+    </p>
+
+{% endif %}
+
+
+<form method="POST">
+
+    {{ form.hidden_tag() }}
+    {{ form.username.label }} {{ form.username() }}
+    {{ form.submit() }}
+
+</form>
+
+</body>
+</html>

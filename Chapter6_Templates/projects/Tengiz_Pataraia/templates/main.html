@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Computer Parts</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<style>
+		.carousel-inner img{
+			height:25em;
+		}
+		.carousel{
+			text-align: center;
+			padding-top: 60px;
+		}
+		.info{
+			background-color: #d1d4d6;
+		}
+	</style>
+
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <!-- Brand -->
+	  <a class="navbar-brand" href="/">Home</a>
+
+	  <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <!-- Navbar links -->
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+	    <ul class="navbar-nav">
+	      <li class="nav-item">
+	        <a class="nav-link" href="/parts/cpu">Cpu</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/parts/hdd">Hdd</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/parts/ssd">Ssd</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/parts/ps">Power supply</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="/parts/ram">Ram</a>
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Shops
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="https://ultra.ge/" target="_blank">Ultra.ge</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="https://alta.ge/" target="_blank">Alta.ge</a>
+	          <div class="dropdown-divider"></div>
+	          <a class="dropdown-item" href="https://pcplus.ge/" target="_blank">Pcplus.ge</a>
+	        </div>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div class="container">
+        {% block content %}
+        {% endblock %}
+	</div>
+
+</body>
+</html>

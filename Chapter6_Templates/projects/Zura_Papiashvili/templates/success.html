@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <br><br>
+<div class="jumbotron">
+
+    <div class="alert alert-success" role="alert">
+        Congratulations {{ first_name }} {{ last_name }}! Registration passed successfully.
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn btn-outline-info" role="button">Go back to home page</a>
+
+</div>
+{% endblock %}

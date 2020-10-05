@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% from "macros.html" import nav_link with context %}.
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body class="text-center">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+
+      <header class="masthead mb-auto">
+        <div class="inner">
+          <h3 class="masthead-brand">DRG</h3>
+          <nav class="nav nav-masthead justify-content-center">
+               {{ nav_link('home', 'home') }}
+              {{ nav_link('generals', 'Gens') }}
+
+          </nav>
+        </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        {% block content %}
+
+        {% endblock %}
+      </main>
+
+
+
+  </div>
+
+</body>
+</html>
