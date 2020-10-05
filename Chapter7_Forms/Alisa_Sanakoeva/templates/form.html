@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>მონაცემების ატვირთვა</h1>
+<form method="POST" class="container">
+    {{ form.hidden_tag() }}
+    {{ form.file.label }} {{ form.file }}
+    <br>
+    {{ form.location.label }} {{ form.location }}
+    <br>
+    {{ form.comment.label }} {{ form.comment }}
+    <br>
+    {{ form.date.label }} {{ form.date }}
+    <br>
+    {{ form.time.label }} {{ form.time }}
+    <br>
+    {{ form.size.label }} {{ form.size }}
+    <br>
+    {{ form.safe.label }} {{ form.safe }}
+    <br>
+    {{ form.submit.label }} {{ form.submit }}
+
+</form>
+
+{% endblock %}
