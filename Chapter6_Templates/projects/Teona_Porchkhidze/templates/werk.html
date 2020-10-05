@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename="styles/my.css" )}}">
+</head>
+<body>
+    {% extends "base.html" %}
+
+    {% block content %}
+        <video width="1300" height="670" controls>
+        <source src={{ url_for('static', filename="werk.mp4") }} type="video/mp4">
+        </video>
+
+
+
+
+         <section>
+
+
+         	<article>
+					<h3 style="background:#990000;" style="color:#FFFFFF;"id="num">27</h3>
+					<h3 style="color:#990000;" id="month">MAY</h3>
+
+	         		<h3>WERK THE WORLD</h3>
+	         		<img id="photo"src="static/images/werk1.jpg"  >
+
+
+	         		<p>
+                        The Werq the World tour is an ongoing tour featuring drag queens from RuPaul's Drag Race. The tour, created by Brandon Voss and Shangela, is produced by Voss Events in collaboration with VH1 and World of Wonder.[1] It is known for its large-scale shows on stages with jumbotron screens, which give performances a concert-style feel.[2]
+                        What happens when eight queens are released from months of isolation to spend pride in a castle? Find out in this spectacular benefit for The National Black Justice Coalition, an organization dedicated to the empowerment of the black LGBT+ community.
+                        What happens when eight queens are released from months of isolation to spend pride in a castle? Find out in this spectacular benefit for The National Black Justice Coalition, an organization dedicated to the empowerment of the black LGBT+ community.
+
+	         		</p>
+         	    </div>
+         	</article>
+         	<article>
+                <h3 style="background:#990000;" style="color:#FFFFFF;"id="num">28</h3>
+                <h3 style="color:#990000;" id="month">MAY</h3>
+
+         		<h3>NEW TOURS</h3>
+         		<img id="photo" src="static/images/werk2.jpg" >
+         		<p>
+                    What happens when eight queens are released from months of isolation to spend pride in a castle? Find out in this spectacular benefit for The National Black Justice Coalition, an organization dedicated to the empowerment of the black LGBT+ community.
+                    What happens when eight queens are released from months of isolation to spend pride in a castle? Find out in this spectacular benefit for The National Black Justice Coalition, an organization dedicated to the empowerment of the black LGBT+ community.
+                    What happens when eight queens are released from months of isolation to spend pride in a castle? Find out in this spectacular benefit for The National Black Justice Coalition, an organization dedicated to the empowerment of the black LGBT+ community.
+
+                </p>
+         	</article>
+         	<article>
+
+                <h3 style="background:#990000;" style="color:#FFFFFF;"id="num">29</h3>
+                <h3 style="color:#990000;" id="month">MAY</h3>
+
+         		<h3>FUTURE PLANS</h3>
+         		<img id="photo"  src="static/images/werk3.jpg" >
+         		<p>
+                    Werq the World was forced to reschedule its October 2017 stop in Houston due to the devastation caused by Hurricane Harvey. The tour returned to that city on February 7, 2018, with the queens making a donation to the Montrose Center's LGBTQ Hurricane Harvey Relief Fund. The donation was matched by Voss Events.[3]
+
+In May 2019, World of Wonder debuted Werq the World, a 10-episode docuseries directed by Jasper Rischen. It presents behind-the-scenes looks at the lives of the performers who were on the 2018 European leg of the tour, with each episode profiling a different queen.[4] A second season of the docuseries started streaming in June of 2020.[5]
+
+The spring 2020 European leg of Werq the World was rescheduled for spring 2021 due to the COVID-19 pandemic.[6]
+         		</p>
+         	</article>
+         </section>
+
+    	</header>
+
+
+
+
+
+
+
+
+    {% endblock %}
+
+
+
+
+</body>
+</html>
