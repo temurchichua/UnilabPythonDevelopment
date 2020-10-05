@@ -32,6 +32,7 @@
 - [მარიამ კვანტალიანი](https://github.com/Mariamikv) | [simple NLP demo](/Chapter1_Contribution/mariam_kvantaliani)
 - [თეონა ფორჩხიძე](https://github.com/Teona-tech) |[NLP demo](/Chapter1_Contribution/Teona%20Porchkhidze)
 - [ალისა სანაკოევი](https://github.com/alisa-sanakoeva) | [Tokenizer](/Chapter1_Contribution/Alisa_Sanakoeva)
+- [კარლო თევზაძე](https://github.com/marvelyko) | [GNLP](/Chapter1_Contribution/Karlo_Tevzadze)
 
 ## დამატებითი მასალები
 
