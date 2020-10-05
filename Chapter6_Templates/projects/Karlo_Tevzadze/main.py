@@ -43,4 +43,15 @@ def contact():
         mail.send(msg)
     return render_template('contact.html',title='contact')
 
+@app.route('/registration')
+def registration():
+    return render_template('registration.html')
+
+@app.route('/success')
+def success():
+    data = request.args
+    first_name = data.get('first_name')
+    last_name = data.get('last_name')
+    return render_template('success.html', first_name = first_name, last_name = last_name)
+
 app.run(port=5060, debug=True)
