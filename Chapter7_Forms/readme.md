@@ -23,7 +23,7 @@
     - [ვალიდატორები](#ვალიდატორები)
 - [Flask Session - სესიაში მონაცემების შენახვა / გამოყენება](#session)
 - [Flash Alerts - შეტყობინებები](#alerts)
-- [ფაილის ატვირთვა / გამოყენება](#ფაილთან-მუშაობა)
+- [ფაილის ატვირთვა](#ფაილის-ფორმა)
 
 ## [WTForms](https://wtforms.readthedocs.io/en/2.3.x/)
 WTForms პითონში ვებ დეველოპმენტზე გათვლილი ფორმების ვალიდაციისა და რენდერის ბიბლიოთეკაა. ის თავსებადია ნებისმიერ ვებ ფრიმვორკთან ან ძრავის შაბლონთან. 
@@ -392,12 +392,96 @@ if __name__ == '__main__':
 
 იმ შემთხვევაში თუ `validate_on_submit()` პირობა სრულდება შესრულდება `flash("შენ ახლახანს დააჭირე")`.
 
+#### შაბლონის მხარე
 ვნახოთ როგორ შეგვიძლია გამოვიყენოთ ეს ფუნქციონალი ვებ გვერდის მხარეს, შეტყობინების გამოსატანად.
 
+იმისთვის რომ ფუნქციონალური (გაქრობის შესაძლებლობით) შეტყობინების გამოყენება შევძლოთ, აუცილებელია შემოვიტანოთ შაბლონში ბუტსტრაპის
+jQuery რესურსებიც.
 
-`home.html`
 ```html
+<!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 ```
 
-## ფაილთან მუშაობა
+ავაწყოთ ლოგიკა რომელიც გამოაჩენს შეტყობინებას საჭირო დროს
+`home.html`
+```html
+  {# get_flashed_messages() ავტომატურად იღებს flash()-ის პარამეტრებს #}
+      {% for msg in get_flashed_messages() %}
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" class="fade close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        {{msg}}
+        </div>
+      {% endfor %}
+
+
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.submit() }}
+</form>
+```
+
+## [ფაილის ფორმა](https://flask-wtf.readthedocs.io/en/stable/form.html#module-flask_wtf.file)
+
+როდესაც ვქმნით ახალ ფორმას, თუ ფორმაში არ არის ფაილის ატვირთვა როგორც წესი არ გვჭირდება enctype-ის გაწერა. სახელმძღვანელოდ:
+
+application/x-www-form-urlencoded: არის დიფოლტ და საუკეთესო მნიშვნელობა ფორმისთვის თუ არ ვიყენებთ ფაილებს.
+multipart/form-data: ფორმატი არის აუცილებელი თუ მინიმუმ ერთი ფაილთან სამუშაო ფორმა მაინც გვაქვს პროგრამაშ.
+text/plain: არ აქვს პრაქტიკული გამოყენება, შეგიძლია ახლავე დაივიწყო რომ არსებობს.
+
+თვითონ ფაილის ატვირთვის შრე ჩვეულებრივი input ელემენტია ტიპით file. 
+
+### მინიმალური მაგალითი
+```html
+    <form method="POST" action="" enctype="multipart/form-data">
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Submit"></p>
+    </form>
+```
+
+ფაილ ტიპის ინპუტ შრეს შეგვიძლია ორი საკმაოდ პრაქტიკული ატრიბუტი დავუმატოთ: `multiple` რომელიც შეგვიძლია გამოვიყენოთ თუ გვინდა პარალელურად
+ რამოდენიმე ფაილის ატვირთვა დავუშვათ და `accept` რომელიც ერთგვარი ფილტრი/ ვალიდატორი იქნება ფორმისთვის.
+ ```html
+<input type="file" name="file" multiple>
+<input type="file" name="doc_file" accept=".doc,.docx">
+<input type="file" name="image_file" accept="image/*">
+```
+
+### სერვერის მხარე
+შევქმნათ პროექტის მთავარ დირექტორიაში ქვედირექტორია /uploads სადაც მოვათავსებთ ატვირთულ ფაილებს.
+
+ფაილებთან სამუშაოდ დაგვჭირდება flask_wtf-დან ხელსაწყოების შემოტანა პროექტში. ასევე გამოვიყენებთ werkzeug.utils-დან secure_filename რაც დაგვიცავს მავნე მომხმარებლის
+მიერ საზიანო ფაილის ატვირთვისას.
+
+შევქმნათ ფლასკის კოდის მინიმალური მაგალით თუ როგორ შეგვიძლია ავტვირთოთ სურათი სერვერზე.
+
+#### ბიბლიოთეკები
+```python
+from flask_wtf import FlaskForm
+from flask_wtf.file import FileField, FileRequired
+from werkzeug.utils import secure_filename
+
+class UploadForm(FlaskForm):
+    file = FileField()
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload():
+    form = UploadForm()
+
+    if form.validate_on_submit():
+        filename = secure_filename(form.file.data.filename)
+        form.file.data.save('uploads/' + filename)
+        return redirect(url_for('upload'))
+
+    return render_template('upload.html', form=form)
+
+``` 
+
+შესაბამისად save მეთოდს თუ გადავცემთ პარამეტრად ფაილის შესანახ მისამართს ის მოათავსებს ატვირთულ ფაილს შესაბამის დირექტორიაში შესაბამისი დასახელებით.
