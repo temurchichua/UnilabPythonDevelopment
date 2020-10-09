@@ -257,3 +257,5 @@ def success():
 ## დამატებითი რესურსები
 - https://realpython.com/primer-on-jinja-templating/
 - https://jinja.palletsprojects.com/en/2.11.x/templates/
+- https://www.chromium.org/developers/jinja
+- https://jinja.palletsprojects.com/en/2.11.x/tricks/
