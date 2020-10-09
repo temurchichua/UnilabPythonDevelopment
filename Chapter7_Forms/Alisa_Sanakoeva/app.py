@@ -2,9 +2,9 @@ from flask import (Flask, render_template,
                    session, redirect, url_for)
 from flask_wtf import FlaskForm
 from wtforms import (StringField, BooleanField,
-                      SelectField,
-                     TextAreaField, RadioField,
-                     SubmitField, FileField)
+                     SelectField, TextAreaField,
+                     RadioField, SubmitField,
+                     FileField)
 from wtforms.validators import DataRequired
 from wtforms.fields.html5 import DateField
 
@@ -29,8 +29,8 @@ class SnakeForm(FlaskForm):
     safe = BooleanField("გველი ცოცხლად დაუბრუნდა ბუნებას")
     submit = SubmitField('ატვირთვა')
 
-
 @app.route('/', methods=['GET', 'POST'])
+@app.route('/snakeform', methods=['GET', 'POST'])
 def snakeform():
     form = SnakeForm()
 
