@@ -5,9 +5,9 @@
 # სავარჯიშო რეპოზიტორია
 ეს არის Unilab-ის პითონის NLP-ზე მომუშავე გუნდის სავარჯიშო რეპოზიტორია. რეპოზიტორიას გამოვიყენებთ GitHub გარემოსთან გასაცნობად და პროექტზე მუშაობის დაწყებამდე, გუნდური მუშაობის უნარების შესაძენად.
 
-#### *თუ ჯერ-ჯერობით გიტის ტერმინალ გარემოს არ იცნობთ, [აქ შეგიძლიათ ნახოთ ყველაზე ხშირად გამოყენებადი კომანდები]( #https://education.github.com/git-cheat-sheet-education.pdf )*
+#### *თუ ჯერ-ჯერობით გიტის ტერმინალ გარემოს არ იცნობთ, [აქ შეგიძლიათ ნახოთ ყველაზე ხშირად გამოყენებადი კომანდები](https://education.github.com/git-cheat-sheet-education.pdf )*
 
-თუ გიტი ჯერ კიდევ არ დაგიყენებიათ მოწყობილობაზე, [გადმოწერეთ და დააინსტალირეთ ამ მისამართიდან]( https://help.github.com/articles/set-up-git/).
+თუ გიტი ჯერ კიდევ არ დაგიყენებიათ მოწყობილობაზე, [გადმოწერეთ და დააინსტალირეთ ამ მისამართიდან](https://help.github.com/articles/set-up-git/).
 
 ## პროექტის ფარგლებში სამუშაო რესურსები:
 1. [პროექტში კონტრიბუციია + ინსტრუქცია](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter1_Contribution)
@@ -18,6 +18,7 @@
 6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
 7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
 8. [Flask Forms](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter7_Forms)
+9. [Database - SQLite, SQLAlchemy + Flask = CRUD](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter8_Database)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -53,7 +54,7 @@
 - [მეთორმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 1 | WTForms, Flask_WTF, საბაზისო მაგალითი](https://drive.google.com/file/d/1dCF30_O_EM4jpPK9PeLyWLo2A2zATg7m/view?usp=sharing)
 - [მეცამეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 2 | Form Fields, სხვადასხვა formfield, რა არის ვალიდატორი, Sessions, სესიაში მონაცემის შენახვა](https://drive.google.com/file/d/1-xdNwjjE1fwbl00PyHCWjWk_ZYhb_r3a/view?usp=sharing)
 - [მეთოთხმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 3 | მეტი ვალიდატორებზე, შეტყობინებები - flash alerts, ფაილის ატვირთვა ფორმიდან სერვერზე](https://drive.google.com/file/d/1xz8qbl_dbZHB53v3G2xk0XiWN9E6CNyX/view?usp=sharing)
-
+- [მეთხუთმეტე შეხვედრა: მონაცემთა ბაზები - ნაწილი 1 | შესავალი, ცხრილები, SQL, Query, SQLite](https://drive.google.com/file/d/1rp68XphKZObNHjGBq3Z9AK3u9vWZiMk6/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
