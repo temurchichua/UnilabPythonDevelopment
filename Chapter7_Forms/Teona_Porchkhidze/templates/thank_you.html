@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>დიდი მადლობა უღრმესი</h1>
+<p>კიდე დიდი მადლობა: </p>
+<code>
+    <ul>
+        <li>რა გქვიათ? {{session['name']}}</li>
+        <li>ასაკი: {{session['age']}} </li>
+        <li>სქესი: {{session['gender']}}</li>
+        <li>კითხვა: {{session['question']}}</li>
+        <li>ქურდი ხარ ძმა?: {{session['jail']}}</li>
+        <li>რა ცხოვრებით ცხოვრობ?: {{session['about_you']}}</li>
+
+    </ul>
+</code>
+
+</form>
+{% endblock %}

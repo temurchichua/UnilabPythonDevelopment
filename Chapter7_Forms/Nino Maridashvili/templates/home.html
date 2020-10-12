@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h> რა გშია? </h>
+<form method="POST">
+   {{form.hidden_tag()}}
+    {{form.type.label}} {{form.type}}
+    <br>
+     {{form.username.label}} {{form.username}}
+    <br>
+    {{form.additional.label}} {{form.additional}}
+    <br>
+    {{form.onion.label}} {{form.onion}}
+    <br>
+    {{form.price.label}} {{form.price}}
+    <br>
+    {{form.submit.label}} {{form.submit()}}
+
+{% endblock %}
+
+
+</form>
+
+
