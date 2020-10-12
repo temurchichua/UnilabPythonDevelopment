@@ -1,0 +1,22 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<h1>ჩემი უაზრო და უშინაარსო ფორმა რომ შეავსოთ...</h1>
+<form method="POST">
+    {{form.hidden_tag()}}
+    {{form.name.label}} {{form.name}}
+    <br>
+    {{form.age.label}} {{form.age}}
+    <br>
+    {{form.gender.label}} {{form.gender}}
+    <br>
+    {{form.question.label}} {{form.question}}
+    <br>
+    {{form.jail.label}} {{form.jail}}
+    <br>
+    {{form.about_you.label}} {{form.about_you}}
+    {{form.submit()}}
+
+</form>
+{% endblock %}
