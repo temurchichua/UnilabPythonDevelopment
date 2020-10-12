@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>მადლობა, თქვენ წარმატებით შეიტანეთ წვლილი მეცნიერებაში!</h3>
+<p>შეყვანილი მონაცემები: </p>
+<code>
+<ul style="color: green">
+  <li>ფოტო: {{session['file']}}</li>
+  <li>ლოკაცია: {{session['location']}}</li>
+  <li>დამატებითი ინფო ლოკაციაზე: {{session['comment']}}</li>
+  <li>თარიღი: {{session['date']}}</li>
+  <li>დრო: {{session['time']}}</li>
+  <li>სიგრძე: {{session['size']}}</li>
+</ul>
+  <a class="btn btn-light" href="{{url_for('snakeform')}}" role="button">დაბრუნება</a>
+</code>
+
+{% endblock %}
