@@ -1,11 +1,22 @@
 {% extends "base.html" %}
 {% block content %}
+
 <br>
 <div class="container">
+
+ {# get_flashed_messages() ავტომატურად იღებს flash()-ის პარამეტრებს #}
+      {% for msg in get_flashed_messages() %}
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close" class="fade close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        {{msg}}
+        </div>
+      {% endfor %}
     <h2 align="center" style="color: white">Your Future Letter Report:</h2>
     <div class="jumbotron">
 
-
+        <img width="400px" src="{{ url_for('static',filename= 'uploads/'+session['filename']) }}" alt="image">
 <p>Your letter:</p>
 <code>"{{session["letter_text"]}}"</code>
         <br><br>
