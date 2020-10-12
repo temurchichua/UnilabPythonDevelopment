@@ -18,7 +18,7 @@
 6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
 7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
 8. [Flask Forms](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter7_Forms)
-9. [Database - SQLite, SQLAlchemy + Flask = CRUD](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter8_Database)
+9. [Database - SQLite, Flask_SQLAlchemy-CRUD, Flask-Migrate](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter8_Database)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -55,6 +55,7 @@
 - [მეცამეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 2 | Form Fields, სხვადასხვა formfield, რა არის ვალიდატორი, Sessions, სესიაში მონაცემის შენახვა](https://drive.google.com/file/d/1-xdNwjjE1fwbl00PyHCWjWk_ZYhb_r3a/view?usp=sharing)
 - [მეთოთხმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 3 | მეტი ვალიდატორებზე, შეტყობინებები - flash alerts, ფაილის ატვირთვა ფორმიდან სერვერზე](https://drive.google.com/file/d/1xz8qbl_dbZHB53v3G2xk0XiWN9E6CNyX/view?usp=sharing)
 - [მეთხუთმეტე შეხვედრა: მონაცემთა ბაზები - ნაწილი 1 | შესავალი, ცხრილები, SQL, Query, SQLite](https://drive.google.com/file/d/1rp68XphKZObNHjGBq3Z9AK3u9vWZiMk6/view?usp=sharing)
+- [მეთექვსმეტე შეხვედრა: მონაცემთა ბაზები - ნაწილი 2 | ოოპ მონაცემთა ბაზებთან სამუშაოდ, SQLAlchemy](https://drive.google.com/file/d/1605H738AyLA-xAjA3JIYozcXjcbegPbA/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
