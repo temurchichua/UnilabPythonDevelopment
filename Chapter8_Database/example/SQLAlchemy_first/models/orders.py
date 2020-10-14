@@ -1,17 +1,4 @@
-import os
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
-
-basedir = os.path.abspath(os.path.dirname(__file__))
-
-app = Flask(__name__)
-
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
-#############################
+from app import db
 
 class OrdersModel(db.Model):
     __tablename__ = "Orders"
@@ -22,6 +9,9 @@ class OrdersModel(db.Model):
     start_loc = db.Column(db.String)
     end_loc = db.Column(db.String)
     price = db.Column(db.Float)
+    comment = db.Column(db.String)
+    rating = db.Column(db.Integer)
+    random = db.Column(db.String)
 
     def __init__(self, courier, order_id, start_loc, end_loc, price):
         self.courier = courier
@@ -31,5 +21,4 @@ class OrdersModel(db.Model):
         self.price = price
 
     def __repr__(self):
-        return f'შეკვეთა{self.order_id} მოაქვს კურიერის N {self.courier}'
-
+        return f'შეკვეთა {self.order_id} მოაქვს კურიერის N {self.courier}'

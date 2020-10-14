@@ -1,6 +1,5 @@
-from app import db, OrdersModel
-
-db.create_all()
+from app import db
+from models.orders import OrdersModel
 
 order = OrdersModel.query.filter_by(order_id=1323).first()
 
