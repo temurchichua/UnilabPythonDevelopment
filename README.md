@@ -10,15 +10,16 @@
 თუ გიტი ჯერ კიდევ არ დაგიყენებიათ მოწყობილობაზე, [გადმოწერეთ და დააინსტალირეთ ამ მისამართიდან](https://help.github.com/articles/set-up-git/).
 
 ## პროექტის ფარგლებში სამუშაო რესურსები:
-1. [პროექტში კონტრიბუციია + ინსტრუქცია](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter1_Contribution)
+1. [პროექტში კონტრიბუციია + ინსტრუქცია](/Chapter1_Contribution)
 2. [საერთო API-ს დემო](https://github.com/temurchichua/DemoApi)
-3. [რა არის HTML](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter2_HTML)
-4. [რა არის CSS](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter3_CSS)
-5. [Bootstrap 4](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter4_Bootstrap4)
-6. [Flask Basics](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter5_Flask)
-7. [Flask - შაბლონები + Jinja 2](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter6_Templates)
-8. [Flask Forms](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter7_Forms)
-9. [Database - SQLite, Flask_SQLAlchemy-CRUD, Flask-Migrate](https://github.com/temurchichua/ContributionDemo/tree/master/Chapter8_Database)
+3. [რა არის HTML](/Chapter2_HTML)
+4. [რა არის CSS](/Chapter3_CSS)
+5. [Bootstrap 4](/Chapter4_Bootstrap4)
+6. [Flask Basics](/Chapter5_Flask)
+7. [Flask - შაბლონები + Jinja 2](/Chapter6_Templates)
+8. [Flask Forms](/Chapter7_Forms)
+9. [Database - SQLite, Flask_SQLAlchemy-CRUD, Flask-Migrate](/Chapter8_Database)
+10. [REST API - FlaskRESTful](/Chapter9_FlaskRESTful)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -54,8 +55,9 @@
 - [მეთორმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 1 | WTForms, Flask_WTF, საბაზისო მაგალითი](https://drive.google.com/file/d/1dCF30_O_EM4jpPK9PeLyWLo2A2zATg7m/view?usp=sharing)
 - [მეცამეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 2 | Form Fields, სხვადასხვა formfield, რა არის ვალიდატორი, Sessions, სესიაში მონაცემის შენახვა](https://drive.google.com/file/d/1-xdNwjjE1fwbl00PyHCWjWk_ZYhb_r3a/view?usp=sharing)
 - [მეთოთხმეტე შეხვედრა: ფორმებთან მუშაობა - ნაწილი 3 | მეტი ვალიდატორებზე, შეტყობინებები - flash alerts, ფაილის ატვირთვა ფორმიდან სერვერზე](https://drive.google.com/file/d/1xz8qbl_dbZHB53v3G2xk0XiWN9E6CNyX/view?usp=sharing)
-- [მეთხუთმეტე შეხვედრა: მონაცემთა ბაზები - ნაწილი 1 | შესავალი, ცხრილები, SQL, Query, SQLite](https://drive.google.com/file/d/1rp68XphKZObNHjGBq3Z9AK3u9vWZiMk6/view?usp=sharing)
-- [მეთექვსმეტე შეხვედრა: მონაცემთა ბაზები - ნაწილი 2 | ოოპ მონაცემთა ბაზებთან სამუშაოდ, SQLAlchemy](https://drive.google.com/file/d/1605H738AyLA-xAjA3JIYozcXjcbegPbA/view?usp=sharing)
+- [მეთხუთმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 1 | შესავალი, ცხრილები, SQL, Query, SQLite](https://drive.google.com/file/d/1rp68XphKZObNHjGBq3Z9AK3u9vWZiMk6/view?usp=sharing)
+- [მეთექვსმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 2 | ოოპ მონაცემთა ბაზებთან სამუშაოდ, SQLAlchemy](https://drive.google.com/file/d/1605H738AyLA-xAjA3JIYozcXjcbegPbA/view?usp=sharing)
+- [მეჩვიდმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 3 | CreateRemoveUpdateDelete with SQLAlchemy, Flask-Migrate]()
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
