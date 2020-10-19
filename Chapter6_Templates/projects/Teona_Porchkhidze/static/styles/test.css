@@ -1,0 +1,91 @@
+form {
+	outline: none;
+    border-color: #990000;
+    box-shadow: 0 0 10px #990000;
+    margin-top:10px;
+
+}
+
+
+#fun {
+    margin-left:20px;
+    margin-top: 10px;
+
+
+}
+
+input{
+	margin-left:20px;
+
+}
+
+
+.active{
+	margin-left:20px;
+	width:1000px;
+    height:20px;
+    margin-bottom:10px;
+
+}
+
+label {
+	margin-left:20px;
+	font-family:"BPG Nino Mtavruli";
+
+
+
+}
+
+
+.boxy{
+	margin-bottom:20px;
+}
+
+button {
+	margin-left: 20px;
+	margin-top: 10px;
+	border: none;
+	width:150px;
+	height:35px;
+	background:#ad156b;
+    color:#ffffff;
+    font-size:20px;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+
+select {
+	margin-left: 20px;
+    width:1010px;
+    height:25px;
+
+
+}
+
+textarea{
+	margin-left: 20px;
+    margin-top:0px;
+    width:1010px;
+    height:100px;
+
+
+}
+
+
+img {
+	margin-left: 20px;
+    width:300px;
+}
+
+h1{
+	color:#990000;
+	font-family:"BPG Nino Mtavruli";
+
+} 
+
+
+#checkbox1{
+	margin-top:20px;
+}

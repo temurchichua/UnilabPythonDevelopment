@@ -1,0 +1,52 @@
+body {
+  background-image: url('planets.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: right;
+}
+
+
+fieldset{
+  opacity: 0.9;
+  alignment: center;
+  background: lightblue;
+  width: fit-content;
+  margin: auto;
+  border: 1px solid #CCA383;
+  border-radius: 8px;
+
+padding: 3px;
+}
+fieldset legend {
+  border-radius: 8px;
+background: #CCA383;
+padding: 1px;
+font-weight: lighter;
+}
+
+.desc{
+  opacity: 0.9;
+
+  border: 1px solid #CCA383;
+  border-radius: 10px;
+  height: border-box;
+  width: 50%;
+  background-color: lightblue;
+  margin: auto;
+}
+h1{
+
+  text-align: center;
+
+  color: lightblue;
+}
+h2 {
+  color: darkred;
+}
+textarea{
+  border-radius: 8px;
+}
+input{
+  border-radius: 8px;
+}

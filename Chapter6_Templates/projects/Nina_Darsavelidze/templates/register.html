@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container">
+    <h1>რეგისტრაცია</h1>
+    <p>გთხოვთ შეავსოთ სარეგისტრაციო ფორმა</p>
+    <form class="jumbotron" action="{{url_for('status')}}">
+        <label for="first_name">სახელი:
+        <input type="text" name="first_name" class="form-control">
+        </label>
+        <label for="last_name">გვარი:
+        <input type="text" name="last_name" class="form-control">
+        </label>
+        <input type="submit" value="რეგისტრაცია" class="btn btn-light">
+    </form>
+</div>
+
+{% endblock %}

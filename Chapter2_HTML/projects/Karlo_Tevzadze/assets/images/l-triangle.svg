@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="6" height="5" viewBox="0 0 6 5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="6" height="5" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_3" data-name="Repeat Grid 3" clip-path="url(#clip-path)">
+    <g transform="translate(-507 -163)">
+      <g id="Polygon_23" data-name="Polygon 23" transform="translate(513 168) rotate(180)" fill="#363636">
+        <path d="M 5.116899967193604 4.5 L 0.8830999732017517 4.5 L 3 0.971833348274231 L 5.116899967193604 4.5 Z" stroke="none"/>
+        <path d="M 3 1.943650007247925 L 1.766190052032471 4 L 4.233809947967529 4 L 3 1.943650007247925 M 3 0 L 6 5 L 0 5 L 3 0 Z" stroke="none" fill="#363636"/>
+      </g>
+    </g>
+  </g>
+</svg>

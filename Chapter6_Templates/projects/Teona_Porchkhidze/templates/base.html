@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+{% block nav %}
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <img width=100px class="navbar-brand" href="{{ url_for("home") }}" src="../static/images/ru.png">
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:red">
+
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="{{ url_for("home") }}">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="{{ url_for("about") }}">about the show</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		      	<a class="nav-link" href="{{ url_for("werk") }}">werk the world</a>
+
+
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		          <a class="nav-link" href="#">contacts</a>
+
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button type="button" class="btn btn-danger">search</button>
+            </form>
+		  </div>
+</nav>
+{% endblock %}
+{%block content %}
+{% endblock %}
+
+{% block footer %}
+<!--!&#45;&#45; Footer &ndash;&gt;-->
+				<footer class="page-footer font-small cyan darken-3">
+
+				  <!-- Footer Elements -->
+				  <div class="container">
+
+					<!-- Grid row-->
+					<div class="row">
+
+					</div>
+					<!-- Grid row-->
+
+				  </div>
+				  <!-- Footer Elements -->
+
+				  <!-- Copyright -->
+				  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+					<a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+				  </div>
+				  <!-- Copyright -->
+
+				</footer>
+				<!-- Footer -->
+{% endblock%}
+				<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+				<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

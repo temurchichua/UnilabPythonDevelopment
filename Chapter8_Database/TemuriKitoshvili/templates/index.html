@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container d-flex flex-column">
+
+
+    <h1 class="text-center text-primary">Upload Book</h1>
+
+    {# get_flashed_messages() #}
+    {% for msg in get_flashed_messages() %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+         <button type="button" class="close" data-dismiss="alert" aria-label="Close" class="fade close">
+             <span aria-hidden="true">&times;</span>
+         </button>
+        {{msg}}
+    </div>
+
+    {% endfor %}
+
+
+
+
+
+
+    <form class="d-flex flex-column" method="POST" action="" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+
+        {{ form.StoreId.label }}
+        {{ form.StoreId() }}
+
+        {{ form.BookName.label }}
+        {{ form.BookName() }}
+
+        {{ form.BookAuthor.label }}
+        {{ form.BookAuthor() }}
+
+        {{ form.BookDescription.label }}
+        {{ form.BookDescription() }}
+
+        {{ form.BookPrice.label }}
+        {{ form.BookPrice() }}
+
+        {{ form.submit(class="btn btn-success mt-3") }}
+    </form>
+
+
+</div>
+{% endblock %}

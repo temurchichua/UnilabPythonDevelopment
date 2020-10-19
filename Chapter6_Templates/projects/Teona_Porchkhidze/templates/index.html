@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+<html>
+   <head>
+       <link rel="stylesheet" href="{{ url_for('static',filename="styles/index.css" )}}">
+
+   </head>
+   <body>
+
+        {% block content %}
+        <h1 id="show">RUPAUL'S DRAG RACE SEASON <strong>12 cast</strong></h1>
+        <ul>
+            {%for item in my_list%}
+            <li id="cast">{{item}}</li>
+            {%endfor%}
+        </ul>
+         <h1 style="margin-left:50px" >About US</h1>
+         <p style="margin-left:50px"  id="about">
+             RuPaul's Drag Race is an American reality competition television series, the first in the Drag Race Franchise, produced by World of Wonder for Logo TV, WOW Presents Plus, and, beginning with the ninth season VH1. The show documents RuPaul in the search for "America's next drag superstar."[1] RuPaul plays the role of host, mentor, and head judge for this series, as contestants are given different challenges each week. RuPaul's Drag Race employs a panel of judges, including RuPaul, Michelle Visage, and a host of other guest judges, who critique contestants' progress throughout the competition. The title of the show is a play on drag queen and drag racing, and the title sequence and song "Drag Race" both have a drag-racing theme. To date, there have been twelve winners of the show: BeBe Zahara Benet, Tyra Sanchez, Raja, Sharon Needles, Jinkx Monsoon, Bianca Del Rio, Violet Chachki, Bob the Drag Queen, Sasha Velour, Aquaria, Yvie Oddly and Jaida Essence Hall. RuPaul's Drag Race has spanned twelve seasons and inspired the spin-off shows RuPaul's Drag U, RuPaul's Drag Race All Stars and RuPaul's Secret Celebrity Drag Race. The show has become the highest-rated television program on Logo TV,[2] and airs internationally, including in the United Kingdom, Australia, Canada, the Netherlands and Israel. The show earned RuPaul five consecutive Emmys (2016 to 2020) for Outstanding Host for a Reality or Reality-Competition Program. The show itself was awarded as a Primetime Emmy Award for Outstanding Reality-Competition Program in 2018, 2019 and 2020, and the Outstanding Reality Program award at the 21st GLAAD Media Awards. It has been nominated for four Critics' Choice Television Award including Best Reality Series – Competition and Best Reality Show Host for RuPaul, and was nominated for a Creative Arts Emmy Award for Outstanding Make-up for a Multi-Camera Series or Special (Non-Prosthetic). Later in 2018, the show became the first show to win a Primetime Emmy Award for Outstanding Reality-Competition Program and a Primetime Emmy Award for Outstanding Host for a Reality or Reality-Competition Program in the same year, a feat it has since repeated.
+         </p>
+        {% endblock %}
+   </body>
+
+</html>
+
+
+
+
+

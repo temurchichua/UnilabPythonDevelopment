@@ -1,0 +1,19 @@
+.m {
+ background-color: lightblue;
+ color: white;
+ text-align: center;
+ font-family: verdana;
+ font-size: 20px;
+}
+
+fieldset{
+   color: navy;
+   border: navy solid;
+   font-weight: bolder;
+}
+form{
+   color: #0a1064;
+}
+body{
+   background-color: lightsteelblue;
+}

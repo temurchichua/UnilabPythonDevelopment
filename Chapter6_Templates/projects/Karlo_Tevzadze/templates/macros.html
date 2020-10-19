@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% macro nav_builder(endpoint, name) %}
+        {% if request.endpoint.endswith(endpoint) %}
+        <a class="nav_link spaceon active" href="{{url_for(endpoint)}}">{{name}}</a>
+        {% else %}
+        <a class="nav_link " href="{{url_for(endpoint)}}">{{name}}</a>
+        {% endif %}
+    {% endmacro %}
+</body>
+</html>

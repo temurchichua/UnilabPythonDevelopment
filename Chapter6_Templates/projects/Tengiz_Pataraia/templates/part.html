@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% block content %}
+
+<center><h1> {{ data["name"] }} </h1></center>
+<br><br>
+<div align="cetner">
+    {{ data["description"] | safe}}
+</div>
+
+{% endblock %}
