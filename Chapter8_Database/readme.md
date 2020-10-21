@@ -633,3 +633,123 @@ Last Name: Brown
 ამ მეთოდით შექმნილს ობიექტს კი საბოლოოდ `return` ბრძანებით ვაბრუნებთ უკან და ვინახავთ `person` ცვლადში. შესაბამისად `person`-ზე შეგვიძლია `Person`-ში გაწერილი მეთოდების გამოყენება.
 
 
+## Relationship
+
+### [მაგალითი](example/Relationship_Demo)
+> model.py
+
+```python
+import os
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from flask_migrate import Migrate
+
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+app = Flask(__name__)
+# Connects our Flask App to our Database
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+
+db = SQLAlchemy(app)
+Migrate(app, db)
+
+
+class Student(db.Model):
+    __tablename__ = "students"
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String)
+    # One to many
+    book = db.relationship('Books', backref="student", lazy='dynamic')
+    #  One_to_one relationship
+    # A student only has one teacher, thus uselist is False.
+    # Strong assumption of 1 teacher per 1 student and vice versa.
+    teacher = db.relationship('Teacher', backref="student", uselist=False)
+
+    def __init__(self, name):
+        # მხოლოდ გვჭირდება ამ ბაზის მოდელისთვის უნიკალური წევრის ატრიბუტის აღწერა
+        self.name = name
+
+    def __repr__(self):
+        if self.teacher:
+            return f"Teacher of the Student {self.name} is {self.teacher.name}"
+        else:
+            return f"Student {self.name} has no teacher yet"
+
+    def show_books(self):
+        for book in self.book:
+            print(book.name)
+
+
+class Teacher(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    # Connect the teacher to the Student that "owns" it.
+    # We use student.id because __tablename__='student'
+    student_id = db.Column(db.Integer, db.ForeignKey('students.id'))
+    name = db.Column(db.String)
+
+    def __init__(self, name, student_id):
+        self.student_id = student_id
+        self.name = name
+
+
+class Books(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    student_id = db.Column(db.Integer, db.ForeignKey('students.id'))
+    name = db.Column(db.String)
+
+    def __init__(self, name, student_id):
+        self.student_id = student_id
+        self.name = name
+
+```
+
+> populate.py
+
+```python
+# This script will create some puppies, Teachers, and Bookss!
+# Note, if you run this more than once, you'll be creating dogs with the same
+# name and duplicate Teachers. The script will still work, but you'll see some
+from model import db, Teacher, Student, Books
+
+# Create 2 students
+rufus = Student("Rufus")
+fido = Student("Fido")
+
+# Add puppies to database
+db.session.add_all([rufus,fido])
+db.session.commit()
+
+# Check with a query, this prints out all the puppies!
+print(Student.query.all())
+
+# Grab Rufus from database
+# Grab all puppies with the name "Rufus", returns a list, so index [0]
+# Alternative is to use .first() instead of .all()[0]
+rufus = Student.query.filter_by(name='Rufus').all()[0]
+
+# Create an Teacher to Rufus
+jose = Teacher("Jose", rufus.id)
+
+# Give some Bookss to Rufus
+Books1 = Books('Chew Books',rufus.id)
+Books2 = Books("rufu's fav book",rufus.id)
+
+# Commit these changes to the database
+db.session.add_all([jose,Books1,Books2])
+db.session.commit()
+
+# Let's now grab rufus again after these additions
+rufus = Student.query.filter_by(name='Rufus').first()
+print(rufus)
+
+# Show Bookss
+print(rufus.show_books())
+
+# You can also delete things from the database:
+# find_student = Student.query.get(1)
+# db.session.delete(student)
+# db.session.commit()
+
+```
