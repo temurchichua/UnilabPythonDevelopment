@@ -1,5 +1,6 @@
 from app import db
 
+
 class OrdersModel(db.Model):
     __tablename__ = "Orders"
 
@@ -10,8 +11,6 @@ class OrdersModel(db.Model):
     end_loc = db.Column(db.String)
     price = db.Column(db.Float)
     comment = db.Column(db.String)
-    rating = db.Column(db.Integer)
-    random = db.Column(db.String)
 
     def __init__(self, courier, order_id, start_loc, end_loc, price):
         self.courier = courier
