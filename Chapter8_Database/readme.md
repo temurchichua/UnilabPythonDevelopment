@@ -717,15 +717,15 @@ from model import db, Teacher, Student, Books
 rufus = Student("Rufus")
 fido = Student("Fido")
 
-# Add puppies to database
+# Add students to database
 db.session.add_all([rufus,fido])
 db.session.commit()
 
-# Check with a query, this prints out all the puppies!
+# Check with a query, this prints out all the students!
 print(Student.query.all())
 
 # Grab Rufus from database
-# Grab all puppies with the name "Rufus", returns a list, so index [0]
+# Grab all students with the name "Rufus", returns a list, so index [0]
 # Alternative is to use .first() instead of .all()[0]
 rufus = Student.query.filter_by(name='Rufus').all()[0]
 

@@ -58,6 +58,9 @@
 - [მეთხუთმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 1 | შესავალი, ცხრილები, SQL, Query, SQLite](https://drive.google.com/file/d/1rp68XphKZObNHjGBq3Z9AK3u9vWZiMk6/view?usp=sharing)
 - [მეთექვსმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 2 | ოოპ მონაცემთა ბაზებთან სამუშაოდ, SQLAlchemy](https://drive.google.com/file/d/1605H738AyLA-xAjA3JIYozcXjcbegPbA/view?usp=sharing)
 - [მეჩვიდმეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 3 | CreateRemoveUpdateDelete with SQLAlchemy, Flask-Migrate]()
+- [მეთვრამეტე შეხვედრა: REST API - Flask RESTful, resources, models, API_to_DataBase ](https://drive.google.com/file/d/1fH-y0bTDjKEO1_BqboiV9ejRxOmB3uZq/view?usp=sharing)
+- [მეცხრამეტე შეხვედრა: მონაცემთა ბაზა - ნაწილი 4 | Relationship](https://drive.google.com/file/d/19OhVZIL6DoQ5t8HiYiw60wgmKSxJ9jm5/view?usp=sharing)
+- [მეოცე შეხვედრა: მონაცემთა ბაზა - ნაწილი 5 |  one_to_one, one_to_many Demo](https://drive.google.com/file/d/1kTFFBqjKxdhOUgClrDpM-DNB-Riz-dEP/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)

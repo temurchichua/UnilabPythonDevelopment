@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Chapter9_FlaskRESTful/examples/SQLAlchemy_Names" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter8_Database/example/Relationship_Demo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter10_DatabaseInViews/projects/example" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_CONFIGURATION" value="Jinja2" />
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/Chapter3_CSS/projects/Temuri_Kitoshvili/NLTK_Demo/templates" />
+      </list>
+    </option>
+  </component>
+</module>

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+    <h1>სტუდენტის დამატება</h1>
+    <p>სტუდენტის დამატება ხდება შემდეგი ფორმიდან:</p>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.name.label }} {{ form.name() }}
+            {{ form.submit() }}
+        </form>
+    </div>
+{% endblock %}
+

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+    <h1>იხილეთ ბაზაში დარეგისტრირებულ სტუდენტთა სია</h1>
+        <ol>
+            {% for student in students %}
+                <ul>{{ student.id }} {{ student }}</ul>
+            {% endfor %}
+        </ol>
+    </div>
+{% endblock %}
