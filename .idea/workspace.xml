@@ -19,34 +19,22 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ae4e37ae-c27c-4fc0-87c6-4a599df43adf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/migrations/versions/493e8e704571_first_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/portal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/templates/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example/templates/list.html" afterDir="false" />
+    <list default="true" id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="after the meeting">
+      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ae4e37ae-c27c-4fc0-87c6-4a599df43adf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter8_Database/example/Relationship_Demo/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8_Database/example/Relationship_Demo/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter8_Database/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter8_Database/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +45,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -67,40 +55,43 @@
   </component>
   <component name="JupyterTrust" id="85eb5e0a-4aeb-4e23-a34f-1ab393822c4d" />
   <component name="ProjectId" id="1hdlqDCoHp3UCmXjcLoxPwWYE1q" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter9_FlaskRESTful/examples/SQLAlchemy_Names" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter11_structuring/projects/example" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.flask.configuration.FlaskConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples\SQLAlchemy_Names" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples\SQLAlchemy_Names\templates" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter3_CSS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\Relationship_Demo\models" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\sqlite" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua\project 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples\SQLAlchemy_Names" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples\SQLAlchemy_Names\templates" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example" />
     </key>
   </component>
   <component name="RunManager" selected="Python.portal">
@@ -281,6 +272,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.app" />
       <item itemvalue="Python.setup" />
       <item itemvalue="Python.app (1)" />
       <item itemvalue="Python.populate" />
@@ -336,8 +328,19 @@
       <workItem from="1603237689286" duration="58000" />
       <workItem from="1603287394383" duration="9549000" />
       <workItem from="1603365785174" duration="614000" />
-      <workItem from="1603459576407" duration="9403000" />
+      <workItem from="1603459576407" duration="9489000" />
+      <workItem from="1603529142743" duration="1312000" />
+      <workItem from="1603711911133" duration="57000" />
+      <workItem from="1603715151946" duration="10507000" />
     </task>
+    <task id="LOCAL-00001" summary="after the meeting">
+      <created>1603472662015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603472662015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,9 +359,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/UnilabPythonDevelopment" />
     </ignored-roots>
+    <MESSAGE value="after the meeting" />
+    <option name="LAST_COMMIT_MESSAGE" value="after the meeting" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="376" key="#SQL_Dialects" timestamp="1602086672299">
@@ -385,34 +391,38 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601906656082" />
-    <state width="1876" height="290" key="GridCell.Tab.0.bottom" timestamp="1603469261066">
+    <state width="1876" height="290" key="GridCell.Tab.0.bottom" timestamp="1603472703281">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603469261066" />
-    <state width="1876" height="290" key="GridCell.Tab.0.center" timestamp="1603469261065">
+    <state width="1876" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603472703281" />
+    <state width="1876" height="290" key="GridCell.Tab.0.center" timestamp="1603472703280">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603469261065" />
-    <state width="1876" height="290" key="GridCell.Tab.0.left" timestamp="1603469261065">
+    <state width="1876" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603472703280" />
+    <state width="1876" height="290" key="GridCell.Tab.0.left" timestamp="1603472703280">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603469261065" />
-    <state width="1876" height="290" key="GridCell.Tab.0.right" timestamp="1603469261065">
+    <state width="1876" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603472703280" />
+    <state width="1876" height="290" key="GridCell.Tab.0.right" timestamp="1603472703281">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1876" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603469261065" />
+    <state width="1876" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603472703281" />
     <state width="209" height="539" key="HiddenNamespacesPopup" timestamp="1603296830406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="209" height="539" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1603296830406" />
-    <state x="450" y="308" key="SettingsEditor" timestamp="1601905491585">
+    <state x="450" y="308" key="SettingsEditor" timestamp="1603529622175">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="450" y="308" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601905491585" />
+    <state x="450" y="308" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603529622175" />
     <state x="681" y="281" width="540" height="540" key="StructurePopup" timestamp="1602511867010">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="681" y="281" width="540" height="540" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1602511867010" />
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1603472665104">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603472665104" />
     <state x="800" y="405" width="320" height="270" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602522470602">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -429,10 +439,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="762" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600349783745" />
-    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1602868707883">
+    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603529159459">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1602868707883" />
+    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603529159459" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app.coverage" NAME="app Coverage Results" MODIFIED="1600877828208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter5_Flask" />

@@ -708,7 +708,7 @@ class Books(db.Model):
 > populate.py
 
 ```python
-# This script will create some puppies, Teachers, and Bookss!
+# This script will create some students, Teachers, and Bookss!
 # Note, if you run this more than once, you'll be creating dogs with the same
 # name and duplicate Teachers. The script will still work, but you'll see some
 from model import db, Teacher, Student, Books

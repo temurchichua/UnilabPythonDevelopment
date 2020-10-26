@@ -36,9 +36,6 @@ class Student(db.Model):
         else:
             return f"Student {self.name} has no teacher yet"
 
-    def show_books(self):
-        for book in self.book:
-            print(book.name)
 
 
 class Teacher(db.Model):
