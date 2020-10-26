@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  <h1>მასწავლებლის დამატება</h1>
+  <p>მოსწავლის დამატება შეგიძლიათ ფორმიდან:</p>
+  <form method="POST">
+      {# This hidden_tag is a CSRF security feature. #}
+      {{ form.hidden_tag() }}
+      {{ form.name.label }} {{ form.name() }}<br>
+      {{ form.student_id.label }} {{ form.student_id() }}<br>
+      {{ form.submit() }}
+  </form>
+</div>
+{% endblock %}
