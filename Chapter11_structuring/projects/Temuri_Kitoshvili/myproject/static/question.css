@@ -1,0 +1,102 @@
+.question_info{
+    border-bottom: 1px solid rgb(214,217,220);
+    margin-right: 20px;
+    max-width: 768px;
+}
+
+.question_info h3{
+    font-size: 2.07692308rem;
+    color: #3c4146;
+    margin-bottom: 18px;
+    flex: 1 auto;
+    padding-right: 10px;
+    max-width: 768px;
+}
+
+.question_info_header{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(214,217,220);
+
+}
+
+
+.question_info_body{
+    margin-top: 20px;
+}
+
+.question_info_body h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.answers{
+    margin-top: 50px;
+}
+
+.answers h3{
+    border-bottom: 1px solid rgb(214,217,220);
+    padding-bottom: 10px;
+}
+
+.answer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.stats_of_answer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.stats_of_answer button{
+    border: none;
+    background: none;
+}
+
+.stats_of_answer button svg{
+    color: #6a737c !important;
+}
+
+.answer_info{
+    max-width: 768px;
+    padding-bottom: 10px;
+}
+
+
+.stats_of_answer button:focus{
+    outline: none;
+
+}
+
+.answer_info h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #827a7a;
+}
+
+
+.write__answer{
+    margin: 100px 10px;
+}
+
+.write__answer h2{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.write__answer form input[type="submit"]{
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-size: 18px;
+    padding: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0095ff;
+    box-shadow: inset 0 1px 0 0 rgba(255,255,255,0.4)
+}
