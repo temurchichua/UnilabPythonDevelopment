@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="ask">
+            <form action="" method="post">
+                <div class="askheader">
+                    <h2>Title</h2>
+                    <label for="title"> Be specific and imagine you’re asking a question to another person </label>
+                    <input type="text" id="title" name="title" required>
+
+                </div>
+
+                <div class="askheader">
+                    <h2>Tags</h2>
+                    <label for="tags"> Start the tag with a " # " mark and make a space between the tags </label>
+                    <input type="text" id="tags" name="tags" required>
+
+                </div>
+
+                <div class="write_answer">
+                    <h2>Body</h2>
+                        <label for="summernote">Include all the information someone would need to answer your question</label>
+                        <textarea id="summernote" name="questionBody"></textarea>
+                        <input type="submit" value="Post Your Answer">
+                </div>
+            </form>
+        </div>
+
+
+
+
+
+
+        <div class="container__right">
+            <div class="table__heading">
+                <h1>The Overflow Blog</h1>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="18" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>The Loop: Our Community Roadmap for Q4 2020</h2>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="28" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>Podcast 279: Making Kubernetes work like it’s 1999 with Kelsey Hightower</h2>
+            </div>
+            <div class="table__heading">
+                <h1>Featured on Meta</h1>
+            </div>
+            <div class="table__body">
+                <h2>When is a closeable question also a “very low quality” question?</h2>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+      $('#summernote').summernote({
+        placeholder: 'Hello Bootstrap 4',
+        tabsize: 2,
+        height: 200
+      });
+    </script>
+
+{% endblock %}

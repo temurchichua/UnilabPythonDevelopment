@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+    <div class="container">
+        <div class="question_info">
+            <div class="question_info_header">
+                <h3>{{question.title}} </h3>
+                <a href="/askQuestion"><button type="button" class="btn btn-primary">Ask Question</button></a>
+            </div>
+            <div class="question_info_body">
+                <h4>{{question.title}}</h4>
+                <p>{{question.body | safe}}</p>
+            </div>
+
+            <div class="answers">
+                <h3>{{answers|length}} Answer</h3>
+                {% for answer in answers |sort(attribute='id', reverse=True) %}
+                <div class="answer">
+                    <div class="stats_of_answer">
+                        <button>
+                            <svg aria-hidden="true" class="m0 svg-icon iconArrowUpLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 26h32L18 10 2 26z"></path></svg>
+                        </button>
+                        <span>0</span>
+                        <button>
+                             <svg aria-hidden="true" class="m0 svg-icon iconArrowDownLg" width="36" height="36" viewBox="0 0 36 36"><path d="M2 10h32L18 26 2 10z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="answer_info">
+                        <h2>user id: {{ answer.id }} </h2>
+                        <p>{{ answer.body | safe }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+
+            <div class="write__answer">
+                <h2>Your Answer</h2>
+                <form method="post">
+                  <textarea id="summernote" name="answerBody"></textarea>
+                    <input type="submit" value="Post Your Answer">
+                </form>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <div class="container__right">
+            <div class="table__heading">
+                <h1>The Overflow Blog</h1>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="18" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>The Loop: Our Community Roadmap for Q4 2020</h2>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="28" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>Podcast 279: Making Kubernetes work like it’s 1999 with Kelsey Hightower</h2>
+            </div>
+            <div class="table__heading">
+                <h1>Featured on Meta</h1>
+            </div>
+            <div class="table__body">
+                <h2>When is a closeable question also a “very low quality” question?</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+      $('#summernote').summernote({
+        placeholder: 'Hello Bootstrap 4',
+        tabsize: 2,
+        height: 200
+      });
+    </script>
+
+
+
+
+{% endblock %}

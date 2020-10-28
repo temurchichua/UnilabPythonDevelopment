@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="container__left">
+            <div class="container__info">
+                 <h1 class="container__questions">All Questions</h1>
+                <a href="/askQuestion"><button type="button" class="btn btn-primary">Ask Question</button></a>
+
+            </div>
+            <div class="container__questionsNumber">
+                <h2>{{questions|length}} Question</h2>
+            </div>
+
+            {% for question in questions |sort(attribute='id', reverse=True) %}
+            <div class="container_questions">
+                <div class="stats">
+                    <div class="vote">
+                        <span>0</span>
+                        <h4>votes</h4>
+                    </div>
+                    <div class="aswers">
+                        <span>{{ answers.query.filter_by(question_id=question.id).all() | length }}</span>
+                        <h4>Answers</h4>
+                    </div>
+                </div>
+                <div class="question">
+                    <h3><a href="/questions/question/{{ question.id }}">{{ question.title }}</a></h3>
+                    <div class="devide_tags">
+                        <span>{{question.tags}}</span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+
+
+
+
+        <div class="container__right">
+            <div class="table__heading">
+                <h1>The Overflow Blog</h1>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="18" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>The Loop: Our Community Roadmap for Q4 2020</h2>
+            </div>
+            <div class="table__body">
+                <svg aria-hidden="true" class="va-text-top svg-icon iconPencilSm" width="28" height="14" viewBox="0 0 14 14"><path d="M11.1 1.71l1.13 1.12c.2.2.2.51 0 .71L11.1 4.7 9.21 2.86l1.17-1.15c.2-.2.51-.2.71 0zM2 10.12l6.37-6.43 1.88 1.88L3.88 12H2v-1.88z"></path></svg>
+                <h2>Podcast 279: Making Kubernetes work like it’s 1999 with Kelsey Hightower</h2>
+            </div>
+            <div class="table__heading">
+                <h1>Featured on Meta</h1>
+            </div>
+            <div class="table__body">
+                <h2>When is a closeable question also a “very low quality” question?</h2>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
