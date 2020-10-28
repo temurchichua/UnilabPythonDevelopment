@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <div class="jumbotron">
+        <h1>ბაზაში არსებული წიგნები:</h1>
+
+    <ul>
+    {% for book in books %}
+        <li>
+        {{ book }}
+        </li>
+
+    {% endfor %}
+
+    </ul>
+    </div>
+
+
+
+
+{% endblock %}
