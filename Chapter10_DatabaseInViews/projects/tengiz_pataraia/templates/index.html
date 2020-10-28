@@ -1,0 +1,25 @@
+<html>
+    <head>
+
+    </head>
+    <body align="center">
+        
+        {% for msg in get_flashed_messages() %}
+        {{ msg }}
+        </br>
+        {% endfor %}
+
+
+        <form method="POST" style="padding-top: 10em;">
+            {{ form.hidden_tag() }}
+            {{ form.username.label }}
+            {{ form.username() }}
+        </br>
+            {{ form.password.label }}
+            {{ form.password() }}
+        </br>
+            {{ form.submit() }}
+        </form>
+        <a href="/register">Register</a>
+    </body>
+</html>
