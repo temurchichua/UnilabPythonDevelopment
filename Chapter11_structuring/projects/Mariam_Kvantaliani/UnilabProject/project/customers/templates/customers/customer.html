@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container" style="margin-top: 40px;padding: 30px; background-color: rgb(250, 252, 252);" >
+    <h1>მომხმარებელთა სია </h1>
+
+ 
+    <table class="table" style="margin-top: 30px;">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">სახელი/გვარი</th>
+            <th scope="col">პირადი ნომერი</th>
+            <th scope="col">წიგნის იდენტიფიკატორი</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+            {% for customer in customers %}
+            <tr>
+            <th scope="row">{{ customer.id }}</th>
+            <td> {{ customer.name}}</td>
+            <td> {{ customer.idNumber}}</td>
+            <td> {{ customer.book_id}}</td>
+        </tr>
+            {% endfor %}
+          
+        </tbody>
+      </table>
+</div>
+
+{% endblock %}

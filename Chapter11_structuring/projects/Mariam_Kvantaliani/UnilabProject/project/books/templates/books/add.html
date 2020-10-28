@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="container" style="margin-top: 30px;padding: 30px; background-color: rgb(250, 252, 252);">
+    <h1 class="add" style="margin-bottom: 20px;">წიგნების დამატება</h1>
+        <form method="POST">
+            {{ form.hidden_tag() }}
+            {{ form.title.label(class_='active') }} 
+            <div>{{ form.title(class_='form-control') }}</div>
+            {{ form.autor.label(class_='active') }} 
+            <div>{{ form.autor(class_='form-control') }}</div>
+            {{ form.description.label(class_='active') }} 
+            <div>{{ form.description(class_='form-control') }}</div>
+        </br>
+            {{ form.submit(class_='btn btn-secondary') }}
+        </form>
+    </div>
+{% endblock %}
