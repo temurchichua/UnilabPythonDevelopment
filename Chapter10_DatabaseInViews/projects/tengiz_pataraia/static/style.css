@@ -1,0 +1,78 @@
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    margin:60px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    height: 80%;
+}
+
+.room-name{
+    text-align: center;
+    padding: 5px;
+    vertical-align: middle;
+    transition: .3s;
+}
+
+.room-name:hover{
+    background-color:#cbd1d3;
+    cursor: default;
+}
+
+.logout{
+    color:black;
+}
+.logout:hover{
+    text-decoration: none;
+}
+
+.control-panel{
+    padding: 10px;
+}
+
+.messages{
+    overflow-y:scroll;
+    overflow-x:hidden;
+    min-height:70%;
+    max-height:80%;
+    height:80%;
+}
+
+.message-box{
+    height: 20%;
+    display: flex;
+    padding:10px
+}
+
+#textbox{
+    width:85%;
+    height:100%;
+    background-color:white;
+    resize:none;
+}
+
+#send{
+    border:none;
+    width:15%;
+    background-color:#82cbff;
+}
+
+.message{
+    background-color:#cccccc;
+    padding:10px 20px;
+    margin:5px;
+    border-radius:9px;
+    word-break: break-all;
+}
+
+.offset-7 .message{
+    background-color:#3cdfe8;
+}
+
+.outside{
+    height: 100%;
+}

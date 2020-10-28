@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body align="center">
+
+        {% for category,msg in get_flashed_messages(with_categories=true) %}
+            {% if category == "error" %}
+                <p style="color:red">{{msg}}</p>
+            {% endif %}
+        {% endfor %}
+
+        <form method="POST" style="padding-top: 10em;">
+            {{ form.hidden_tag() }}
+            {{ form.username.label }}
+            {{ form.username() }}
+        </br>
+            {{ form.password.label }}
+            {{ form.password() }}
+        </br>
+            {{ form.confirm.label }}
+            {{ form.confirm() }}
+        </br>
+            {{ form.submit() }}
+        </form>
+        <a href="/login">Register</a>
+    </body>
+</html>

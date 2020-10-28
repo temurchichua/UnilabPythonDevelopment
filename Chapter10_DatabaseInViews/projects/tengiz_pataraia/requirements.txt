@@ -1,0 +1,11 @@
+gunicorn
+flask
+flask-login
+flask-sqlalchemy
+gevent
+flask-wtf
+flask-socketio
+flask-login
+flask-restful
+uwsgi
+flask-migrate
