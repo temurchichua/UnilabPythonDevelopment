@@ -1,0 +1,77 @@
+from __future__ import absolute_import, print_function, unicode_literals
+
+
+divisions = {   
+    'Barisal': [   'Pirojpur',
+                    'Barishal',
+                    'Bhola',
+                    'Barguna',
+                    'Patuakhali',
+                    'Jhalokathi'],
+    'Chittagong': [   'Khagrachari',
+                       'Noakhali',
+                       'Rangamati',
+                       'Bandarban',
+                       'Feni',
+                       'Lakshmipur',
+                       'Chandpur',
+                       'Comilla',
+                       'Chittagong',
+                       'Brahmanbaria',
+                       "Cox's Bazar"],
+    'Dhaka': [   'Dhaka',
+                  'Manikganj',
+                  'Tangail',
+                  'Madaripur',
+                  'Sherpur',
+                  'Jamalpur',
+                  'Narshingdi',
+                  'Rajbari',
+                  'Faridpur',
+                  'Netrakona',
+                  'Munshiganj',
+                  'Gopalganj',
+                  'Gazipur',
+                  'Kishoreganj',
+                  'Shariatpur',
+                  'Narayanganj',
+                  'Mymensingh'],
+    'Khulna': [   
+        'Kustia',
+        'IBH WAs Here',
+        'Magura',
+        'Jessore',
+        'Narail',
+        'Meherpur',
+        'Chuadanga',
+        'Khulna',
+        'Satkhira',
+        'Jinaidaha'
+    ],
+    'Rajshahi': [   
+        'Natore',
+        'Rajshahi',
+        'Sirajganj',
+        'Pabna',
+        'Chapinawabganj',
+        'Bogra',
+        'Joypurhat',
+        'Naogaon'
+    ],
+    'Rangpur': [   
+        'Dinajpur',
+        'Panchagarh',
+        'Thakurgaon',
+        'Rangpur',
+        'Gaibandha',
+        'Lalmonirhat',
+        'Nilphamari',
+        'Kurigram'
+    ],
+    'Sylhet': [
+        'Hobiganj', 
+        'Moulvibazar', 
+        'Sunamganj', 
+        'Sylhet'
+    ]
+}

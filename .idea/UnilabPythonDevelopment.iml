@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Chapter9_FlaskRESTful/examples/SQLAlchemy_Names" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter8_Database/example/Relationship_Demo" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Chapter10_DatabaseInViews/projects/example" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Chapter8_Database" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
