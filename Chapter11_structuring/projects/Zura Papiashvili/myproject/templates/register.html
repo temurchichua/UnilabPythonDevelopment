@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="jumbotron">
+    <h1 align="center">Registration Form</h1>
+        <br><br>
+        <form method="post">
+    {{ form.hidden_tag() }}
+       <div class="form-row">
+
+        <div class="form-group col-md-6">
+            {{ form.email.label(class = 'form-row') }}
+            {{ form.email(class = 'form-control') }}
+        </div>
+
+        <div class="form-group col-md-6">
+            {{ form.username.label(class = 'form-row') }}
+            {{ form.username(class = 'form-control') }}
+        </div>
+
+       </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+        {{ form.password.label(class = 'form-row') }}
+        {{ form.password(class = 'form-control') }}
+    </div>
+
+    <div class="form-group col-md-6">
+        {{ form.pass_confirm.label(class = 'form-row') }}
+        {{ form.pass_confirm(class = 'form-control') }}
+    </div>
+    </div>
+    <div class="form-group">
+       {{ form.submit(class="btn btn-primary") }}
+    </div>
+
+    </form>
+    </div>
+
+{% endblock %}
