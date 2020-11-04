@@ -1,0 +1,33 @@
+a {
+  font-family: "Courier New", Courier, monospace;
+  font-style: initial;
+}
+.add {
+  color: #2d2e36;
+  font-family: "Courier New", Courier, monospace;
+  font-style: inherit;
+  margin-bottom: 20px;
+}
+
+body {
+  background: url(https://wallpaperaccess.com/full/10846.png) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+  margin-top: 70px;
+}
+.form {
+  background: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+a {
+  color: black;
+}
+nav {
+  margin-top: -30px;
+}

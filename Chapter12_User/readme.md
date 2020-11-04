@@ -44,7 +44,7 @@ pip install bcrypt
 პროექტში შემოსატანად კი დგვჭირდება შემდეგი პითონის ინსტრუქციის გაწერა:
 
 ```python
-from flask_bycrpt import Bycrpt
+from flask_bcrypt import Bcrypt
 ```
 
 პროექტში Bycrpt-ის გამოსაყენებლად უნდა შევქმნათ შესაბამისი ჰეშერ ობიექტი. მისი დახმარებით შევძლებთ ნებისმიერი მონაცემის ჰაშირებას. ჰაშირების პროცესში დაგვეხმარება `generate_password_hash(password='string_to_hash')` მეთოდი.
