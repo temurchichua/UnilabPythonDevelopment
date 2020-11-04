@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="after the meeting">
+      <change beforePath="$PROJECT_DIR$/Chapter11_structuring/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_structuring/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="85eb5e0a-4aeb-4e23-a34f-1ab393822c4d" />
+  <component name="ProjectId" id="1hdlqDCoHp3UCmXjcLoxPwWYE1q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject/myproject/students/templates/students" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\Relationship_Demo\models" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\sqlite" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua\project 1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\students\templates\students" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\students" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\templates" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example" />
+      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter9_FlaskRESTful\examples\SQLAlchemy_Names" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5_Flask" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5_Flask/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\cyber\anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter6_Templates/projects/Temur_Chichua/project 1" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="" />
+      <created>1600349038830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600349038830</updated>
+      <workItem from="1600349044054" duration="14678000" />
+      <workItem from="1600422459955" duration="18556000" />
+      <workItem from="1600515936618" duration="5902000" />
+      <workItem from="1600526098476" duration="6902000" />
+      <workItem from="1600715798859" duration="776000" />
+      <workItem from="1600722210159" duration="907000" />
+      <workItem from="1600724035651" duration="1039000" />
+      <workItem from="1600790250899" duration="20000" />
+      <workItem from="1600859104767" duration="18788000" />
+      <workItem from="1601031864545" duration="19749000" />
+      <workItem from="1601211149429" duration="7738000" />
+      <workItem from="1601291449235" duration="18101000" />
+      <workItem from="1601314270447" duration="93000" />
+      <workItem from="1601899037809" duration="15237000" />
+      <workItem from="1602001920545" duration="1709000" />
+      <workItem from="1602074050446" duration="13887000" />
+      <workItem from="1602249665211" duration="11829000" />
+      <workItem from="1602506073789" duration="15346000" />
+      <workItem from="1602611706948" duration="271000" />
+      <workItem from="1602666611851" duration="17014000" />
+      <workItem from="1602857558471" duration="2712000" />
+      <workItem from="1602862014384" duration="736000" />
+      <workItem from="1602863323439" duration="7226000" />
+      <workItem from="1602932333758" duration="59000" />
+      <workItem from="1603103294353" duration="431000" />
+      <workItem from="1603208472873" duration="5514000" />
+      <workItem from="1603237689286" duration="58000" />
+      <workItem from="1603287394383" duration="9549000" />
+      <workItem from="1603365785174" duration="614000" />
+      <workItem from="1603459576407" duration="9489000" />
+      <workItem from="1603529142743" duration="1312000" />
+      <workItem from="1603711911133" duration="57000" />
+      <workItem from="1603715151946" duration="19282000" />
+      <workItem from="1603807079893" duration="744000" />
+    </task>
+    <task id="LOCAL-00001" summary="after the meeting">
+      <created>1603472662015</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603472662015</updated>
+    </task>
+    <task id="LOCAL-00002" summary="after the meeting">
+      <created>1603737066329</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603737066329</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/UnilabPythonDevelopment" />
+    </ignored-roots>
+    <MESSAGE value="after the meeting" />
+    <option name="LAST_COMMIT_MESSAGE" value="after the meeting" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="367" y="376" key="#SQL_Dialects" timestamp="1602086672299">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="367" y="376" key="#SQL_Dialects/0.0.1920.1080@0.0.1920.1080" timestamp="1602086672299" />
+    <state x="660" y="132" key="#app_(1)" timestamp="1601211274376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="660" y="132" key="#app_(1)/0.0.1920.1080@0.0.1920.1080" timestamp="1601211274376" />
+    <state x="660" y="132" key="#app_(2)" timestamp="1601291505502">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="660" y="132" key="#app_(2)/0.0.1920.1080@0.0.1920.1080" timestamp="1601291505502" />
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603732347217">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603732347217" />
+    <state x="716" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603212663632">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="716" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1603212663632" />
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1601906656082">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601906656082" />
+    <state width="1876" height="290" key="GridCell.Tab.0.bottom" timestamp="1603737117503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1603737117503" />
+    <state width="1876" height="290" key="GridCell.Tab.0.center" timestamp="1603737117503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="290" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1603737117503" />
+    <state width="1876" height="290" key="GridCell.Tab.0.left" timestamp="1603737117503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="290" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1603737117503" />
+    <state width="1876" height="290" key="GridCell.Tab.0.right" timestamp="1603737117503">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="290" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1603737117503" />
+    <state width="209" height="539" key="HiddenNamespacesPopup" timestamp="1603296830406">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="209" height="539" key="HiddenNamespacesPopup/0.0.1920.1080@0.0.1920.1080" timestamp="1603296830406" />
+    <state x="450" y="308" key="SettingsEditor" timestamp="1603529622175">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="450" y="308" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1603529622175" />
+    <state x="681" y="281" width="540" height="540" key="StructurePopup" timestamp="1602511867010">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="681" y="281" width="540" height="540" key="StructurePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1602511867010" />
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2" timestamp="1603737094929">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="269" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1603737094929" />
+    <state x="800" y="405" width="320" height="270" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1602522470602">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="800" y="405" width="320" height="270" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1080@0.0.1920.1080" timestamp="1602522470602" />
+    <state x="785" y="350" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1602513439325">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="785" y="350" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1602513439325" />
+    <state x="500" y="227" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602508189592">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="500" y="227" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1602508189592" />
+    <state x="762" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600349783746">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="762" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600349783745" />
+    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603529159459">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="295" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603529159459" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app.coverage" NAME="app Coverage Results" MODIFIED="1603732350233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setupdatabase.coverage" NAME="setupdatabase Coverage Results" MODIFIED="1602255128165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__3_.coverage" NAME="app Coverage Results" MODIFIED="1601912632790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7_Forms/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1602864088292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_Names" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$insert.coverage" NAME="insert Coverage Results" MODIFIED="1602089165423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1601307995899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6_Templates/projects/Temur_Chichua" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$populate.coverage" NAME="populate Coverage Results" MODIFIED="1603295672587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/Relationship_Demo" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$demo.coverage" NAME="demo Coverage Results" MODIFIED="1602087312077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$select__1_.coverage" NAME="select (1) Coverage Results" MODIFIED="1602088585254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$reader.coverage" NAME="reader Coverage Results" MODIFIED="1602088149088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$portal.coverage" NAME="portal Coverage Results" MODIFIED="1603469249753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$forms.coverage" NAME="forms Coverage Results" MODIFIED="1603469237072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$basic.coverage" NAME="basic Coverage Results" MODIFIED="1602260272943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setup.coverage" NAME="setup Coverage Results" MODIFIED="1602666670117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
+  </component>
+</project>
