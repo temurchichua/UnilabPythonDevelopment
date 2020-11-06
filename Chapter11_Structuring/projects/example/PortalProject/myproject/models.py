@@ -1,4 +1,5 @@
-from myproject import db
+
+
 
 
 class Student(db.Model):
