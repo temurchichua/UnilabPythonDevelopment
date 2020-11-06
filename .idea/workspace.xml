@@ -20,151 +20,311 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="user">
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/migrations/versions/d984b535145b_first_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/static/shelves.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/templates/add_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/templates/book_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/templates/delete_book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/Zura_Papiashvili/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/db.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/migrations/versions/b305a408d4af_create_tables.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/resources/OldMessages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/runtime.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/socket.io/socket.io.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/socket.io/socket.io.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/socket.io/socket.io.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/socket.io/socket.io.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/templates/chat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/tengiz_pataraia/uwsgi.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/Pipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/Pipfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/migrations/versions/b192054a2d22_first_migration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/Book.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/books/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/books/templates/books/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/books/templates/books/book.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/books/templates/books/delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/books/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/customers/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/customers/templates/customers/customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/customers/templates/customers/customer_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/customers/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/static/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/static/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/project/templates/macros.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Mariam_Kvantaliani/UnilabProject/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/migrations/versions/ad1ccf033b91_add_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/questions/templates/questions/askQuestion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/questions/templates/questions/question.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/questions/templates/questions/questions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/questions/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/static/askQuestion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/static/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/static/question.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/static/questions.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/static/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/myproject/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter11_structuring/projects/Temuri_Kitoshvili/requirments.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/welcome_user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/bycript.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/werkzg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/Models/Players.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/Models/Users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/Models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/Resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/migrations/versions/ad9b12497182_v.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Nino Maridashvili/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Tengiz Pataraia" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/DataBase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/bookshop.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/Teona_Porchkhidze/bookshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/migrations/versions/126e7d035d74_create_new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter8_Database/database/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/data.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/models/Players.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/models/Users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/resources/Home.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/resources/Players.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/resources/Users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/resources/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter9_FlaskRESTful/Nino Maridashvili/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_WTF-0.14.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/AUTHORS" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Mako-1.1.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/LICENSE.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/WTForms-2.3.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/entry_points.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic-1.4.3.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/compare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/render.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/autogenerate/rewriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/impl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/mssql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/oracle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/postgresql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/ddl/sqlite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/op.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/batch.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/ops.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/schemaobj.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/operations/toimpl.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/runtime/migration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/revision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/script/write_hooks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/alembic.ini.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/generic/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/alembic.ini.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/multidb/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/alembic.ini.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/templates/pylons/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/assertions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/exclusions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/fixture_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/fixtures.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/bootstrap.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/plugin_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/plugin/pytestplugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/requirements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/testing/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/exc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/langhelpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/messaging.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/pyfiles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/alembic/util/sqla_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/easter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/parser/isoparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/relativedelta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/rrule.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/_common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/_factories.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/tz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tz/win.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/tzwin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/rebuild.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/cli.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/alembic.ini.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/alembic.ini.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/csrf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_wtf/recaptcha/widgets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/_ast_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ast.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/cmd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/codegen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/autohandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/babelplugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/beaker_cache.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/extract.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/linguaplugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/preprocessors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/pygmentplugin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/ext/turbogears.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/filters.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/lexer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/lookup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/parsetree.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/pygen.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/pyparser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/runtime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/template.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/mako/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dateutil-2.8.1.dist-info/zip-safe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/DESCRIPTION.rst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_editor-1.0.4.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six-1.15.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/six.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/csrf/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/appengine/ndb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/csrf/session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/dateutil/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/dateutil/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/templatetags/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/django/templatetags/wtforms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/i18n/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/ext/sqlalchemy/orm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/fields/simple.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/i18n.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/wtforms.pot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/meta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/validators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/wtforms/widgets/html5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/alembic.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/mako-render.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter11_Structuring/projects/example/PortalProject/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/example/PortalProject/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter11_Structuring/projects/example/PortalProject/myproject/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/example/PortalProject/myproject/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,15 +336,15 @@
       <list>
         <option value="CSS File" />
         <option value="pyGitignore" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="85eb5e0a-4aeb-4e23-a34f-1ab393822c4d" />
+  <component name="JupyterTrust" id="b6e297d6-186c-4c44-ab9c-ced31e3cf469" />
   <component name="ProjectId" id="1hdlqDCoHp3UCmXjcLoxPwWYE1q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -218,15 +378,15 @@
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin\" />
+      <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin\myproject" />
+      <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin\myproject\templates" />
+      <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter12_User\examples" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\Relationship_Demo\models" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter8_Database\example\sqlite" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter6_Templates\projects\Temur_Chichua" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.werkzg">
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.app (2)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnilabPythonDevelopment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -234,12 +394,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter7_Forms/Nina_Darsavelidze" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter7_Forms/Nina_Darsavelidze/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,12 +438,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter5_Flask" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter5_Flask/app.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin\app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,6 +474,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="bcrypt" type="PythonConfigurationType" factoryName="Python">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="bycript" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnilabPythonDevelopment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -299,7 +503,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\cyber\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/examples" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -314,7 +518,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="bycrpt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bycryptExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnilabPythonDevelopment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -322,12 +526,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_User/examples/bycrpt.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\bycryptExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -336,20 +540,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="werkzg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="werkzeugExample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnilabPythonDevelopment" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\cyber\anaconda3\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/examples" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_User/examples/werkzg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/werkzeugExample.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,15 +562,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.bcrypt" />
+      <item itemvalue="Python.bycript" />
+      <item itemvalue="Python.bycryptExample" />
+      <item itemvalue="Python.werkzeugExample" />
+      <item itemvalue="Python.app (1)" />
+      <item itemvalue="Python.app (2)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.werkzg" />
+        <item itemvalue="Python.app (2)" />
+        <item itemvalue="Python.app (2)" />
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.werkzeugExample" />
         <item itemvalue="Python.bycript" />
-        <item itemvalue="Python.bycrpt" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration>C:\Users\cyber\AppData\Roaming\Subversion</configuration>
   </component>
@@ -416,6 +630,8 @@
       <workItem from="1604075221053" duration="816000" />
       <workItem from="1604087139337" duration="473000" />
       <workItem from="1604498194176" duration="8448000" />
+      <workItem from="1604664736571" duration="1434000" />
+      <workItem from="1604666191088" duration="6889000" />
     </task>
     <task id="LOCAL-00001" summary="after the meeting">
       <created>1603472662015</created>
@@ -442,7 +658,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -487,9 +703,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="660" y="132" key="#bycrpt/0.0.1920.1080@0.0.1920.1080" timestamp="1604508439927" />
-    <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603732347217">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="2334" y="190" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604666167628">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state x="2334" y="190" width="1092" height="810" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604666167628" />
     <state x="414" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1603732347217" />
     <state x="716" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603212663632">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -507,21 +724,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601906656082" />
-    <state width="1876" height="306" key="GridCell.Tab.0.bottom" timestamp="1604509478637">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604673140465">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140465" />
     <state width="1876" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478637" />
-    <state width="1876" height="306" key="GridCell.Tab.0.center" timestamp="1604509478636">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604673140464">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
     <state width="1876" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
-    <state width="1876" height="306" key="GridCell.Tab.0.left" timestamp="1604509478636">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604673140464">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
     <state width="1876" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
-    <state width="1876" height="306" key="GridCell.Tab.0.right" timestamp="1604509478636">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604673140464">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
     <state width="1876" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
     <state width="209" height="539" key="HiddenNamespacesPopup" timestamp="1603296830406">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -555,28 +776,36 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="762" y="450" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1600349783745" />
+    <state x="0" y="0" width="1414" height="724" maximized="true" key="dock-window-1" timestamp="1604671834996">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="0" y="0" width="1414" height="724" maximized="true" key="dock-window-1/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604671834996" />
     <state x="295" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603529159459">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="295" y="240" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1603529159459" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycrpt.coverage" NAME="bycrpt Coverage Results" MODIFIED="1604502724103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app.coverage" NAME="app Coverage Results" MODIFIED="1604075385876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$insert.coverage" NAME="insert Coverage Results" MODIFIED="1602089165423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1604667270653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7_Forms/Nina_Darsavelidze" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bcrypt1.coverage" NAME="bcrypt1 Coverage Results" MODIFIED="1604666003177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1604673140458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycrpt.coverage" NAME="bycrpt Coverage Results" MODIFIED="1604502724103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setupdatabase.coverage" NAME="setupdatabase Coverage Results" MODIFIED="1602255128165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$forms.coverage" NAME="forms Coverage Results" MODIFIED="1603469237072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setup.coverage" NAME="setup Coverage Results" MODIFIED="1602666670117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycript.coverage" NAME="bycript Coverage Results" MODIFIED="1604666204182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$populate.coverage" NAME="populate Coverage Results" MODIFIED="1603295672587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/Relationship_Demo" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$reader.coverage" NAME="reader Coverage Results" MODIFIED="1602088149088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$basic.coverage" NAME="basic Coverage Results" MODIFIED="1602260272943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$werkzg.coverage" NAME="werkzg Coverage Results" MODIFIED="1604509147149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__3_.coverage" NAME="app Coverage Results" MODIFIED="1601912632790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7_Forms/example" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1602864088292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_Names" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$insert.coverage" NAME="insert Coverage Results" MODIFIED="1602089165423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__2_.coverage" NAME="app (2) Coverage Results" MODIFIED="1601307995899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter6_Templates/projects/Temur_Chichua" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$populate.coverage" NAME="populate Coverage Results" MODIFIED="1603295672587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/Relationship_Demo" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycript.coverage" NAME="bycript Coverage Results" MODIFIED="1604508703392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$werkzeugExample.coverage" NAME="werkzeugExample Coverage Results" MODIFIED="1604666606080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$demo.coverage" NAME="demo Coverage Results" MODIFIED="1602087312077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$select__1_.coverage" NAME="select (1) Coverage Results" MODIFIED="1602088585254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$reader.coverage" NAME="reader Coverage Results" MODIFIED="1602088149088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$portal.coverage" NAME="portal Coverage Results" MODIFIED="1603469249753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$forms.coverage" NAME="forms Coverage Results" MODIFIED="1603469237072" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter10_DatabaseInViews/projects/example" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$basic.coverage" NAME="basic Coverage Results" MODIFIED="1602260272943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setup.coverage" NAME="setup Coverage Results" MODIFIED="1602666670117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database/example/SQLAlchemy_first" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycriptExample.coverage" NAME="bycriptExample Coverage Results" MODIFIED="1604665885452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bcrypt.coverage" NAME="bcrypt Coverage Results" MODIFIED="1604666076772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>

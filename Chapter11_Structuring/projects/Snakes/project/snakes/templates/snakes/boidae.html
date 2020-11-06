@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">მახრჩობელები (ლათ. Boidae)</h5>
+    <p class="card-text">არაშხამიანი გველების ოჯახი, რომელთაგან საქართველოში
+    მხოლოდ ერთი სახეობაა გავრცელებილი: დასავლეთის მახრჩობელა</p>
+
+    <div class="container">
+      <img src="../static/E_jaculus.jpg" height="600" WIDTH="900"/>
+    </div>
+
+      <a href="{{ url_for('home') }}" class="btn btn-outline-success" style="margin:10px;">მთავარ გვერდზე დაბრუნება</a>
+  </div>
+</div>
+</div>
+
+{% endblock %}
