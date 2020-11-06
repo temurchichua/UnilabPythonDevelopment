@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container" style="margin-top: 50px;padding: 40px;">
+    <h3 align="center">{% for s in snake %}{{ s.geo_name }}{% endfor %}</h3>
+    <br>
+
+    <table class="table" style="border: solid lightgray">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">სახეობის ID</th>
+            <th scope="col">ლოკაცია</th>
+            <th scope="col">თარიღი</th>
+            <th scope="col">ფოტო</th>
+          </tr>
+        </thead>
+        <tbody>
+
+            {% for snake in finds %}
+            <tr>
+            <th scope="row">{{ snake.id }}</th>
+            <td> {{ snake.species_id }}</td>
+            <td> {{ snake.location }}</td>
+            <td> {{ snake.date }}</td>
+            <td><img src={{pic}} /></td>
+        </tr>
+            {% endfor %}
+
+        </tbody>
+      </table>
+</div>
+{% endblock %}
+

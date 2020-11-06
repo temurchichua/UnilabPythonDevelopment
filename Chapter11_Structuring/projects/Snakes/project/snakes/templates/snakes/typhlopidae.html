@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+<div class="card text-center">
+  <div class="card-header">
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">გველბრუცასებრნი (ლათ. Typhlopidae)</h5>
+    <p class="card-text">მცირე ზომის გველები, რომლებიც მიწისქვეშა ცხოვრების წესს
+    ეწევიან. საქართველოში გვხვდება მხოლოდ ერთი სახეობა: ჩვეულებრივი გველბრუცა.</p>
+
+    <div class="container">
+      <img src="../static/X_vermicularis.jpg"/>
+    </div>
+
+      <a href="{{ url_for('home') }}" class="btn btn-outline-success" style="margin:10px;">მთავარ გვერდზე დაბრუნება</a>
+  </div>
+</div>
+</div>
+
+{% endblock %}

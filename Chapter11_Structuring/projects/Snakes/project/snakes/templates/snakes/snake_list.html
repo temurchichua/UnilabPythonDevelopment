@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container" style="margin-top: 50px;padding: 40px;">
+    <h3 align="center">საქართველოს გველები</h3>
+    <br>
+
+    <table class="table" style="border: solid lightgray; text-align: center ">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">სახეობა</th>
+            <th scope="col">ლათინური სახელი</th>
+            <th scope="col">ფოტო</th>
+          </tr>
+        </thead>
+        <tbody>
+
+            {% for snake in snakes %}
+            <tr >
+            <th scope="row"><a class="btn btn-light" href="{{ url_for('finds.find_id', id=snake.id) }}" role="button">{{ snake.id }}</a></th>
+            <td> {{ snake.geo_name }}</td>
+            <td> {{ snake.species }}</td>
+            <td><img class="container" src="{{ url_for('static', filename=snake.pic_url) }}" alt=""></td>
+        </tr>
+
+        {% endfor %}
+
+        </tbody>
+      </table>
+</div>
+{% endblock %}
