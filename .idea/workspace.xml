@@ -20,6 +20,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3819f33e-7e61-4170-bec3-39f799835cd4" name="Default Changelist" comment="user">
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/migrations/versions/f360c82c0358_შეტყობინება.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/data.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/static/snek.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/templates/finds/add_find.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/templates/finds/find_id.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/templates/finds/finds_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/templates/finds/thanks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/finds/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/static/E_jaculus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/static/M_lebetina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/static/T_fallax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/static/X_vermicularis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/templates/snakes/boidae.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/templates/snakes/colubridae.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/templates/snakes/snake_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/templates/snakes/typhlopidae.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/templates/snakes/viperidae.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/snakes/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/C_austriaca.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/D_schmidti.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/E_collaris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/E_dione.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/E_jaculus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/E_modestus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/E_urartica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/H_ravergieri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/M_insignitus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/M_lebetina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/M_lebetina_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/N_natrix.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/N_tessellata.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/P_najadum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/T_fallax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/T_fallax_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/V_darevski.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/V_dinniki.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/V_eriwanensis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/V_kaznakovi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/V_transcaucasiana.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/X_vermicularis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/Z_hohenackeri.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/Z_longissimus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/static/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/project/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter11_Structuring/projects/Snakes/requirements.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/app.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/forms.py" afterDir="false" />
@@ -30,6 +85,13 @@
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/registration.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/templates/welcome.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Chapter12_User/Nina_Darsavelidze/FlaskLogin/myproject/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/REQUESTED" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Login-0.5.0.dist-info/top_level.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/LICENSE" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/Flask_Migrate-2.5.3.dist-info/METADATA" afterDir="false" />
@@ -148,6 +210,15 @@
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dateutil/zoneinfo/rebuild.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/editor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/login_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/test_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_login/utils.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/cli.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/flask_migrate/templates/flask-multidb/README" afterDir="false" />
@@ -360,7 +431,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter12_User/examples" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter11_Structuring/projects" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -371,11 +442,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter11_Structuring\projects" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter12_User\examples" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\students\templates\students" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\students" />
       <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example\PortalProject\myproject\templates" />
-      <recent name="C:\Users\cyber\unilab\UnilabPythonDevelopment\Chapter11_structuring\projects\example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\admin\PycharmProjects\UnilabPythonDevelopment\Chapter12_User\Nina_Darsavelidze\FlaskLogin\" />
@@ -631,7 +702,7 @@
       <workItem from="1604087139337" duration="473000" />
       <workItem from="1604498194176" duration="8448000" />
       <workItem from="1604664736571" duration="1434000" />
-      <workItem from="1604666191088" duration="6889000" />
+      <workItem from="1604666191088" duration="7412000" />
     </task>
     <task id="LOCAL-00001" summary="after the meeting">
       <created>1603472662015</created>
@@ -724,25 +795,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1601906656082" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604673140465">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1604673463400">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140465" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673463400" />
     <state width="1876" height="306" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478637" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604673140464">
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1604673463400">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673463400" />
     <state width="1876" height="306" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604673140464">
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1604673463400">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673463400" />
     <state width="1876" height="306" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604673140464">
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1604673463400">
       <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673140464" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1604673463400" />
     <state width="1876" height="306" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604509478636" />
     <state width="209" height="539" key="HiddenNamespacesPopup" timestamp="1603296830406">
       <screen x="0" y="0" width="1920" height="1080" />
