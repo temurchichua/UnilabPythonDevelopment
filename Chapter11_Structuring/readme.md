@@ -4,21 +4,9 @@
 
 ## სარჩევი
 
-1. [შესავალი](#შესავალი)
+[TOC]
 
-2. [შაბლონი](#შაბლონი)
 
-3. [პროექტის გამართვა](#გადანაწილება)
-
-   - [myproject](#/myproject)
-     - [`models.py`](#models.py)
-     - [`__init__.py`](#__init__.py)
-     - [templates](#/templates)
-       - [`base.html`](#base.html)
-       - [`home.html`](#home.html)
-     - 
-
-   
 
 ## შესავალი
 

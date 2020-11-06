@@ -22,6 +22,7 @@
 10. [REST API - FlaskRESTful](/Chapter9_FlaskRESTful)
 11. [Database - Data In Views](/Chapter10_databaseInViews)
 12. [სტრუქტურიზაცია](/Chapter11_Structuring)
+13. [მომხმარებელი](/Chapter12_User)
 
 ## კონტრიბუტორები
 პროექტზე მუშაობენ:
@@ -65,6 +66,7 @@
 - [მეოცე შეხვედრა: მონაცემთა ბაზა - ნაწილი 5 |  one_to_one, one_to_many Demo](https://drive.google.com/file/d/1kTFFBqjKxdhOUgClrDpM-DNB-Riz-dEP/view?usp=sharing)
 - [ოხდამეერთე შეხვედრა: მონაცემთა ბაზა - ნაწილი 6 | მონაცემთა ბაზის მიბმა ვებ ინტერვეისთან/მონაცემი View-ებში](https://drive.google.com/file/d/1_1s6uL-ze93wQOuwzmGHHxaK7p_Rv3c-/view?usp=sharing)
 - [ოცდამეორე შეხვედრა: სტრუქტურიზაცია - პროექტის დაგეგმვა, სტრუქტურიზაცია, ძირითად და შემადგენელ კომპონენტებად დაყოფა, flask პროგრამის აღწერა](https://drive.google.com/file/d/1Td2A9ojHXL1SBoGTmib92uBxi6EVMWun/view?usp=sharing)
+- [ოცდამეხუთე შეხვედრა: პროექტების პრეზენტაცია | **მომხმარებელი** ნაწილი 1: Hash](https://drive.google.com/file/d/1j6I1armg6h0jiG7p0CwVNSncGgMbp65y/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
