@@ -1,6 +1,7 @@
-from myproject import db, login_manager
-from werkzeug.security import generate_password_hash, check_password_hash
+from myproject import db
 from flask_login import UserMixin
+from werkzeug.security import generate_password_hash, check_password_hash
+from myproject import login_manager
 
 
 @login_manager.user_loader
@@ -9,7 +10,6 @@ def load_user(user_id):
 
 
 class User(db.Model, UserMixin):
-    # Create a table in the db
     __tablename__ = 'users'
 
     id = db.Column(db.Integer, primary_key=True)

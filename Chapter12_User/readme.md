@@ -58,7 +58,7 @@ from flask_bcrypt import Bcrypt
 მაგალითად:
 
 ```python
-from flask_bcrypt import B crypt
+from flask_bcrypt import Bcrypt
 
 bcrypt = Bcrypt()
 
@@ -375,56 +375,83 @@ from myproject.models import User
 from myproject.forms import LoginForm, RegistrationForm
 ```
 
+`flask_login`-დან შემოტანილ ხელსაწყოებს გამოვიყენებთ როგორც დეკორატორებს შესაბამისი ვიუ ფუნქციებისთვის.
+
+პირველ რიგში გავაკთოთ თავფურცლის ხედი:
+
 ```python
 @app.route('/')
 def home():
     return render_template('home.html')
+```
 
+შემდგომ ავაწყოთ ავტორიზირებული მომხმარებლის მისასალმებელი გვერდი. დანიშნულებიდან გამომდინარე ამ გვერდზე წვდომა მხოლოდ და მხოლოდ ავტორიზებულ მომხმარებელზე უნდა შეიზღუდოს. სწორედ ამ საფეხურზე დაგვჭირდება `login_required` დეკორატორი.
 
+```python
 @app.route('/welcome')
 @login_required
 def welcome_user():
     return render_template('welcome_user.html')
+```
 
+ანალოგიურად მოვიქცევით მომხმარებლის ლოგაუთ ხედის აწყობისას. იმისთვის რომ მომხმარებელმა შეძლოს პლატფორმიდან გამოსვლა, აუცილებელია რომ ის უკვე იყოს ავტორიზებული. შესაბამისად ამ ხედსაც მოვათავსებთ `@login_required` დეკორატორში. 
 
+მომხმარებლის ლოგაუთ გუნქციონალზე პასუხს `logout_user()` მეთოდი იღებს. მომხმარებელთან შეტყობინებას გამოვიტანთ flash alert-ის დახმარებით:
+
+```python
 @app.route('/logout')
 @login_required
 def logout():
     logout_user()
-    flash('You logged out!')
+    flash('გამოსული ხართ')
     return redirect(url_for('home'))
+```
 
+რადგანაც ამ გვერდზე ლოგინ ფორმა გვაქვს გამოვიყენებთ  'GET' და 'POST' მეთოდებზე. პირველ რიგში გამოვიტანოდ ხედზე ავტორიზაციის ფორმა:
+
+```python
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    form = LoginForm()
+    return render_template('login.html', form=form)
+   
+```
+
+ჩვენი ამოცანაა ავტორიზაციის ღილაკზე დაკლიკებისას გადავამოწმოთ მომხმარებელი და წარმატებული ავტორიზაციის შემთხვევაში შევუშვათ ის პლატფორმაზე. მომხმარებლის ავტორიზაცია ხდება `login_user()` მეთოდის გამოყენებით, მისთვის მომხმარებლის ობიექტის გადაცემით:
+
+```python
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
     if form.validate_on_submit():
-        # Grab the user from our User Models table
+        # ამოვიღოთ მომხმარებელი მონაცემთა ბაზიდან
         user = User.query.filter_by(email=form.email.data).first()
 
-        # Check that the user was supplied and the password is right
-        # The verify_password method comes from the User object
-        # https://stackoverflow.com/questions/2209755/python-operation-vs-is-not
+        # შევამოწმოთ რომ მომხმარებელი არსებობს ბაზაში და შეყვანილი პაროლი სწორია
 
-        if user.check_password(form.password.data) and user is not None:
-            # Log in the user
+        if user is not None and user.check_password(form.password.data):
+            # შევასრულოთ ავტორიზაცია
 
             login_user(user)
-            flash('Logged in successfully.')
+            flash('ავტორიზაცია წარმატებით დასრულდა')
 
-            # If a user was trying to visit a page that requires a login
-            # flask saves that URL as 'next'.
+            # თუ მომხმარებელი ცდილობდა რომელიმე გვერდზე შესვლას რომელსაც სჭირდებოდა ავტორიზაცია
+            # flask ინახავს მას როგორ 'next' პარამეტრს.
             next = request.args.get('next')
 
-            # So let's now check if that next exists, otherwise we'll go to
-            # the welcome page.
+            # შესაბამისად თუ next მნიშვნელობა არსებობს მომხმარებელს გადავიყვანთ ამ მისამართზე
+            # წინააღმდეგ შემთხვევაში კი welcome page-ზე.
             if next == None or not next[0] == '/':
                 next = url_for('welcome_user')
 
             return redirect(next)
     return render_template('login.html', form=form)
+```
 
+საბოლოოდ დავამატოთ რეგისტრაციის საფეხური:
 
+```python
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegistrationForm()
@@ -436,11 +463,105 @@ def register():
 
         db.session.add(user)
         db.session.commit()
-        flash('Thanks for registering! Now you can login!')
+        flash('რეგისტრაცია წარმატებით დასრულდა!')
         return redirect(url_for('login'))
     return render_template('register.html', form=form)
+```
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+### templates
+
+#### base.html
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+  <ul class="nav">
+
+  <li class="nav-item">
+    <a class="nav-link" href="{{ url_for('home') }}">თავფურცელი</a>
+  </li>
+    {% if current_user.is_authenticated %}
+    <li class="nav-link"><a href="{{ url_for('logout') }}">გამოსვლა</a></li>
+    {% else %}
+    <li class="nav-link"><a href="{{ url_for('login') }}">შესვლა</a></li>
+    <li class="nav-link"><a href="{{ url_for('register') }}">რეგისტრაცია</a></li>
+    {% endif %}
+
+</ul>
+{% block content %}
+
+{% endblock %}
+
+  </body>
+</html>
+```
+
+#### home.html
+
+```html
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  {% if current_user.is_authenticated %}
+    <p>გამარჯობა {{ current_user.username }}!</p>
+  {% else %}
+    <p>გაიარე რეგისტრაცია ან ავტორიზაცია</p>
+  {% endif %}
+</div>
+
+{% endblock %}
+```
+
+#### login.html
+
+```html
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.email.label }} {{ form.email() }}
+    {{ form.password.label }} {{ form.password() }}
+    {{ form.submit() }}
+</form>
+{% endblock %}
+```
+
+#### register.html
+
+```html
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{ form.email.label }} {{ form.email() }}<br>
+    {{ form.username.label }} {{ form.username() }}<br>
+    {{ form.password.label }} {{ form.password() }}<br>
+    {{ form.pass_confirm.label }} {{ form.pass_confirm() }}<br>
+    {{ form.submit() }}
+</form>
+{% endblock %}
+```
+
+#### welcome_user.html
+
+```html
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron">
+  <p>Congrats! You are logged in!</p>
+</div>
+{% endblock %}
 ```
