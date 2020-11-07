@@ -1,14 +1,10 @@
 from flask import render_template, redirect, url_for, Blueprint
-from myproject import db
-from myproject.models import Student
-from myproject.templates.forms import Registration, Login
-
-student_blueprint = Blueprint('login_users',
-                              __name__,
-                              template_folder='templates')
+from myproject import db, app
+from myproject.models import User
+from myproject.forms import UserRegistration, LoginForm
 
 
-@registration_blueprint.route('/registration', methods=['GET', 'POST'])
+@app.route('/registration', methods=['GET', 'POST'])
 def registration():
     
     form = UserRegistration()
@@ -20,27 +16,28 @@ def registration():
         email = form.email.data
         password = form.password.data
 
-        new_user = (name, surname, username, email, password)
+        new_user = User(name, surname, username, email, password)
         db.session.add(new_user)
         db.session.commit()
         return redirect('welcome')
     return render_template('registration.html', form=form)
 
 
-@login_blueprint.route('/login', methods=['GET', 'POST'])  
+@app.route('/login', methods=['GET', 'POST'])
 def login():
     
     form = LoginForm()
     
     if form.validate_on_submit():
-        username = form.username.data
+        username = User.query.filter_by(username=form.username.data).first()
+
         password = form.password.data
-        
-        user = Login(username, password)
-        db.session.add(user)
-        db.session.commit()
-        return redirect(url_for('welcome'))
+        if username.check_password(password) and username is not None:
+            return redirect(url_for('welcome'))
+
     return render_template('login.html', form=form)
         
-    
 
+@app.route('/welcome')
+def welcome():
+    return render_template('welcome.html')
