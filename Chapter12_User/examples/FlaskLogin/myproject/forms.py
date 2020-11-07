@@ -4,11 +4,6 @@ from wtforms.validators import DataRequired, Email, EqualTo
 from wtforms import ValidationError
 from myproject.models import User
 
-class LoginForm(FlaskForm):
-    email = StringField('Email', validators=[DataRequired(), Email()])
-    password = PasswordField('Password', validators=[DataRequired()])
-    submit = SubmitField('Log In')
-
 
 class RegistrationForm(FlaskForm):
     email = StringField('Email', validators=[DataRequired(), Email()])
@@ -25,3 +20,9 @@ class RegistrationForm(FlaskForm):
     def validate_username(self, username):
         if User.query.filter_by(username=self.username.data).first():
             raise ValidationError('Username has been registered')
+
+
+class LoginForm(FlaskForm):
+    email = StringField('Email', validators=[DataRequired(), Email()])
+    password = PasswordField('Password', validators=[DataRequired()])
+    submit = SubmitField('Log In')
