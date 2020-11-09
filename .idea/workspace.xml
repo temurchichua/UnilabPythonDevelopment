@@ -19,21 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d1f4a0a-428d-4703-bce3-27b2d805b4ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/alembic.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/env.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/script.py.mako" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/versions/364c6e8a92f1_.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/data.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/welcome_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/welcome_user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/readme.md" afterDir="false" />
+    <list default="true" id="1d1f4a0a-428d-4703-bce3-27b2d805b4ea" name="Default Changelist" comment="before the lecture">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,8 +112,16 @@
       <updated>1604675275407</updated>
       <workItem from="1604675305411" duration="5008000" />
       <workItem from="1604755236032" duration="7652000" />
-      <workItem from="1604927111037" duration="1577000" />
+      <workItem from="1604927111037" duration="1822000" />
     </task>
+    <task id="LOCAL-00001" summary="before the lecture">
+      <created>1604937465837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604937465837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +138,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="before the lecture" />
+    <option name="LAST_COMMIT_MESSAGE" value="before the lecture" />
   </component>
   <component name="WindowStateProjectService">
     <state x="660" y="132" key="#werkzg" timestamp="1604675720448">
