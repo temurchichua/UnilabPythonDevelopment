@@ -368,7 +368,7 @@ def validate_username(self, username):
 დროა დავიწყოთ აპლიკაციის გამართვა და ფუნქციონალის ვიუების აწყობა. ამისთვის შემოვიტანოტ საჭირო ბიბლიოთეკები:
 
 ```python
-from myproject import app,db
+from myproject import app, db
 from flask import render_template, redirect, request, url_for, flash, abort
 from flask_login import login_user, login_required, logout_user
 from myproject.models import User
@@ -565,3 +565,99 @@ def register():
 </div>
 {% endblock %}
 ```
+
+
+
+## OAuth with Flask
+
+ამ თავში ვისაუბრებთ OAuth (**O**pen **A**uthorization) ანუ "გარე ავტორიზაციის" ტექნოლოგიაზე. მისი დახმარებით შეგვიძლია გამოვიყენოთ მესამე მხარის სერვისი ავტორიზებისთვის, ისე რომ არ დაგვჭირდეს ისეთი სენსიტიური ინფორმაციის მიმოცვლა, როგორიცაა მომხმარებლის პაროლი. OAuth წარმოადგენს ერთგვარ ავტორიზაციის პროტოკოლს, რომლის დახმარებითაც ერთმანეთისაგან დამოუკიდებელ სერვერებს/სერვისებს შეუძლიათ მომხმარებლის ანგარიშზე წვდომა ერთი ავტორიზაციის ფორმით დართონ.
+
+ხშირ შემთხვევაში შეიძლება დაგვჭირდეს მომხმარებლის გარე სერვისით ავტორიზაცია, მაგალითად facebook, google, github ანგარიშის მეშვეობით, ან საერთოდ არ გვინდოდეს ჩვენს მხარეს ავიღოთ მომხმარებლის ავტორიზაციის პასუხისმგებლობა. საბედნიეროდ უკვე არსებობს უამრავი, საკმაოდ დაცული, უსაფრთხო ავტორიზაციის სერვისი. 
+
+ამ შესაძლებლობის ასათვისებლად ჩვენ გამოვიყენებთ Flask-Dance ბიბლიოთეკას. მისი დახმარებით მარტივად ჩავსვავთ გარე სერვისის OAuth ბექენდს ჩვენს აპლიკაციაში.
+
+### [Flask-Dance](https://flask-dance.readthedocs.io/en/latest/) 
+
+Flask-Dance ბიბლიოთეკა გვეხმარება OAuthის გამოყენებისას ამ ტექნოლოგიის შიდა მექანიზმის აბსტრაქცირებაში. შეასაბამისად ჩვენ მხოლოდ ფუნქციონალურ ნაწილს ვეხებით და ტექნიკური სირთულეების გადაჭრას ვანდობთ ბიბლიოთეკას. ეს აბსტრაქცია დაშენებულია OAuth2.0 (დღევანდელ სტანდარტ) პროტოკოლზე და Flask-OAuth ბიბლიოთეკაზე რომელიც ფლესკ აპლიკაციაში გარე ავტორიზაციის გამოყენებას უზრუნველყოფს. შესაბამისად Flask-Dance არ არის დამოუკიდებელი ბიბლიოთეკა, არამედ ის დანამატია Flask-ზე რომელიც იყენებს Flask-OAuth ბიბლიოთეკას და ის აერთიანებს სხვადასხვა გარე ავტორიზაციის შესაძლებლობას. 
+
+ამასთან მას აქვს საოცრად [მოწესრიგებული დოკუმენტაცია](https://flask-dance.readthedocs.io/en/latest/) როემლშიც აღწერილია თითქმის ყველა თანამედროვე პოპულარული სერვისით ავტორიზაციის პროცესი. [დოკუმენტაციაში აღწერილია ავტორიზების ფუნქციალი როგორც სესიის ისე SQLAlchemy-ს მეშვეობით.](https://flask-dance.readthedocs.io/en/latest/quickstart.html#quickstart)
+
+## Google OAuth
+
+გამოყენების პრინციპი ყველა სერვისზე მეტ-ნაკლებად იდენტურია. ამიტომ მაგალითისთვის გამოვიყენოთ ყველაზე პოპულარული გუგლ ავტორიზაცია.
+
+პროცესის გასამართად დაგვჭირდება რამოდენიმე ცვლადის სისტემაში გაწერა. ეს პროგრამაში გამოსაყენებელი სენსიტიური პარამეტრების შენახვის ერთ-ერთი საუკეთესო გზაა. პროგრამულად გარემოს გამარტვა os მოდულის დახმარებით შეგვიძლია:
+
+```python
+import os
+os.environ["OAUTHLIB_INSECURE_TRANSPORT"] = '1'
+os.environ["OAUTHLIB_RELAX_TOKEN_SCOPE"] = '1'
+```
+
+გაითვალისწინეთ რომ ეს საფეხური მხოლოდ პროგრამის ლოკალური ტესტირებისას გვჭირდება. სერვერზე გაშვების შემდგომ სისტემის გამართვისას მივხედავთ ამ საკითხს.
+
+#### app.py
+
+```python
+from flask import Flask, redirect, url_for, render_template, session
+from flask_dance.contrib.google import make_google_blueprint, google
+
+app = Flask(__name__)
+
+
+
+app.config['SECRET_KEY'] = 'mysecretkey'
+
+
+blueprint = make_google_blueprint(
+    client_id="######.apps.googleusercontent.com",
+    client_secret="####",
+    # reprompt_consent=True,
+    offline=True,
+    scope=["profile", "email"]
+)
+app.register_blueprint(blueprint, url_prefix="/login")
+
+@app.route('/')
+def index():
+    return render_template("home.html")
+
+@app.route('/welcome')
+def welcome():
+    resp = google.get("/oauth2/v2/userinfo")
+    assert resp.ok, resp.text
+    email=resp.json()["email"]
+
+    return render_template("welcome.html",email=email)
+
+@app.route("/login/google")
+def login():
+    if not google.authorized:
+        return render_template(url_for("google.login"))
+
+    resp = google.get("/oauth2/v2/userinfo")
+    assert resp.ok, resp.text
+    email=resp.json()["email"]
+
+    return render_template("welcome.html",email=email)
+
+
+if __name__ == "__main__":
+    app.run()
+```
+
+#### home.html
+
+```html
+<h1>Home Page</h1>
+<a href="{{url_for('welcome')}}">Welcome Page Here</a>
+<a href="{{url_for('login')}}">Log in with this link.</a>
+```
+
+#### welcome.html
+
+```html
+<h1>Welcome Google User!</h1>
+<h2>Your email is {{email}}</h2>
+```
+

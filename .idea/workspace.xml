@@ -20,13 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d1f4a0a-428d-4703-bce3-27b2d805b4ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UnilabPythonDevelopment.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/alembic.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/script.py.mako" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/migrations/versions/364c6e8a92f1_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/data.sqlite" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/data.sqlite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/welcome_user.html" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/myproject/templates/welcome_user.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Chapter12_User/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter12_User/readme.md" afterDir="false" />
@@ -54,9 +58,32 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UnilabPythonDevelopment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="werkzg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UnilabPythonDevelopment" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.werkzg" />
       </list>
     </recent_temporary>
@@ -96,7 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604675275407</updated>
       <workItem from="1604675305411" duration="5008000" />
-      <workItem from="1604755236032" duration="2631000" />
+      <workItem from="1604755236032" duration="7652000" />
+      <workItem from="1604927111037" duration="1577000" />
     </task>
     <servers />
   </component>
@@ -120,22 +149,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="660" y="132" key="#werkzg/0.0.1920.1080@0.0.1920.1080" timestamp="1604675720448" />
-    <state width="1875" height="288" key="GridCell.Tab.0.bottom" timestamp="1604680322968">
+    <state width="1875" height="288" key="GridCell.Tab.0.bottom" timestamp="1604762957494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604680322968" />
-    <state width="1875" height="288" key="GridCell.Tab.0.center" timestamp="1604680322968">
+    <state width="1875" height="288" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1604762957494" />
+    <state width="1875" height="288" key="GridCell.Tab.0.center" timestamp="1604762957494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604680322968" />
-    <state width="1875" height="288" key="GridCell.Tab.0.left" timestamp="1604680322967">
+    <state width="1875" height="288" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1604762957494" />
+    <state width="1875" height="288" key="GridCell.Tab.0.left" timestamp="1604762957494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604680322967" />
-    <state width="1875" height="288" key="GridCell.Tab.0.right" timestamp="1604680322968">
+    <state width="1875" height="288" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1604762957494" />
+    <state width="1875" height="288" key="GridCell.Tab.0.right" timestamp="1604762957494">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1875" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604680322968" />
+    <state width="1875" height="288" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1604762957494" />
     <state x="461" y="185" key="SettingsEditor" timestamp="1604678301124">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -143,7 +172,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$bycrpt.coverage" NAME="bycrpt Coverage Results" MODIFIED="1604502724103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
-    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app.coverage" NAME="app Coverage Results" MODIFIED="1604075385876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter11_structuring/projects/example/PortalProject" />
+    <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app.coverage" NAME="app Coverage Results" MODIFIED="1604762464860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples/FlaskLogin" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$setupdatabase.coverage" NAME="setupdatabase Coverage Results" MODIFIED="1602255128165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter8_Database" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$werkzg.coverage" NAME="werkzg Coverage Results" MODIFIED="1604679686287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter12_User/examples" />
     <SUITE FILE_PATH="coverage/UnilabPythonDevelopment$app__3_.coverage" NAME="app Coverage Results" MODIFIED="1601912632790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter7_Forms/example" />
