@@ -67,6 +67,8 @@
 - [ოხდამეერთე შეხვედრა: მონაცემთა ბაზა - ნაწილი 6 | მონაცემთა ბაზის მიბმა ვებ ინტერვეისთან/მონაცემი View-ებში](https://drive.google.com/file/d/1_1s6uL-ze93wQOuwzmGHHxaK7p_Rv3c-/view?usp=sharing)
 - [ოცდამეორე შეხვედრა: სტრუქტურიზაცია - პროექტის დაგეგმვა, სტრუქტურიზაცია, ძირითად და შემადგენელ კომპონენტებად დაყოფა, flask პროგრამის აღწერა](https://drive.google.com/file/d/1Td2A9ojHXL1SBoGTmib92uBxi6EVMWun/view?usp=sharing)
 - [ოცდამეხუთე შეხვედრა: პროექტების პრეზენტაცია | **მომხმარებელი** ნაწილი 1: Hash](https://drive.google.com/file/d/1j6I1armg6h0jiG7p0CwVNSncGgMbp65y/view?usp=sharing)
+- [ოცდამეექვსე შეხვედრა: **მომხმარებელი** ნაწილი 2: flask_login, login manager, ბაზის მოდელი, ფორმა](hhttps://drive.google.com/file/d/1ypHp1Al07hGY74L4P4zW6XxrYO-Msl5c/view?usp=sharing)
+- [ოცდამეშვიდე შეხვედრა: **მომხმარებელი** ნაწილი 3: ვებ ინტერფეისის გამართვა, View-ების ფუნქციონალი, მომხმარებლის მენეჯმენტი](https://drive.google.com/file/d/1ZIZ-bHiRU57DjEEE0Tn-ABBbb8N1HTKE/view?usp=sharing)
 
 ### ონლაინ რესურსები
 - MarkDown ფაილების შესაქმნელად შეგიძლიათ გამოიყენოთ საიტი [dillinger.io](https://dillinger.io/)
