@@ -1,12 +1,12 @@
 ## Fork this repository
-<img align="right" width="300" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="https://camo.githubusercontent.com/fcf9a4ed664cc63de2fcb14d1135072ba6d4c74a8e9bdb224ad6ab1e72600c3b/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f666f726b2e706e67" alt="fork this repository" />
 
 პროექტზე კოლექტიურად სამუშაოდ დაფორკეთ ეს რეპოზიტორია. ამისთვის დააჭირეთ fork ღილაკს გვერდის ზედა მარჯვენა ზოლში.
 ამ რიგად თქვენს ანგარიშზე გაჩნდება რეპოზიტორიის ასლი.
 
 ## Clone the repository
 
-<img align="right" width="300" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/clone.png" alt="clone this repository" />
+<img align="right" width="300" src="https://camo.githubusercontent.com/4c3f7f1bec4f04db40ecf58dc2e19c2d8992f100f3bbbc4767a9d20b29f4a43d/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f636c6f6e652e706e67" alt="clone this repository" />
 
 საკუთარ ანგარიშზე გაჩენილი დაფორკილი რეპოზიტორია გადაიტანეთ/დაკლონეთ თქვენს მოწყობილობაში. ამისთვის თქვენს ანგარიშზე გახსენით დაფორკილი რეპოზიტორია, დააჭირეთ clone ღილაკს და *copy to clipboard* იკონს.
 
@@ -17,7 +17,7 @@ git clone <მისამართი რომელიც დააკოპ�
 ```
 "<>"- სიმბოლოების წაშლით და ქლიფბორდში დაკოპირებული მისამართის ჩასმით მიიღებთ ბრძანების საბოლოო სახეს.
 
-<img align="right" width="300" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="https://camo.githubusercontent.com/1c0cf8056422ff414eee75142b213c5970e085c2e33c0a6d69dc2639d98216f1/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f636f70792d746f2d636c6970626f6172642e706e67" alt="copy URL to clipboard" />
 
 მაგალითისთვის, თქვენგან დაფორკილ ამ რეპოზიტორიის მისამართს ექნება შემდეგნაირი სახე:
 ```
@@ -28,7 +28,7 @@ git clone https://github.com/this-is-you/firstrepo.git
 
 ## Create a branch
 
-იმისთვის რომ უკეთ ჩასწვდეთ ბრენჩის როლს და მნიშვნელობას, [გაეცანით ოფიციალურ დოკუმენტაციას Branch თემაზე](https://github.com/firstcontributions/first-contributions/blob/master/).
+იმისთვის რომ უკეთ ჩასწვდეთ ბრენჩის როლს და მნიშვნელობას, [გაეცანით ოფიციალურ დოკუმენტაციას Branch თემაზე](https://www.atlassian.com/git/tutorials/using-branches).
 
 სამუშაო გარემოში, ტერმინალი გადაიყვანეთ გადმოწერილი რეპოზიტორიის დირექტორიაში/საქაღალდის მისამართზე.
 
@@ -98,11 +98,11 @@ git push origin <add-your-branch-name>
 
 თქვენს GitHub რეპოზიტორიაში შეამჩნევთ  `Compare & pull request` ღილაკი. გააქტიურეთ ღილაკი მასზე დაჭერით.
 
-<img style="float: right;" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="https://camo.githubusercontent.com/ca3b1cefece5f3b9b3435020e6a357ca024cda5bd2b1e140a15170fcd1ec5381/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f636f6d706172652d616e642d70756c6c2e706e67" alt="create a pull request" />
 
 დაასაბმითეთ თქვენს მიერ გაკეთებული pull მოთხოვნა.
 
-<img style="float: right;" src="https://github.com/firstcontributions/first-contributions/blob/master/assets/submit-pull-request.png" alt="submit pull request" />
+<img style="float: right;" src="https://camo.githubusercontent.com/71401ba5551a64aeac3838825a52ce7a7597cd8b54a0d7200d9454e2cbfbb13f/68747470733a2f2f6669727374636f6e747269627574696f6e732e6769746875622e696f2f6173736574732f526561646d652f7375626d69742d70756c6c2d726571756573742e706e67" alt="submit pull request" />
 
 თქვენი მოთხოვნის ნახვის შემდეგ მე შევძლებ გავაერთიანო/merge თქვენი კონტრიბუცია მთელს პროექტთან. ჩემს ქმედებაზე შეტყობინება მოგივათ მეილზე და შეტყობინებებში, რის შემდეგაც თქვენს მიერ შეტანილი ცვლილება გამოჩნდება პროექტის მასტერ ბრენჩზე.
 
